@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <unit id="8">
+    <variables>
+      <variable defined="1">VECTORCAST_INT1</variable>
+      <variable defined="1">VECTORCAST_INT2</variable>
+      <variable defined="1">VECTORCAST_INT3</variable>
+      <variable defined="1">VECTORCAST_FLT1</variable>
+      <variable defined="1">VECTORCAST_STR1</variable>
+      <variable defined="1">VECTORCAST_BUFFER</variable>
+    </variables>
+  </unit>
+  <unit id="9">
+    <functions>
+      <function defined="1" stubbed="1">sci_init</function>
+      <function defined="1" stubbed="1">Check_StartupActiveErrors</function>
+      <function defined="1" stubbed="1">get_rb_LightVetoCounter_g</function>
+      <function defined="1" stubbed="1">get_rw_Amb_light16bit_g</function>
+      <function defined="1" stubbed="1">get_rl_HUD_light32bit_g</function>
+      <function defined="1" stubbed="1">get_rw_IR_light16bit_g</function>
+      <function defined="1" stubbed="1">get_rb_LightSignalErrorCnt_g</function>
+      <function defined="1" stubbed="1">get_rb_VDD_LightSignalErrorCnt_g</function>
+      <function defined="1" stubbed="1">get_rb_LEDx_LStop_error_cnt_g</function>
+      <function defined="1" stubbed="1">CopyRLSDataAsic</function>
+      <function defined="1">GetLeWWS</function>
+      <function defined="1">GetLsWWS</function>
+      <function defined="1">CopyRLSData</function>
+      <function defined="1">RainFunction</function>
+      <function defined="1">LightFunction</function>
+      <function defined="1">Humidity_Function</function>
+      <function defined="1">StandByMode</function>
+      <function defined="1">VoltageDetect</function>
+      <function defined="1">TemperatureDetect</function>
+      <function defined="1">OutPutHudSendCount</function>
+      <function defined="1">OutPutHudValue</function>
+      <function defined="1">OutPutTwliBriValue</function>
+      <function defined="1">OutPutSolarValue</function>
+      <function defined="1">OutPutBrightnessValue</function>
+      <function defined="1">ApplLinInit</function>
+      <function defined="1">ApplLinSlavePreCopy</function>
+      <function defined="1">GetFiveTableValue_500ms</function>
+      <function defined="1">AdjustOutHudValue</function>
+      <function defined="1">GetUpdateTimeForLightStatus</function>
+      <function defined="1">CalcHUDMean_1000ms</function>
+      <function defined="1">orderHUDValue</function>
+      <function defined="1">GetFiveTableValue_50ms</function>
+      <function defined="1">CRC8SAEJ1850</function>
+      <function defined="1">GetOutdBriStsCrcj1850</function>
+      <function defined="1">GetHudCrcj1850</function>
+      <function defined="1">GetLightTransmission</function>
+      <function defined="1">Get_BCMVehType</function>
+      <function defined="1">Set_BCMLightOffset</function>
+      <function defined="1">SendRLSSerNo</function>
+      <function defined="1">SendRLSMPartNo</function>
+      <function defined="1">SendRLSMPartNo10</function>
+      <function defined="1">WipeWinterModeCheck</function>
+      <function defined="1">IsByteOddParity</function>
+    </functions>
+    <variables>
+      <variable defined="1" stubbed="1">EEPROM_Struct_PD</variable>
+      <variable defined="1" stubbed="1">rb_Humidity_raw_g</variable>
+      <variable defined="1" stubbed="1">rb_Humidity_g</variable>
+      <variable defined="1" stubbed="1">rw_Temperature_raw_g</variable>
+      <variable defined="1" stubbed="1">rw_DewPoint_g</variable>
+      <variable defined="1" stubbed="1">rbi_HumTempComError_g</variable>
+      <variable defined="1" stubbed="1">EEPROM_Struct_AD</variable>
+      <variable defined="1" stubbed="1">rb_WDG_BusTaskCounter_g</variable>
+      <variable defined="1" stubbed="1">uLinIndicationFlags</variable>
+      <variable defined="1" stubbed="1">uLinConfirmationFlags</variable>
+      <variable defined="1" stubbed="1">rb_WakeupCounter_mg</variable>
+      <variable defined="1">uF_SCIFlags_mg</variable>
+      <variable defined="1">rb_LIN_BIT_ERROR_COUNTER_g</variable>
+      <variable defined="1">rb_LIN_OVERTHEADERMAX_COUNTER_g</variable>
+      <variable defined="1">rb_LIN_CHECKSUMERROR_COUNTER_g</variable>
+      <variable defined="1">rb_LIN_OVERTFRAMEMAX_COUNTER_g</variable>
+      <variable defined="1">rb_LIN_NORESPONSE_COUNTER_g</variable>
+      <variable defined="1">rb_LIN_FRAMINGERROR_COUNTER_g</variable>
+      <variable defined="1">uF_Communication_mg</variable>
+      <variable defined="1">uF_Butterfly_Flags_g</variable>
+      <variable defined="1">rb_LastLINErrorCode_g</variable>
+      <variable defined="1">rw_NoCommunicationCounter_g</variable>
+      <variable defined="1">rb_intervaltime_rainSensorOff_g</variable>
+      <variable defined="1">rb_Release_IntervalMarker_Update_g</variable>
+      <variable defined="1" stubbed="1">RlsmCem_SerNrLin1Fr01_CEM_LIN1</variable>
+      <variable defined="1" stubbed="1">RlsmCem_Lin1PartNrFr02_CEM_LIN1</variable>
+      <variable defined="1" stubbed="1">RlsmCem_Lin1PartNrFr01_CEM_LIN1</variable>
+      <variable defined="1" stubbed="1">RlsmCem_Lin1Fr03_CEM_LIN1</variable>
+      <variable defined="1" stubbed="1">RlsmCem_Lin1Fr02_CEM_LIN1</variable>
+      <variable defined="1" stubbed="1">RlsmCem_Lin1Fr01_CEM_LIN1</variable>
+      <variable defined="1" stubbed="1">CemCem_Lin1Fr06_CEM_LIN1</variable>
+      <variable defined="1" stubbed="1">CemCem_Lin1Fr05_CEM_LIN1</variable>
+      <variable defined="1" stubbed="1">CemCem_Lin1Fr04_CEM_LIN1</variable>
+      <variable defined="1" stubbed="1">CemCem_Lin1Fr03_CEM_LIN1</variable>
+      <variable defined="1" stubbed="1">CemCem_Lin1Fr02_CEM_LIN1</variable>
+      <variable defined="1" stubbed="1">CemCem_Lin1Fr01_CEM_LIN1</variable>
+      <variable defined="1" stubbed="1">uF_VoltageStatus_g</variable>
+      <variable defined="1" stubbed="1">rb_InternalTemperature_g</variable>
+      <variable defined="1" stubbed="1">rb_ClockFreq_Error_cnt_g</variable>
+      <variable defined="1" stubbed="1">uF_uC_Error_g</variable>
+      <variable defined="1" stubbed="1">uF_Diagnose_pre_Flag</variable>
+      <variable defined="1" stubbed="1">rub_RSIntermDelayInit</variable>
+      <variable defined="1" stubbed="1">rb_LimitMemomryNoWiperReaction_g</variable>
+      <variable defined="1" stubbed="1">rbi_WiperStarted_g</variable>
+      <variable defined="1" stubbed="1">rb_LIN_SensitivityShift_g</variable>
+      <variable defined="1" stubbed="1">RSStatus</variable>
+      <variable defined="1" stubbed="1">rub_IntermDelayTime</variable>
+      <variable defined="1" stubbed="1">rb_PotiStageFromBox_g</variable>
+      <variable defined="1" stubbed="1">rw_rain_intensitiy_g</variable>
+      <variable defined="1" stubbed="1">uF_StatusRainsensor_mg</variable>
+      <variable defined="1" stubbed="1">uF_StatusRainsensor2_mg</variable>
+      <variable defined="1" stubbed="1">rb_WiperSpeed_g</variable>
+      <variable defined="1" stubbed="1">rb_WiperSpeedAlt_g</variable>
+      <variable defined="1" stubbed="1">uF_LIN_DiagReq2_mg</variable>
+      <variable defined="1" stubbed="1">uF_Main_Flags_g</variable>
+      <variable defined="1" stubbed="1">rb_RS_LS_Error1_g</variable>
+      <variable defined="1" stubbed="1">rb_RS_LS_Error2_g</variable>
+      <variable defined="1" stubbed="1">rb_RainS_Error1_g</variable>
+      <variable defined="1" stubbed="1">rb_LightS_Error1_g</variable>
+      <variable defined="1" stubbed="1">rw_EEPROM_Address_to_Write_g</variable>
+      <variable defined="1" stubbed="1">rb_I2C_EEPROM_bytesToWrite_g</variable>
+      <variable defined="1" stubbed="1">rab_EEPROM_Bytes_toWrite_g</variable>
+      <variable defined="1" stubbed="1">uF_E2ConfigErrorFlags_g</variable>
+      <variable defined="1" stubbed="1">rb_speed_in_kmh_g</variable>
+      <variable defined="1" stubbed="1">rb_LSPotiStage_g</variable>
+      <variable defined="1" stubbed="1">uF_Check_lightsensor_g</variable>
+      <variable defined="1" stubbed="1">uF_modi_lightsens_g</variable>
+      <variable defined="1" stubbed="1">uF_LightInternalStatus_g</variable>
+      <variable defined="1" stubbed="1">rw_StandbyTimeOutCnt_g</variable>
+      <variable defined="1" stubbed="1">rb_ASIC_ALSx_ShortDetected_cnt_g</variable>
+      <variable defined="1" stubbed="1">rb_ASIC_ALSx_ShortDetected_Error_g</variable>
+      <variable defined="1" stubbed="1">uF_ASIC_ControlFlags_g</variable>
+      <variable defined="1" stubbed="1">uF_GainAdjustFlags_g</variable>
+      <variable defined="1" stubbed="1">uF_ASIC_Error_Flags_g</variable>
+      <variable defined="1" stubbed="1">uF_ASIC_Error_Flags1_g</variable>
+      <variable defined="1" stubbed="1">uF_ASIC_Ctrl_Error_Flags_g</variable>
+      <variable defined="1" stubbed="1">rw_Solar_light16bit_1_g</variable>
+      <variable defined="1" stubbed="1">rw_Solar_light16bit_2_g</variable>
+      <variable defined="1" stubbed="1">ras_ASIC_MUX_MeasAD_g</variable>
+      <variable defined="1" stubbed="1">rb_ASIC_initTimeout_g</variable>
+      <variable defined="1" stubbed="1">rb_VIref_ErrCnt_g</variable>
+      <variable defined="1" stubbed="1">rb_ASIC_SPI_ErrorCodeCnt_g</variable>
+      <variable defined="1" stubbed="1">rb_StaticNoValidAD_cnt_g</variable>
+      <variable defined="1" stubbed="1">rw_SPINoCommCounter_g</variable>
+    </variables>
+  </unit>
+</definitions>

@@ -1,0 +1,1593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typefile version="1">
+  <type typeid="100001" typetype="STR_ING" array_type="800001" string_type_type="AR_RAY">
+    <range_data size="8%%"/>
+  </type>
+  <type typeid="100002" typetype="AR_RAY" array_type="800002">
+    <range_data size="4%%"/>
+  </type>
+  <type typeid="100003" typetype="AR_RAY" array_type="900004">
+    <range_data size="1%%"/>
+  </type>
+  <type typeid="100004" typetype="AR_RAY" array_type="900004">
+    <range_data size="1%%"/>
+  </type>
+  <type typeid="100005" typetype="AR_RAY" array_type="900028">
+    <range_data size="9%%"/>
+  </type>
+  <type typeid="100006" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="4%%"/>
+  </type>
+  <type typeid="100007" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="8%%"/>
+  </type>
+  <type typeid="100008" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="7%%"/>
+  </type>
+  <type typeid="100009" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="8%%"/>
+  </type>
+  <type typeid="100010" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="8%%"/>
+  </type>
+  <type typeid="100011" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="8%%"/>
+  </type>
+  <type typeid="100012" typetype="AR_RAY" array_type="900029">
+    <range_data size="10%%"/>
+  </type>
+  <type typeid="100013" typetype="AR_RAY" array_type="900029">
+    <range_data size="2%%"/>
+  </type>
+  <type typeid="100014" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="5%%"/>
+  </type>
+  <type typeid="100015" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="4%%"/>
+  </type>
+  <type typeid="100016" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="7%%"/>
+  </type>
+  <type typeid="100017" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="9%%"/>
+  </type>
+  <type typeid="100018" typetype="REC_ORD" ada_scope="__T138139384">
+    <field index="1" name="B0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="2" name="B1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="3" name="B2" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="4" name="B3" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="5" name="B4" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="6" name="B5" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="7" name="B6" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="8" name="B7" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+  </type>
+  <type typeid="100019" typetype="UNION" ada_scope="__T138139552">
+    <field index="1" name="Bit" typeid="900007"/>
+    <field index="2" name="AllBit" typeid="900008"/>
+  </type>
+  <type typeid="100020" typetype="REC_ORD" ada_scope="__T138186088">
+    <field index="1" name="EEKodierbyte2_g" typeid="900008"/>
+    <field index="2" name="EEKodierbyte1_g" typeid="900008"/>
+    <field index="3" name="EEKodierbyte0_g" typeid="900008"/>
+    <field index="4" name="ALS1_4_Setting_g" typeid="900008"/>
+    <field index="5" name="ALS5_6_INREC_Setting_g" typeid="900008"/>
+    <field index="6" name="ASIC_DIAGV_g" typeid="900008"/>
+    <field index="7" name="A_Factor_ALS1_g" typeid="900005"/>
+    <field index="8" name="A_Factor_ALS2_g" typeid="900005"/>
+    <field index="9" name="A_Factor_ALS3_g" typeid="900005"/>
+    <field index="10" name="A_Factor_ALS4_g" typeid="900005"/>
+    <field index="11" name="A_Factor_ALS5_g" typeid="900005"/>
+    <field index="12" name="A_Factor_ALS6_g" typeid="900005"/>
+    <field index="13" name="A_Factor_INREC_g" typeid="900005"/>
+    <field index="14" name="B_Factor_Iref_Lo_Gain_Lo_g" typeid="900008"/>
+    <field index="15" name="B_Factor_Iref_Lo_Gain_Hi_g" typeid="900008"/>
+    <field index="16" name="B_Factor_Iref_Hi_Gain_Lo_g" typeid="900008"/>
+    <field index="17" name="B_Factor_Iref_Hi_Gain_Hi_g" typeid="900008"/>
+    <field index="18" name="CRC_Checksum_calibration_g" typeid="900005"/>
+    <field index="19" name="Standby_rain_measurement_1_g" typeid="900008"/>
+    <field index="20" name="Standby_rain_measurement_2_g" typeid="900008"/>
+    <field index="21" name="Standby_rain_measurement_3_g" typeid="900008"/>
+    <field index="22" name="Standby_rain_measurement_4_g" typeid="900008"/>
+    <field index="23" name="Standby_rain_measurement_5_g" typeid="900008"/>
+    <field index="24" name="Standby_rain_measurement_6_g" typeid="900008"/>
+    <field index="25" name="ASIC_Sched_Config_g" typeid="900008"/>
+    <field index="26" name="ASIC_LCTR_g" typeid="900008"/>
+    <field index="27" name="NO_RAIN_PRESENT_THRSH_HB_g" typeid="900008"/>
+    <field index="28" name="NO_RAIN_PRESENT_THRSH_LB_g" typeid="900008"/>
+    <field index="29" name="STBY_REGV_Imbalance_g" typeid="900008"/>
+    <field index="30" name="RSControlFlags" typeid="900008"/>
+    <field index="31" name="EEPROM_Erase_Counter" typeid="900008"/>
+    <field index="32" name="HardwareStand" typeid="100021"/>
+    <field index="33" name="Produktionsdaten" typeid="100015"/>
+    <field index="34" name="Audi_HW_Partnumber" typeid="100022"/>
+    <field index="35" name="NAD" typeid="900008"/>
+    <field index="36" name="IDFSs_01" typeid="900008"/>
+    <field index="37" name="IDRLSs_01" typeid="900008"/>
+    <field index="38" name="IDBCM1_LIN1_01" typeid="900008"/>
+    <field index="39" name="IDWWSs_01" typeid="900008"/>
+    <field index="40" name="IDSOSES_01" typeid="900008"/>
+    <field index="41" name="ASIC_RCTR_REG_g" typeid="900008"/>
+    <field index="42" name="ASIC_RFCTR_REG_g" typeid="900008"/>
+    <field index="43" name="Error_Active_1_g" typeid="900008"/>
+    <field index="44" name="Error_Active_2_g" typeid="900008"/>
+    <field index="45" name="Error_Active_3_g" typeid="900008"/>
+    <field index="46" name="Erase_counter" typeid="100023"/>
+    <field index="47" name="VariantID_g" typeid="900008"/>
+    <field index="48" name="FunctionID_g" typeid="900005"/>
+    <field index="49" name="IDERRDATA_01" typeid="900008"/>
+    <field index="50" name="IDSPARE_01" typeid="900008"/>
+    <field index="51" name="IDRLSs_02" typeid="900008"/>
+    <field index="52" name="IDBCM1_LIN1_02" typeid="900008"/>
+    <field index="53" name="HUD_Factor_g" typeid="900008"/>
+    <field index="54" name="IDRLSs_03" typeid="900008"/>
+    <field index="55" name="IDRLSs_04" typeid="900008"/>
+    <field index="56" name="IDRLSs_05" typeid="900008"/>
+    <field index="57" name="IDRLSs_06" typeid="900008"/>
+    <field index="58" name="IDBCM1_LIN1_03" typeid="900008"/>
+    <field index="59" name="IDBCM1_LIN1_04" typeid="900008"/>
+    <field index="60" name="IDBCM1_LIN1_05" typeid="900008"/>
+    <field index="61" name="HUD_MAX_Value" typeid="900005"/>
+    <field index="62" name="HUD_MAX_Resolution" typeid="900008"/>
+    <field index="63" name="RS_Intensity_OverWipeCoef" typeid="900008"/>
+    <field index="64" name="RS_Intensity_Thr_IdleTime" typeid="900008"/>
+    <field index="65" name="RS_Intensity_SigVoltageH" typeid="900008"/>
+    <field index="66" name="RS_Intensity_SigVoltageL" typeid="900008"/>
+    <field index="67" name="SC_ORDER12" typeid="900008"/>
+    <field index="68" name="SC_ORDER3" typeid="900008"/>
+    <field index="69" name="SC_MAX" typeid="900008"/>
+  </type>
+  <type typeid="100021" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="2%%"/>
+  </type>
+  <type typeid="100022" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="8%%"/>
+  </type>
+  <type typeid="100023" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="4%%"/>
+  </type>
+  <type typeid="100024" typetype="UNION" ada_scope="__T138186760">
+    <field index="1" name="_c" typeid="100025"/>
+    <field index="2" name="EEPROMStructPD" typeid="900013"/>
+  </type>
+  <type typeid="100025" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="93%%"/>
+  </type>
+  <type typeid="100026" typetype="REC_ORD" ada_scope="__T138187096">
+    <field index="1" name="Stufe1_OG" typeid="900008"/>
+    <field index="2" name="Stufe1_UG" typeid="900008"/>
+    <field index="3" name="Ep_St2_Epr_In_St2" typeid="900008"/>
+    <field index="4" name="Schwelle_Schwall" typeid="900008"/>
+    <field index="5" name="CW_AnsamlungAdditOffset" typeid="900008"/>
+    <field index="6" name="dec_Int_Sp_off" typeid="900008"/>
+    <field index="7" name="Dec_Stx_Speicher" typeid="900008"/>
+    <field index="8" name="dec_Ovr_Speicher" typeid="900008"/>
+    <field index="9" name="Empf_Faktor_ST2_Offs" typeid="900008"/>
+    <field index="10" name="Max_Signallaenge" typeid="900008"/>
+    <field index="11" name="rb_Stufe1_with_Int_og" typeid="900008"/>
+    <field index="12" name="Nachwisch_4_ST1_min" typeid="900008"/>
+    <field index="13" name="Nachwisch_3" typeid="900008"/>
+    <field index="14" name="Nachwisch_2" typeid="900008"/>
+    <field index="15" name="RSEmpfFactorScaling" typeid="900008"/>
+    <field index="16" name="SchlierenFlag1" typeid="900008"/>
+    <field index="17" name="sig_ans_schw_offs" typeid="900008"/>
+  </type>
+  <type typeid="100027" typetype="REC_ORD" ada_scope="__T138187432">
+    <field index="1" name="PrametersStruct" typeid="100028"/>
+    <field index="2" name="RS_GainSetupArray" typeid="100029"/>
+    <field index="3" name="HALIOS_Clock_Control_Reg_g" typeid="900008"/>
+    <field index="4" name="ACTR_Reg_g" typeid="900008"/>
+    <field index="5" name="PCO_PI_Regulator_g" typeid="900008"/>
+    <field index="6" name="ICO1H_g" typeid="900008"/>
+    <field index="7" name="ICO1L_g" typeid="900008"/>
+    <field index="8" name="ICO2H_g" typeid="900008"/>
+    <field index="9" name="ICO2L_g" typeid="900008"/>
+    <field index="10" name="FOSC_LEDUL_g" typeid="900008"/>
+    <field index="11" name="INTCO_g" typeid="900008"/>
+    <field index="12" name="StandbyTimout" typeid="900008"/>
+    <field index="13" name="dec_st2_speicher" typeid="900008"/>
+    <field index="14" name="RS_Sensitivity" typeid="100017"/>
+    <field index="15" name="MaxOverwipeSensitivity" typeid="900008"/>
+    <field index="16" name="StandbyModeScanTime_g" typeid="900008"/>
+    <field index="17" name="RainNightBitThrs_g" typeid="900008"/>
+    <field index="18" name="Amb_Base_Day_Threshold" typeid="900008"/>
+    <field index="19" name="Amb_Base_Night_Threshold" typeid="900008"/>
+    <field index="20" name="TunnelDebounceFactor" typeid="900008"/>
+    <field index="21" name="Customer_FW_SWA_Scaling" typeid="900008"/>
+    <field index="22" name="Customer_IR_SWA_Scaling" typeid="900008"/>
+    <field index="23" name="FW_Base_Day_Threshold" typeid="900008"/>
+    <field index="24" name="IR_Base_Day_Threshold" typeid="900008"/>
+    <field index="25" name="FW_Base_Night_Threshold" typeid="900008"/>
+    <field index="26" name="IR_Base_Night_Threshold" typeid="900008"/>
+    <field index="27" name="Day_Delay" typeid="900008"/>
+    <field index="28" name="Night_Delay" typeid="900008"/>
+    <field index="29" name="AfterTunnelDelayOffs" typeid="900008"/>
+    <field index="30" name="p_v_autobahn_on_off_g" typeid="900008"/>
+    <field index="31" name="p_t_autobahn_delay_on_g" typeid="900008"/>
+    <field index="32" name="Frontwaschen_Autobahndelay_g" typeid="900008"/>
+    <field index="33" name="p_n_regenlichtschwelle_low_high_g" typeid="900008"/>
+    <field index="34" name="p_n_regenlichtschwelle_Zeit_g" typeid="900008"/>
+    <field index="35" name="TunnelThresholdScaling_g" typeid="900008"/>
+    <field index="36" name="Amb_TunnelThresholdScaling_g" typeid="900008"/>
+    <field index="37" name="spare" typeid="900008"/>
+    <field index="38" name="Regulation48LightOnTime_g" typeid="900008"/>
+    <field index="39" name="VeryBrightInTunnelDelay_g" typeid="900008"/>
+    <field index="40" name="Combined_FW_AL_THRs_g" typeid="900008"/>
+    <field index="41" name="DYN_COMP_CCD_MINUS_1_g" typeid="900008"/>
+    <field index="42" name="DYN_COMP_CCD_MINUS_2_g" typeid="900008"/>
+    <field index="43" name="maxTemperatureOffsett_g" typeid="900008"/>
+    <field index="44" name="ASIC_AFSTHR_REG_g" typeid="900008"/>
+    <field index="45" name="Diag_Request_Factor_g" typeid="900008"/>
+    <field index="46" name="cb_inc_speicher_g" typeid="900008"/>
+    <field index="47" name="I2C_Debug_Config_g" typeid="900008"/>
+    <field index="48" name="Audi_SW_Partnumber" typeid="100030"/>
+    <field index="49" name="wiperSpeedHysteresis" typeid="900008"/>
+    <field index="50" name="Proj_Specific_config" typeid="900008"/>
+    <field index="51" name="ALSx_Filter_g" typeid="900008"/>
+    <field index="52" name="IrLightTunnelThreshodRng" typeid="900008"/>
+    <field index="53" name="FwLightTunnelThresholdRng" typeid="900008"/>
+    <field index="54" name="AmbLightTunnelThresholdRng" typeid="900008"/>
+    <field index="55" name="TunWischVerzAktiv" typeid="900008"/>
+    <field index="56" name="SHTErrorDebounceJitter" typeid="900008"/>
+    <field index="57" name="SolarShadowCorrFactor1" typeid="900008"/>
+    <field index="58" name="SolarShadowCorrFactor2" typeid="900008"/>
+    <field index="59" name="E2_MaxSt2SignalLaenge" typeid="900008"/>
+    <field index="60" name="SoftwareStand" typeid="100031"/>
+    <field index="61" name="twilightToDarkTime" typeid="900008"/>
+    <field index="62" name="darkToTwilightTime" typeid="900008"/>
+    <field index="63" name="darkToTwilightThreshFW" typeid="900008"/>
+    <field index="64" name="darkToTwilightThreshAMB" typeid="900008"/>
+    <field index="65" name="twilightToDarkThreshFW" typeid="900008"/>
+    <field index="66" name="twilightToDarkThreshAMB" typeid="900008"/>
+    <field index="67" name="iceDetectionTemperature" typeid="900008"/>
+    <field index="68" name="Regulation48ThresholdAmb_g" typeid="900008"/>
+    <field index="69" name="Regulation48ThresholdFw_g" typeid="900008"/>
+    <field index="70" name="Threshold_TempIceRisk" typeid="900008"/>
+    <field index="71" name="upperTolerance_StartupWipe" typeid="900008"/>
+    <field index="72" name="unused" typeid="100032"/>
+  </type>
+  <type typeid="100028" typetype="AR_RAY" array_type="900044">
+    <range_data size="4%%"/>
+  </type>
+  <type typeid="100029" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="6%%"/>
+  </type>
+  <type typeid="100030" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="8%%"/>
+  </type>
+  <type typeid="100031" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="4%%"/>
+  </type>
+  <type typeid="100032" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="33%%"/>
+  </type>
+  <type typeid="100033" typetype="UNION" ada_scope="__T138188440">
+    <field index="1" name="_c" typeid="100034"/>
+    <field index="2" name="EEPROMStructAD" typeid="900017"/>
+  </type>
+  <type typeid="100034" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="194%%"/>
+  </type>
+  <type typeid="100035" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="1%%"/>
+  </type>
+  <type typeid="100036" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="1%%"/>
+  </type>
+  <type typeid="100037" typetype="REC_ORD" ada_scope="__T138192808">
+    <field index="1" name="RLSMSerNoNr1_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="2" name="RLSMSerNoNr2_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="3" name="RLSMSerNoNr3_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="4" name="RLSMSerNoNr4_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+  </type>
+  <type typeid="100038" typetype="REC_ORD" ada_scope="__T138192976">
+    <field index="1" name="RLSMPartNo10Nr1_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="2" name="RLSMPartNo10Nr2_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="3" name="RLSMPartNo10Nr3_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="4" name="RLSMPartNo10Nr4_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="5" name="RLSMPartNo10Nr5_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="6" name="RLSMPartNo10EndSgn1_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="7" name="RLSMPartNo10EndSgn2_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="8" name="RLSMPartNo10EndSgn3_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+  </type>
+  <type typeid="100039" typetype="REC_ORD" ada_scope="__T138193144">
+    <field index="1" name="RLSMPartNoNr1_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="2" name="RLSMPartNoNr2_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="3" name="RLSMPartNoNr3_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="4" name="RLSMPartNoNr4_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="5" name="RLSMPartNoEndSgn1_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="6" name="RLSMPartNoEndSgn2_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="7" name="RLSMPartNoEndSgn3_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+  </type>
+  <type typeid="100040" typetype="REC_ORD" ada_scope="__T138193312">
+    <field index="1" name="SolarSnsrErr_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="2" name="unused0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="3" name="RainSnsrDiagcRainSnsrHiVoltDetd_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="4" name="RainSnsrDiagcRainSnsrHiTDetd_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="5" name="LiOprnMod_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="6" name="RainDetected_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="7" name="RainfallAmnt_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="8" name="unused1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="9" name="SolarSnsrLeValue_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="10" name="SolarSnsrRiValue_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="11" name="unused2" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="12" name="unused3" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="13" name="unused4" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="14" name="unused5" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+  </type>
+  <type typeid="100041" typetype="REC_ORD" ada_scope="__T138193480">
+    <field index="1" name="CmptFrntWindDewT_CEM_LIN1_0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="2" name="CmptFrntWindDewT_CEM_LIN1_1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="3" max="7"/>
+    </field>
+    <field index="3" name="AmbIllmnFwdStsCntr_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="4" name="unused0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="5" name="AmbIllmnFwdStsAmblillmn2_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="6" name="AmbIllmnFwdStsChks_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="7" name="AmbIllmnFwdStsAmblillmn1_CEM_LIN1_0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="8" name="AmbIllmnFwdStsAmblillmn1_CEM_LIN1_1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="9" name="unused1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="10" name="RelHumSnsrErr_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="11" name="unused2" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="12" name="CmptFrntWindT_CEM_LIN1_0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="3" max="7"/>
+    </field>
+    <field index="13" name="CmptFrntWindT_CEM_LIN1_1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="14" name="RelHumSnsrRelHum_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+  </type>
+  <type typeid="100042" typetype="REC_ORD" ada_scope="__T138193648">
+    <field index="1" name="AutWinWipgCmd_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="3" max="7"/>
+    </field>
+    <field index="2" name="HudSnsrErrParChk_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="3" name="HudSnsrErrSnsrErr_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="4" name="unused0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="5" name="RainLi_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="6" name="RainSnsrErrCalErrActv_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="7" name="RainSnsrErrCalErr_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="8" name="RainSnsrErrRainDetnErr_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="9" name="RainSnsrErrRainDetnErrActv_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="10" name="WipgAutFrntMod_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="11" name="unused1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="12" name="ErrRespRLSM_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="13" name="unused2" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="14" name="TwliBriRawQf_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="15" name="TwliBriRawTwliBriRaw_CEM_LIN1_0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="31" max="63"/>
+    </field>
+    <field index="16" name="TwliBriRawTwliBriRaw_CEM_LIN1_1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="17" name="unused3" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="18" name="OutdBriChks_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="19" name="OutdBriSts_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="20" name="OutdBriCntr_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="21" name="unused4" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+  </type>
+  <type typeid="100043" typetype="REC_ORD" ada_scope="__T138194152">
+    <field index="1" name="unused0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="2" name="WiprActv_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="3" name="WiprInPrkgPosnLo_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="4" name="WiprInWipgAr_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="5" name="WshngCycActv_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+  </type>
+  <type typeid="100044" typetype="REC_ORD" ada_scope="__T138194320">
+    <field index="1" name="unused0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="2" name="unused1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="3" name="unused2" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="4" name="EnaOfflineMonitor_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="5" name="unused3" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="31" max="63"/>
+    </field>
+    <field index="6" name="unused4" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="7" name="unused5" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="8" name="unused6" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="9" name="unused7" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+  </type>
+  <type typeid="100045" typetype="REC_ORD" ada_scope="__T138194488">
+    <field index="1" name="unused0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="2" name="unused1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="3" name="unused2" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="4" name="unused3" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="5" name="unused4" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="6" name="unused5" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="7" name="RainSnsrLiThd_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="8" name="unused6" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+  </type>
+  <type typeid="100046" typetype="REC_ORD" ada_scope="__T138194656">
+    <field index="1" name="RainSnsrSnvtyForUsrSnvty0_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="2" name="RainSnsrSnvtyForUsrSnvty1_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="3" name="RainSnsrSnvtyForUsrSnvty2_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="4" name="RainSnsrSnvtyForUsrSnvty3_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="5" name="RainSnsrSnvtyForUsrSnvty4_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="6" name="RainSnsrSnvtyForUsrSnvty5_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="7" name="RainSnsrSnvtyForUsrSnvty6_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="8" name="VehTyp_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="9" name="WindCorrnValAmb_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="10" name="WindCorrnValFrnt_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="11" name="WindCorrnValHud_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="12" name="FrqCfg_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="13" name="ReAdaptReq_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="14" name="unused0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="3" max="7"/>
+    </field>
+  </type>
+  <type typeid="100047" typetype="REC_ORD" ada_scope="__T138194824">
+    <field index="1" name="AmbTForVisy_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="2" name="unused0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="3" name="unused1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="4" name="unused2" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="5" name="unused3" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="6" name="unused4" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="7" name="unused5" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+  </type>
+  <type typeid="100048" typetype="REC_ORD" ada_scope="__T138194992">
+    <field index="1" name="VehSpdForWipg_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="2" name="WipgPwrActvnSafeWipgPwrAcsyModSafe_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="3" name="WipgPwrActvnSafeWipgPwrDrvgModSafe_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="4" name="RainSensActvn_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="5" name="WshrLvrPosnSafe_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="6" name="unused0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="7" name="WiprMotFrntLvrCmdSafeLvrInHiSpdPosnSafe_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="8" name="WiprMotFrntLvrCmdSafeLvrInLoSpdPosnSafe_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="9" name="WiprMotFrntLvrCmdSafeLvrInSnglStrokePos_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="10" name="WiprMotFrntLvrCmdSafeLvrInIntlPosn_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="11" name="HomeLinkEna_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="12" name="WiprMotIntlCmd_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="3" max="7"/>
+    </field>
+    <field index="13" name="WiprPosnForSrvReq_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="14" name="unused1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="15" name="IntrMirrCmdIntrMirrDimSnvty_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="16" name="IntrMirrCmdDrvrSide_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="17" name="IntrMirrCmdIntrMirrWindHeatrCmpMag_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="18" name="IntrMirrCmdIntrMirrEna_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="19" name="IntrMirrCmdIntrMirrInhbDim_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="20" name="IntrMirrCmdIntrMirrDiagcRst_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="21" name="IntrMirrCmdIntrMirrAsyFanCmpMag_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="22" name="WiprMotFrntOffsAg_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="23" name="unused2" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+  </type>
+  <type typeid="100049" typetype="UNION" ada_scope="__T138195664">
+    <field index="1" name="_c" typeid="100006"/>
+    <field index="2" name="rlsmcem_sernrlin1fr01_cem_lin1" typeid="900033"/>
+  </type>
+  <type typeid="100050" typetype="UNION" ada_scope="__T138195832">
+    <field index="1" name="_c" typeid="100007"/>
+    <field index="2" name="rlsmcem_lin1partnrfr02_cem_lin1" typeid="900035"/>
+  </type>
+  <type typeid="100051" typetype="UNION" ada_scope="__T138196000">
+    <field index="1" name="_c" typeid="100008"/>
+    <field index="2" name="rlsmcem_lin1partnrfr01_cem_lin1" typeid="900034"/>
+  </type>
+  <type typeid="100052" typetype="UNION" ada_scope="__T138196168">
+    <field index="1" name="_c" typeid="100009"/>
+    <field index="2" name="rlsmcem_lin1fr03_cem_lin1" typeid="900025"/>
+  </type>
+  <type typeid="100053" typetype="UNION" ada_scope="__T138196336">
+    <field index="1" name="_c" typeid="100010"/>
+    <field index="2" name="rlsmcem_lin1fr02_cem_lin1" typeid="900027"/>
+  </type>
+  <type typeid="100054" typetype="UNION" ada_scope="__T138196504">
+    <field index="1" name="_c" typeid="100011"/>
+    <field index="2" name="rlsmcem_lin1fr01_cem_lin1" typeid="900023"/>
+  </type>
+  <type typeid="100055" typetype="UNION" ada_scope="__T138197176">
+    <field index="1" name="_c" typeid="100056"/>
+    <field index="2" name="cemcem_lin1fr06_cem_lin1" typeid="900043"/>
+  </type>
+  <type typeid="100056" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="1%%"/>
+  </type>
+  <type typeid="100057" typetype="UNION" ada_scope="__T138197512">
+    <field index="1" name="_c" typeid="100058"/>
+    <field index="2" name="cemcem_lin1fr05_cem_lin1" typeid="900019"/>
+  </type>
+  <type typeid="100058" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="7%%"/>
+  </type>
+  <type typeid="100059" typetype="UNION" ada_scope="__T138197848">
+    <field index="1" name="_c" typeid="100060"/>
+    <field index="2" name="cemcem_lin1fr04_cem_lin1" typeid="900041"/>
+  </type>
+  <type typeid="100060" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="7%%"/>
+  </type>
+  <type typeid="100061" typetype="UNION" ada_scope="__T138198184">
+    <field index="1" name="_c" typeid="100062"/>
+    <field index="2" name="cemcem_lin1fr03_cem_lin1" typeid="900037"/>
+  </type>
+  <type typeid="100062" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="8%%"/>
+  </type>
+  <type typeid="100063" typetype="UNION" ada_scope="__T138198520">
+    <field index="1" name="_c" typeid="100064"/>
+    <field index="2" name="cemcem_lin1fr02_cem_lin1" typeid="900039"/>
+  </type>
+  <type typeid="100064" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="7%%"/>
+  </type>
+  <type typeid="100065" typetype="UNION" ada_scope="__T138198856">
+    <field index="1" name="_c" typeid="100066"/>
+    <field index="2" name="cemcem_lin1fr01_cem_lin1" typeid="900011"/>
+  </type>
+  <type typeid="100066" typetype="STR_ING" array_type="900008" string_type_type="AR_RAY">
+    <range_data size="6%%"/>
+  </type>
+  <type typeid="100067" typetype="REC_ORD" ada_scope="__T138199192">
+    <field index="1" name="B7" typeid="900005" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="2" name="B6" typeid="900005" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="3" name="B5" typeid="900005" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="4" name="B4" typeid="900005" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="5" name="B3" typeid="900005" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="6" name="B2" typeid="900005" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="7" name="B1" typeid="900005" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="8" name="B0" typeid="900005" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+  </type>
+  <type typeid="100068" typetype="UNION" ada_scope="__T138199360">
+    <field index="1" name="Bit" typeid="900015"/>
+    <field index="2" name="AllBit" typeid="900008"/>
+  </type>
+  <type typeid="100069" typetype="REC_ORD" ada_scope="__T138203728">
+    <field index="1" name="ad" typeid="900005"/>
+    <field index="2" name="avg" typeid="900005"/>
+  </type>
+  <type typeid="800001" typetype="CHAR_ACTER">
+    <range_data min="0" mid="127" max="255"/>
+  </type>
+  <type typeid="800002" typetype="INT_EGER">
+    <range_data min="-32768" mid="-1" max="32767"/>
+  </type>
+  <type typeid="800003" typetype="FL_OAT">
+    <range_data min="%g" mid="%g" max="%g"/>
+  </type>
+  <type typeid="900001" typetype="STR_ING" pointer_type="900008" string_type_type="ACCE_SS"/>
+  <type typeid="900002" typetype="INT_EGER">
+    <range_data min="-32768" mid="-1" max="32767"/>
+  </type>
+  <type typeid="900003" typetype="UNION" ada_scope="tLinIndicationBits">
+    <field index="1" name="_c" typeid="100035"/>
+    <field index="2" name="w" typeid="100003"/>
+  </type>
+  <type typeid="900004" typetype="REC_ORD" ada_scope="_c_bits8">
+    <field index="1" name="b0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="2" name="b1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="3" name="b2" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="4" name="b3" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="5" name="b4" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="6" name="b5" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="7" name="b6" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="8" name="b7" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+  </type>
+  <type typeid="900005" typetype="UN_SIGNED">
+    <range_data min="0" mid="32767" max="65535"/>
+  </type>
+  <type typeid="900006" typetype="UNION" ada_scope="__T138139552">
+    <field index="1" name="Bit" typeid="900007"/>
+    <field index="2" name="AllBit" typeid="900008"/>
+  </type>
+  <type typeid="900007" typetype="REC_ORD" ada_scope="__T138139384">
+    <field index="1" name="B0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="2" name="B1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="3" name="B2" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="4" name="B3" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="5" name="B4" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="6" name="B5" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="7" name="B6" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="8" name="B7" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+  </type>
+  <type typeid="900008" typetype="UNSIGNED_CHAR">
+    <range_data min="0" mid="127" max="255"/>
+  </type>
+  <type typeid="900009" typetype="UNION" ada_scope="__T138139552">
+    <field index="1" name="Bit" typeid="900007"/>
+    <field index="2" name="AllBit" typeid="900008"/>
+  </type>
+  <type typeid="900010" typetype="UNION" ada_scope="__T138198856">
+    <field index="1" name="_c" typeid="100066"/>
+    <field index="2" name="cemcem_lin1fr01_cem_lin1" typeid="900011"/>
+  </type>
+  <type typeid="900011" typetype="REC_ORD" ada_scope="__T138194992">
+    <field index="1" name="VehSpdForWipg_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="2" name="WipgPwrActvnSafeWipgPwrAcsyModSafe_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="3" name="WipgPwrActvnSafeWipgPwrDrvgModSafe_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="4" name="RainSensActvn_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="5" name="WshrLvrPosnSafe_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="6" name="unused0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="7" name="WiprMotFrntLvrCmdSafeLvrInHiSpdPosnSafe_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="8" name="WiprMotFrntLvrCmdSafeLvrInLoSpdPosnSafe_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="9" name="WiprMotFrntLvrCmdSafeLvrInSnglStrokePos_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="10" name="WiprMotFrntLvrCmdSafeLvrInIntlPosn_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="11" name="HomeLinkEna_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="12" name="WiprMotIntlCmd_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="3" max="7"/>
+    </field>
+    <field index="13" name="WiprPosnForSrvReq_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="14" name="unused1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="15" name="IntrMirrCmdIntrMirrDimSnvty_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="16" name="IntrMirrCmdDrvrSide_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="17" name="IntrMirrCmdIntrMirrWindHeatrCmpMag_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="18" name="IntrMirrCmdIntrMirrEna_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="19" name="IntrMirrCmdIntrMirrInhbDim_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="20" name="IntrMirrCmdIntrMirrDiagcRst_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="21" name="IntrMirrCmdIntrMirrAsyFanCmpMag_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="22" name="WiprMotFrntOffsAg_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="23" name="unused2" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+  </type>
+  <type typeid="900012" typetype="UNION" ada_scope="__T138186760">
+    <field index="1" name="_c" typeid="100025"/>
+    <field index="2" name="EEPROMStructPD" typeid="900013"/>
+  </type>
+  <type typeid="900013" typetype="REC_ORD" ada_scope="__T138186088">
+    <field index="1" name="EEKodierbyte2_g" typeid="900008"/>
+    <field index="2" name="EEKodierbyte1_g" typeid="900008"/>
+    <field index="3" name="EEKodierbyte0_g" typeid="900008"/>
+    <field index="4" name="ALS1_4_Setting_g" typeid="900008"/>
+    <field index="5" name="ALS5_6_INREC_Setting_g" typeid="900008"/>
+    <field index="6" name="ASIC_DIAGV_g" typeid="900008"/>
+    <field index="7" name="A_Factor_ALS1_g" typeid="900005"/>
+    <field index="8" name="A_Factor_ALS2_g" typeid="900005"/>
+    <field index="9" name="A_Factor_ALS3_g" typeid="900005"/>
+    <field index="10" name="A_Factor_ALS4_g" typeid="900005"/>
+    <field index="11" name="A_Factor_ALS5_g" typeid="900005"/>
+    <field index="12" name="A_Factor_ALS6_g" typeid="900005"/>
+    <field index="13" name="A_Factor_INREC_g" typeid="900005"/>
+    <field index="14" name="B_Factor_Iref_Lo_Gain_Lo_g" typeid="900008"/>
+    <field index="15" name="B_Factor_Iref_Lo_Gain_Hi_g" typeid="900008"/>
+    <field index="16" name="B_Factor_Iref_Hi_Gain_Lo_g" typeid="900008"/>
+    <field index="17" name="B_Factor_Iref_Hi_Gain_Hi_g" typeid="900008"/>
+    <field index="18" name="CRC_Checksum_calibration_g" typeid="900005"/>
+    <field index="19" name="Standby_rain_measurement_1_g" typeid="900008"/>
+    <field index="20" name="Standby_rain_measurement_2_g" typeid="900008"/>
+    <field index="21" name="Standby_rain_measurement_3_g" typeid="900008"/>
+    <field index="22" name="Standby_rain_measurement_4_g" typeid="900008"/>
+    <field index="23" name="Standby_rain_measurement_5_g" typeid="900008"/>
+    <field index="24" name="Standby_rain_measurement_6_g" typeid="900008"/>
+    <field index="25" name="ASIC_Sched_Config_g" typeid="900008"/>
+    <field index="26" name="ASIC_LCTR_g" typeid="900008"/>
+    <field index="27" name="NO_RAIN_PRESENT_THRSH_HB_g" typeid="900008"/>
+    <field index="28" name="NO_RAIN_PRESENT_THRSH_LB_g" typeid="900008"/>
+    <field index="29" name="STBY_REGV_Imbalance_g" typeid="900008"/>
+    <field index="30" name="RSControlFlags" typeid="900008"/>
+    <field index="31" name="EEPROM_Erase_Counter" typeid="900008"/>
+    <field index="32" name="HardwareStand" typeid="100021"/>
+    <field index="33" name="Produktionsdaten" typeid="100015"/>
+    <field index="34" name="Audi_HW_Partnumber" typeid="100022"/>
+    <field index="35" name="NAD" typeid="900008"/>
+    <field index="36" name="IDFSs_01" typeid="900008"/>
+    <field index="37" name="IDRLSs_01" typeid="900008"/>
+    <field index="38" name="IDBCM1_LIN1_01" typeid="900008"/>
+    <field index="39" name="IDWWSs_01" typeid="900008"/>
+    <field index="40" name="IDSOSES_01" typeid="900008"/>
+    <field index="41" name="ASIC_RCTR_REG_g" typeid="900008"/>
+    <field index="42" name="ASIC_RFCTR_REG_g" typeid="900008"/>
+    <field index="43" name="Error_Active_1_g" typeid="900008"/>
+    <field index="44" name="Error_Active_2_g" typeid="900008"/>
+    <field index="45" name="Error_Active_3_g" typeid="900008"/>
+    <field index="46" name="Erase_counter" typeid="100023"/>
+    <field index="47" name="VariantID_g" typeid="900008"/>
+    <field index="48" name="FunctionID_g" typeid="900005"/>
+    <field index="49" name="IDERRDATA_01" typeid="900008"/>
+    <field index="50" name="IDSPARE_01" typeid="900008"/>
+    <field index="51" name="IDRLSs_02" typeid="900008"/>
+    <field index="52" name="IDBCM1_LIN1_02" typeid="900008"/>
+    <field index="53" name="HUD_Factor_g" typeid="900008"/>
+    <field index="54" name="IDRLSs_03" typeid="900008"/>
+    <field index="55" name="IDRLSs_04" typeid="900008"/>
+    <field index="56" name="IDRLSs_05" typeid="900008"/>
+    <field index="57" name="IDRLSs_06" typeid="900008"/>
+    <field index="58" name="IDBCM1_LIN1_03" typeid="900008"/>
+    <field index="59" name="IDBCM1_LIN1_04" typeid="900008"/>
+    <field index="60" name="IDBCM1_LIN1_05" typeid="900008"/>
+    <field index="61" name="HUD_MAX_Value" typeid="900005"/>
+    <field index="62" name="HUD_MAX_Resolution" typeid="900008"/>
+    <field index="63" name="RS_Intensity_OverWipeCoef" typeid="900008"/>
+    <field index="64" name="RS_Intensity_Thr_IdleTime" typeid="900008"/>
+    <field index="65" name="RS_Intensity_SigVoltageH" typeid="900008"/>
+    <field index="66" name="RS_Intensity_SigVoltageL" typeid="900008"/>
+    <field index="67" name="SC_ORDER12" typeid="900008"/>
+    <field index="68" name="SC_ORDER3" typeid="900008"/>
+    <field index="69" name="SC_MAX" typeid="900008"/>
+  </type>
+  <type typeid="900014" typetype="UNION" ada_scope="__T138199360">
+    <field index="1" name="Bit" typeid="900015"/>
+    <field index="2" name="AllBit" typeid="900008"/>
+  </type>
+  <type typeid="900015" typetype="REC_ORD" ada_scope="__T138199192">
+    <field index="1" name="B7" typeid="900005" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="2" name="B6" typeid="900005" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="3" name="B5" typeid="900005" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="4" name="B4" typeid="900005" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="5" name="B3" typeid="900005" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="6" name="B2" typeid="900005" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="7" name="B1" typeid="900005" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="8" name="B0" typeid="900005" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+  </type>
+  <type typeid="900016" typetype="UNION" ada_scope="__T138188440">
+    <field index="1" name="_c" typeid="100034"/>
+    <field index="2" name="EEPROMStructAD" typeid="900017"/>
+  </type>
+  <type typeid="900017" typetype="REC_ORD" ada_scope="__T138187432">
+    <field index="1" name="PrametersStruct" typeid="100028"/>
+    <field index="2" name="RS_GainSetupArray" typeid="100029"/>
+    <field index="3" name="HALIOS_Clock_Control_Reg_g" typeid="900008"/>
+    <field index="4" name="ACTR_Reg_g" typeid="900008"/>
+    <field index="5" name="PCO_PI_Regulator_g" typeid="900008"/>
+    <field index="6" name="ICO1H_g" typeid="900008"/>
+    <field index="7" name="ICO1L_g" typeid="900008"/>
+    <field index="8" name="ICO2H_g" typeid="900008"/>
+    <field index="9" name="ICO2L_g" typeid="900008"/>
+    <field index="10" name="FOSC_LEDUL_g" typeid="900008"/>
+    <field index="11" name="INTCO_g" typeid="900008"/>
+    <field index="12" name="StandbyTimout" typeid="900008"/>
+    <field index="13" name="dec_st2_speicher" typeid="900008"/>
+    <field index="14" name="RS_Sensitivity" typeid="100017"/>
+    <field index="15" name="MaxOverwipeSensitivity" typeid="900008"/>
+    <field index="16" name="StandbyModeScanTime_g" typeid="900008"/>
+    <field index="17" name="RainNightBitThrs_g" typeid="900008"/>
+    <field index="18" name="Amb_Base_Day_Threshold" typeid="900008"/>
+    <field index="19" name="Amb_Base_Night_Threshold" typeid="900008"/>
+    <field index="20" name="TunnelDebounceFactor" typeid="900008"/>
+    <field index="21" name="Customer_FW_SWA_Scaling" typeid="900008"/>
+    <field index="22" name="Customer_IR_SWA_Scaling" typeid="900008"/>
+    <field index="23" name="FW_Base_Day_Threshold" typeid="900008"/>
+    <field index="24" name="IR_Base_Day_Threshold" typeid="900008"/>
+    <field index="25" name="FW_Base_Night_Threshold" typeid="900008"/>
+    <field index="26" name="IR_Base_Night_Threshold" typeid="900008"/>
+    <field index="27" name="Day_Delay" typeid="900008"/>
+    <field index="28" name="Night_Delay" typeid="900008"/>
+    <field index="29" name="AfterTunnelDelayOffs" typeid="900008"/>
+    <field index="30" name="p_v_autobahn_on_off_g" typeid="900008"/>
+    <field index="31" name="p_t_autobahn_delay_on_g" typeid="900008"/>
+    <field index="32" name="Frontwaschen_Autobahndelay_g" typeid="900008"/>
+    <field index="33" name="p_n_regenlichtschwelle_low_high_g" typeid="900008"/>
+    <field index="34" name="p_n_regenlichtschwelle_Zeit_g" typeid="900008"/>
+    <field index="35" name="TunnelThresholdScaling_g" typeid="900008"/>
+    <field index="36" name="Amb_TunnelThresholdScaling_g" typeid="900008"/>
+    <field index="37" name="spare" typeid="900008"/>
+    <field index="38" name="Regulation48LightOnTime_g" typeid="900008"/>
+    <field index="39" name="VeryBrightInTunnelDelay_g" typeid="900008"/>
+    <field index="40" name="Combined_FW_AL_THRs_g" typeid="900008"/>
+    <field index="41" name="DYN_COMP_CCD_MINUS_1_g" typeid="900008"/>
+    <field index="42" name="DYN_COMP_CCD_MINUS_2_g" typeid="900008"/>
+    <field index="43" name="maxTemperatureOffsett_g" typeid="900008"/>
+    <field index="44" name="ASIC_AFSTHR_REG_g" typeid="900008"/>
+    <field index="45" name="Diag_Request_Factor_g" typeid="900008"/>
+    <field index="46" name="cb_inc_speicher_g" typeid="900008"/>
+    <field index="47" name="I2C_Debug_Config_g" typeid="900008"/>
+    <field index="48" name="Audi_SW_Partnumber" typeid="100030"/>
+    <field index="49" name="wiperSpeedHysteresis" typeid="900008"/>
+    <field index="50" name="Proj_Specific_config" typeid="900008"/>
+    <field index="51" name="ALSx_Filter_g" typeid="900008"/>
+    <field index="52" name="IrLightTunnelThreshodRng" typeid="900008"/>
+    <field index="53" name="FwLightTunnelThresholdRng" typeid="900008"/>
+    <field index="54" name="AmbLightTunnelThresholdRng" typeid="900008"/>
+    <field index="55" name="TunWischVerzAktiv" typeid="900008"/>
+    <field index="56" name="SHTErrorDebounceJitter" typeid="900008"/>
+    <field index="57" name="SolarShadowCorrFactor1" typeid="900008"/>
+    <field index="58" name="SolarShadowCorrFactor2" typeid="900008"/>
+    <field index="59" name="E2_MaxSt2SignalLaenge" typeid="900008"/>
+    <field index="60" name="SoftwareStand" typeid="100031"/>
+    <field index="61" name="twilightToDarkTime" typeid="900008"/>
+    <field index="62" name="darkToTwilightTime" typeid="900008"/>
+    <field index="63" name="darkToTwilightThreshFW" typeid="900008"/>
+    <field index="64" name="darkToTwilightThreshAMB" typeid="900008"/>
+    <field index="65" name="twilightToDarkThreshFW" typeid="900008"/>
+    <field index="66" name="twilightToDarkThreshAMB" typeid="900008"/>
+    <field index="67" name="iceDetectionTemperature" typeid="900008"/>
+    <field index="68" name="Regulation48ThresholdAmb_g" typeid="900008"/>
+    <field index="69" name="Regulation48ThresholdFw_g" typeid="900008"/>
+    <field index="70" name="Threshold_TempIceRisk" typeid="900008"/>
+    <field index="71" name="upperTolerance_StartupWipe" typeid="900008"/>
+    <field index="72" name="unused" typeid="100032"/>
+  </type>
+  <type typeid="900018" typetype="UNION" ada_scope="__T138197512">
+    <field index="1" name="_c" typeid="100058"/>
+    <field index="2" name="cemcem_lin1fr05_cem_lin1" typeid="900019"/>
+  </type>
+  <type typeid="900019" typetype="REC_ORD" ada_scope="__T138194320">
+    <field index="1" name="unused0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="2" name="unused1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="3" name="unused2" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="4" name="EnaOfflineMonitor_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="5" name="unused3" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="31" max="63"/>
+    </field>
+    <field index="6" name="unused4" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="7" name="unused5" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="8" name="unused6" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="9" name="unused7" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+  </type>
+  <type typeid="900020" typetype="NOT_SUPPORTED" unsupported_type_reason="TI_STATUS_VOID_TYPES_ARE_UNTESTABLE"/>
+  <type typeid="900021" typetype="UNION" ada_scope="tLinConfirmationBits">
+    <field index="1" name="_c" typeid="100036"/>
+    <field index="2" name="w" typeid="100004"/>
+  </type>
+  <type typeid="900022" typetype="UNION" ada_scope="__T138196504">
+    <field index="1" name="_c" typeid="100011"/>
+    <field index="2" name="rlsmcem_lin1fr01_cem_lin1" typeid="900023"/>
+  </type>
+  <type typeid="900023" typetype="REC_ORD" ada_scope="__T138193648">
+    <field index="1" name="AutWinWipgCmd_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="3" max="7"/>
+    </field>
+    <field index="2" name="HudSnsrErrParChk_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="3" name="HudSnsrErrSnsrErr_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="4" name="unused0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="5" name="RainLi_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="6" name="RainSnsrErrCalErrActv_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="7" name="RainSnsrErrCalErr_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="8" name="RainSnsrErrRainDetnErr_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="9" name="RainSnsrErrRainDetnErrActv_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="10" name="WipgAutFrntMod_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="11" name="unused1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="12" name="ErrRespRLSM_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="13" name="unused2" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="14" name="TwliBriRawQf_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="15" name="TwliBriRawTwliBriRaw_CEM_LIN1_0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="31" max="63"/>
+    </field>
+    <field index="16" name="TwliBriRawTwliBriRaw_CEM_LIN1_1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="17" name="unused3" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="18" name="OutdBriChks_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="19" name="OutdBriSts_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="20" name="OutdBriCntr_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="21" name="unused4" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+  </type>
+  <type typeid="900024" typetype="UNION" ada_scope="__T138196168">
+    <field index="1" name="_c" typeid="100009"/>
+    <field index="2" name="rlsmcem_lin1fr03_cem_lin1" typeid="900025"/>
+  </type>
+  <type typeid="900025" typetype="REC_ORD" ada_scope="__T138193312">
+    <field index="1" name="SolarSnsrErr_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="2" name="unused0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="3" name="RainSnsrDiagcRainSnsrHiVoltDetd_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="4" name="RainSnsrDiagcRainSnsrHiTDetd_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="5" name="LiOprnMod_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="6" name="RainDetected_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="7" name="RainfallAmnt_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="8" name="unused1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="9" name="SolarSnsrLeValue_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="10" name="SolarSnsrRiValue_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="11" name="unused2" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="12" name="unused3" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="13" name="unused4" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="14" name="unused5" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+  </type>
+  <type typeid="900026" typetype="UNION" ada_scope="__T138196336">
+    <field index="1" name="_c" typeid="100010"/>
+    <field index="2" name="rlsmcem_lin1fr02_cem_lin1" typeid="900027"/>
+  </type>
+  <type typeid="900027" typetype="REC_ORD" ada_scope="__T138193480">
+    <field index="1" name="CmptFrntWindDewT_CEM_LIN1_0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="2" name="CmptFrntWindDewT_CEM_LIN1_1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="3" max="7"/>
+    </field>
+    <field index="3" name="AmbIllmnFwdStsCntr_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="4" name="unused0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="5" name="AmbIllmnFwdStsAmblillmn2_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="6" name="AmbIllmnFwdStsChks_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="7" name="AmbIllmnFwdStsAmblillmn1_CEM_LIN1_0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="8" name="AmbIllmnFwdStsAmblillmn1_CEM_LIN1_1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="9" name="unused1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="10" name="RelHumSnsrErr_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="11" name="unused2" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="1" max="3"/>
+    </field>
+    <field index="12" name="CmptFrntWindT_CEM_LIN1_0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="3" max="7"/>
+    </field>
+    <field index="13" name="CmptFrntWindT_CEM_LIN1_1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="14" name="RelHumSnsrRelHum_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+  </type>
+  <type typeid="900028" typetype="REC_ORD" ada_scope="__T138203728">
+    <field index="1" name="ad" typeid="900005"/>
+    <field index="2" name="avg" typeid="900005"/>
+  </type>
+  <type typeid="900029" typetype="UNSIGNED_LONG">
+    <range_data min="0" mid="2147483647" max="4294967295"/>
+  </type>
+  <type typeid="900030" typetype="UNION" ada_scope="__T138195664">
+    <field index="1" name="_c" typeid="100006"/>
+    <field index="2" name="rlsmcem_sernrlin1fr01_cem_lin1" typeid="900033"/>
+  </type>
+  <type typeid="900031" typetype="UNION" ada_scope="__T138195832">
+    <field index="1" name="_c" typeid="100007"/>
+    <field index="2" name="rlsmcem_lin1partnrfr02_cem_lin1" typeid="900035"/>
+  </type>
+  <type typeid="900032" typetype="UNION" ada_scope="__T138196000">
+    <field index="1" name="_c" typeid="100008"/>
+    <field index="2" name="rlsmcem_lin1partnrfr01_cem_lin1" typeid="900034"/>
+  </type>
+  <type typeid="900033" typetype="REC_ORD" ada_scope="__T138192808">
+    <field index="1" name="RLSMSerNoNr1_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="2" name="RLSMSerNoNr2_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="3" name="RLSMSerNoNr3_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="4" name="RLSMSerNoNr4_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+  </type>
+  <type typeid="900034" typetype="REC_ORD" ada_scope="__T138193144">
+    <field index="1" name="RLSMPartNoNr1_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="2" name="RLSMPartNoNr2_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="3" name="RLSMPartNoNr3_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="4" name="RLSMPartNoNr4_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="5" name="RLSMPartNoEndSgn1_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="6" name="RLSMPartNoEndSgn2_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="7" name="RLSMPartNoEndSgn3_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+  </type>
+  <type typeid="900035" typetype="REC_ORD" ada_scope="__T138192976">
+    <field index="1" name="RLSMPartNo10Nr1_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="2" name="RLSMPartNo10Nr2_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="3" name="RLSMPartNo10Nr3_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="4" name="RLSMPartNo10Nr4_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="5" name="RLSMPartNo10Nr5_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="6" name="RLSMPartNo10EndSgn1_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="7" name="RLSMPartNo10EndSgn2_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="8" name="RLSMPartNo10EndSgn3_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+  </type>
+  <type typeid="900036" typetype="UNION" ada_scope="__T138198184">
+    <field index="1" name="_c" typeid="100062"/>
+    <field index="2" name="cemcem_lin1fr03_cem_lin1" typeid="900037"/>
+  </type>
+  <type typeid="900037" typetype="REC_ORD" ada_scope="__T138194656">
+    <field index="1" name="RainSnsrSnvtyForUsrSnvty0_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="2" name="RainSnsrSnvtyForUsrSnvty1_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="3" name="RainSnsrSnvtyForUsrSnvty2_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="4" name="RainSnsrSnvtyForUsrSnvty3_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="5" name="RainSnsrSnvtyForUsrSnvty4_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="6" name="RainSnsrSnvtyForUsrSnvty5_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="7" name="RainSnsrSnvtyForUsrSnvty6_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="8" name="VehTyp_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="9" name="WindCorrnValAmb_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="10" name="WindCorrnValFrnt_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="11" name="WindCorrnValHud_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="12" name="FrqCfg_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="13" name="ReAdaptReq_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="14" name="unused0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="3" max="7"/>
+    </field>
+  </type>
+  <type typeid="900038" typetype="UNION" ada_scope="__T138198520">
+    <field index="1" name="_c" typeid="100064"/>
+    <field index="2" name="cemcem_lin1fr02_cem_lin1" typeid="900039"/>
+  </type>
+  <type typeid="900039" typetype="REC_ORD" ada_scope="__T138194824">
+    <field index="1" name="AmbTForVisy_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="2" name="unused0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="3" name="unused1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="4" name="unused2" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="5" name="unused3" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="6" name="unused4" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="7" name="unused5" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+  </type>
+  <type typeid="900040" typetype="UNION" ada_scope="__T138197848">
+    <field index="1" name="_c" typeid="100060"/>
+    <field index="2" name="cemcem_lin1fr04_cem_lin1" typeid="900041"/>
+  </type>
+  <type typeid="900041" typetype="REC_ORD" ada_scope="__T138194488">
+    <field index="1" name="unused0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="2" name="unused1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="3" name="unused2" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="4" name="unused3" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="5" name="unused4" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+    <field index="6" name="unused5" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="7" name="RainSnsrLiThd_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="8" name="unused6" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="127" max="255"/>
+    </field>
+  </type>
+  <type typeid="900042" typetype="UNION" ada_scope="__T138197176">
+    <field index="1" name="_c" typeid="100056"/>
+    <field index="2" name="cemcem_lin1fr06_cem_lin1" typeid="900043"/>
+  </type>
+  <type typeid="900043" typetype="REC_ORD" ada_scope="__T138194152">
+    <field index="1" name="unused0" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="7" max="15"/>
+    </field>
+    <field index="2" name="WiprActv_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="3" name="WiprInPrkgPosnLo_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="4" name="WiprInWipgAr_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+    <field index="5" name="WshngCycActv_CEM_LIN1" typeid="900008" is_bitfield="1">
+      <range_data min="0" mid="0" max="1"/>
+    </field>
+  </type>
+  <type typeid="900044" typetype="REC_ORD" ada_scope="__T138187096">
+    <field index="1" name="Stufe1_OG" typeid="900008"/>
+    <field index="2" name="Stufe1_UG" typeid="900008"/>
+    <field index="3" name="Ep_St2_Epr_In_St2" typeid="900008"/>
+    <field index="4" name="Schwelle_Schwall" typeid="900008"/>
+    <field index="5" name="CW_AnsamlungAdditOffset" typeid="900008"/>
+    <field index="6" name="dec_Int_Sp_off" typeid="900008"/>
+    <field index="7" name="Dec_Stx_Speicher" typeid="900008"/>
+    <field index="8" name="dec_Ovr_Speicher" typeid="900008"/>
+    <field index="9" name="Empf_Faktor_ST2_Offs" typeid="900008"/>
+    <field index="10" name="Max_Signallaenge" typeid="900008"/>
+    <field index="11" name="rb_Stufe1_with_Int_og" typeid="900008"/>
+    <field index="12" name="Nachwisch_4_ST1_min" typeid="900008"/>
+    <field index="13" name="Nachwisch_3" typeid="900008"/>
+    <field index="14" name="Nachwisch_2" typeid="900008"/>
+    <field index="15" name="RSEmpfFactorScaling" typeid="900008"/>
+    <field index="16" name="SchlierenFlag1" typeid="900008"/>
+    <field index="17" name="sig_ans_schw_offs" typeid="900008"/>
+  </type>
+  <type typeid="900045" typetype="UNION" ada_scope="__T138199360">
+    <field index="1" name="Bit" typeid="900015"/>
+    <field index="2" name="AllBit" typeid="900008"/>
+  </type>
+</typefile>

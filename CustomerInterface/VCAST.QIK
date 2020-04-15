@@ -1,0 +1,119 @@
+--  QuickParse File Version: QP_COI_WS  --
+HOME_DIRECTORY C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\CustomerInterface
+BEGIN_RECORD G5_RLS_LIN_GEELY2DOT0.c
+CHECKSUM  3970937400
+BLACKLIST FALSE
+DEFINED_OBJECTS
+   ApplLinInit
+   ApplLinSlavePreCopy
+   CopyRLSData
+   GetLeWWS
+   GetLsWWS
+CALLED_OBJECTS
+   Check_StartupActiveErrors
+   CopyRLSDataAsic
+   get_rb_LEDx_LStop_error_cnt_g
+   get_rb_LightSignalErrorCnt_g
+   get_rb_LightVetoCounter_g
+   get_rb_VDD_LightSignalErrorCnt_g
+   get_rl_HUD_light32bit_g
+   get_rw_Amb_light16bit_g
+   get_rw_IR_light16bit_g
+   sci_init
+CALLED_OBJECTS_FOR_GLOBAL_DATA
+STATIC_MEMBERS_DECLARED
+STATIC_MEMBERS_NEEDED
+GLOBAL_OBJECTS_NEEDED
+   CemCem_Lin1Fr01_CEM_LIN1
+   CemCem_Lin1Fr02_CEM_LIN1
+   CemCem_Lin1Fr03_CEM_LIN1
+   CemCem_Lin1Fr04_CEM_LIN1
+   CemCem_Lin1Fr05_CEM_LIN1
+   CemCem_Lin1Fr06_CEM_LIN1
+   EEPROM_Struct_AD
+   EEPROM_Struct_PD
+   RSStatus
+   RlsmCem_Lin1Fr01_CEM_LIN1
+   RlsmCem_Lin1Fr02_CEM_LIN1
+   RlsmCem_Lin1Fr03_CEM_LIN1
+   RlsmCem_Lin1PartNrFr01_CEM_LIN1
+   RlsmCem_Lin1PartNrFr02_CEM_LIN1
+   RlsmCem_SerNrLin1Fr01_CEM_LIN1
+   rab_EEPROM_Bytes_toWrite_g
+   ras_ASIC_MUX_MeasAD_g
+   rb_ASIC_ALS2Amb_ShortDetected_cnt_g
+   rb_ASIC_ALS5FW_ShortDetected_cnt_g
+   rb_ASIC_ALSx_ShortDetected_Error_g
+   rb_ASIC_INRECIR_ShortDetected_cnt_g
+   rb_ASIC_SPI_ErrorCodeCnt_g
+   rb_ASIC_initTimeout_g
+   rb_ClockFreq_Error_cnt_g
+   rb_Humidity_g
+   rb_Humidity_raw_g
+   rb_I2C_EEPROM_bytesToWrite_g
+   rb_InternalTemperature_g
+   rb_LIN_SensitivityShift_g
+   rb_LSPotiStage_g
+   rb_LightS_Error1_g
+   rb_LimitMemomryNoWiperReaction_g
+   rb_PotiStageFromBox_g
+   rb_RS_LS_Error1_g
+   rb_RS_LS_Error2_g
+   rb_RainInt_IntensityOutput_g
+   rb_RainS_Error1_g
+   rb_StaticNoValidAD_cnt_g
+   rb_VIref_ErrCnt_g
+   rb_WDG_BusTaskCounter_g
+   rb_WakeupCounter_mg
+   rb_WiperSpeedAlt_g
+   rb_WiperSpeed_g
+   rb_overWipeCoef
+   rb_speed_in_kmh_g
+   rbi_HumTempComError_g
+   rbi_WiperStarted_g
+   rub_IntermDelayTime
+   rub_RSIntermDelayInit
+   rw_DewPoint_g
+   rw_EEPROM_Address_to_Write_g
+   rw_SPINoCommCounter_g
+   rw_Solar_light16bit_1_g
+   rw_Solar_light16bit_2_g
+   rw_StandbyTimeOutCnt_g
+   rw_Temperature_raw_g
+   uF_ASIC_ControlFlags_g
+   uF_ASIC_Ctrl_Error_Flags_g
+   uF_ASIC_Error_Flags1_g
+   uF_ASIC_Error_Flags_g
+   uF_Check_lightsensor_g
+   uF_Diagnose_pre_Flag
+   uF_E2ConfigErrorFlags_g
+   uF_GainAdjustFlags_g
+   uF_LIN_DiagReq2_mg
+   uF_LightInternalStatus_g
+   uF_Main_Flags_g
+   uF_StatusRainsensor2_mg
+   uF_StatusRainsensor_mg
+   uF_VoltageStatus_g
+   uF_modi_lightsens_g
+   uF_uC_Error_g
+   uLinConfirmationFlags
+   uLinIndicationFlags
+GLOBAL_OBJECTS_DEFINED
+   rb_LIN_BIT_ERROR_COUNTER_g
+   rb_LIN_CHECKSUMERROR_COUNTER_g
+   rb_LIN_FRAMINGERROR_COUNTER_g
+   rb_LIN_NORESPONSE_COUNTER_g
+   rb_LIN_OVERTFRAMEMAX_COUNTER_g
+   rb_LIN_OVERTHEADERMAX_COUNTER_g
+   rb_LastLINErrorCode_g
+   rb_Release_IntervalMarker_Update_g
+   rb_intervaltime_rainSensorOff_g
+   rw_NoCommunicationCounter_g
+   uF_Butterfly_Flags_g
+   uF_Communication_mg
+   uF_SCIFlags_mg
+CONSTRUCTORS_NEEDED
+ALL_TESTABLE_CLASSES
+DEFAULT_TESTABLE_CLASSES
+INCLUDES
+END_RECORD G5_RLS_LIN_GEELY2DOT0.c

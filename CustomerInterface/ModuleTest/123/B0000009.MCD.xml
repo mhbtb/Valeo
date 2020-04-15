@@ -1,0 +1,3490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unit_mcdc_tables index="9" mcdversion="3" pruneEquiv="1">
+  <sub idx="1">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>197</ln>
+      <act>(CemCem_Lin1Fr05_CEM_LIN1.cemcem_lin1fr05_cem_lin1).EnaOfflineMonitor_CEM_LIN1 == 1</act>
+      <ops>
+        <op subc="a">(CemCem_Lin1Fr05_CEM_LIN1.cemcem_lin1fr05_cem_lin1).EnaOfflineMonitor_CEM_LIN1 == 1</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="2">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>200</ln>
+      <act>(uF_VoltageStatus_g.Bit).B2 == 0</act>
+      <ops>
+        <op subc="a">(uF_VoltageStatus_g.Bit).B2 == 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="3">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>203</ln>
+      <act>rb_Verglasun_offenDebounce_mg &lt; 0xff</act>
+      <ops>
+        <op subc="a">rb_Verglasun_offenDebounce_mg &lt; 0xff</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="6">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>211</ln>
+      <act>(CemCem_Lin1Fr05_CEM_LIN1.cemcem_lin1fr05_cem_lin1).EnaOfflineMonitor_CEM_LIN1 == 0</act>
+      <ops>
+        <op subc="a">(CemCem_Lin1Fr05_CEM_LIN1.cemcem_lin1fr05_cem_lin1).EnaOfflineMonitor_CEM_LIN1 == 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="7">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>215</ln>
+      <act>rb_Verglasun_ClosedDebounce_mg &lt; 0xff</act>
+      <ops>
+        <op subc="a">rb_Verglasun_ClosedDebounce_mg &lt; 0xff</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="10">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>225</ln>
+      <act>((uLinIndicationFlags.w)[0]).b5 != 0</act>
+      <ops>
+        <op subc="a">((uLinIndicationFlags.w)[0]).b5 != 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="16">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>235</ln>
+      <act>((uLinIndicationFlags.w)[0]).b4 != 0</act>
+      <ops>
+        <op subc="a">((uLinIndicationFlags.w)[0]).b4 != 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="24">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>248</ln>
+      <act>((uLinIndicationFlags.w)[0]).b3 != 0</act>
+      <ops>
+        <op subc="a">((uLinIndicationFlags.w)[0]).b3 != 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="30">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>258</ln>
+      <act>((uLinIndicationFlags.w)[0]).b2 != 0</act>
+      <ops>
+        <op subc="a">((uLinIndicationFlags.w)[0]).b2 != 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="34">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>266</ln>
+      <act>((uLinIndicationFlags.w)[0]).b1 != 0</act>
+      <ops>
+        <op subc="a">((uLinIndicationFlags.w)[0]).b1 != 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="38">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>273</ln>
+      <act>!(CemCem_Lin1Fr06_CEM_LIN1.cemcem_lin1fr06_cem_lin1).WiprInWipgAr_CEM_LIN1</act>
+      <ops>
+        <op subc="a">(CemCem_Lin1Fr06_CEM_LIN1.cemcem_lin1fr06_cem_lin1).WiprInWipgAr_CEM_LIN1</op>
+      </ops>
+      <sim>! a</sim>
+      <res idx="1">F</res>
+      <res idx="2">T</res>
+    </con>
+    <con idx="39">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>275</ln>
+      <act>(CemCem_Lin1Fr06_CEM_LIN1.cemcem_lin1fr06_cem_lin1).WshngCycActv_CEM_LIN1</act>
+      <ops>
+        <op subc="a">(CemCem_Lin1Fr06_CEM_LIN1.cemcem_lin1fr06_cem_lin1).WshngCycActv_CEM_LIN1</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="41">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>280</ln>
+      <act>(uF_StatusRainsensor_mg.Bit).B7 == 1</act>
+      <ops>
+        <op subc="a">(uF_StatusRainsensor_mg.Bit).B7 == 1</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="43">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>288</ln>
+      <act>((uLinIndicationFlags.w)[0]).b6 != 0</act>
+      <ops>
+        <op subc="a">((uLinIndicationFlags.w)[0]).b6 != 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="50">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>298</ln>
+      <act>(CemCem_Lin1Fr01_CEM_LIN1.cemcem_lin1fr01_cem_lin1).VehSpdForWipg_CEM_LIN1 == 0xff</act>
+      <ops>
+        <op subc="a">(CemCem_Lin1Fr01_CEM_LIN1.cemcem_lin1fr01_cem_lin1).VehSpdForWipg_CEM_LIN1 == 0xff</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="52">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>306</ln>
+      <act>rb_speed_in_kmh_g &gt;= 10</act>
+      <ops>
+        <op subc="a">rb_speed_in_kmh_g &gt;= 10</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="54">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>311</ln>
+      <act>(CemCem_Lin1Fr01_CEM_LIN1.cemcem_lin1fr01_cem_lin1).WipgPwrActvnSafeWipgPwrAcsyModSafe_CEM_LIN1 == 2</act>
+      <ops>
+        <op subc="a">(CemCem_Lin1Fr01_CEM_LIN1.cemcem_lin1fr01_cem_lin1).WipgPwrActvnSafeWipgPwrAcsyModSafe_CEM_LIN1 == 2</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="55">
+      <subc letter="a">
+        <pr a="2">
+          <b>4</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="3">
+          <b>4</b>
+        </pr>
+      </subc>
+      <ln>314</ln>
+      <act>rb_KL15_mg == 1 || rb_speed_in_kmh_g &gt; 4</act>
+      <ops>
+        <op subc="a">rb_KL15_mg == 1</op>
+        <op subc="b">rb_speed_in_kmh_g &gt; 4</op>
+      </ops>
+      <sim>(a || b)</sim>
+      <res idx="2">T</res>
+      <res idx="3">T</res>
+      <res idx="4">F</res>
+    </con>
+    <con idx="59">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>321</ln>
+      <act>rb_IgnitionOndelay_mg &lt; 250</act>
+      <ops>
+        <op subc="a">rb_IgnitionOndelay_mg &lt; 250</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="61">
+      <subc letter="a">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>326</ln>
+      <act>((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x40) &gt; 0 == 0 &amp;&amp; rb_AfterResetCounter_l &gt; 10</act>
+      <ops>
+        <op subc="a">((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x40) &gt; 0 == 0</op>
+        <op subc="b">rb_AfterResetCounter_l &gt; 10</op>
+      </ops>
+      <sim>(a &amp;&amp; b)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+    </con>
+    <con idx="62">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>328</ln>
+      <act>((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x40) &gt; 0</act>
+      <ops>
+        <op subc="a">((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x40) &gt; 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="63">
+      <subc letter="a">
+        <pr a="2">
+          <b>6</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="2">
+          <b>4</b>
+        </pr>
+      </subc>
+      <subc letter="c">
+        <pr a="3">
+          <b>4</b>
+        </pr>
+        <pr a="5">
+          <b>6</b>
+        </pr>
+        <pr a="7">
+          <b>8</b>
+        </pr>
+      </subc>
+      <ln>332</ln>
+      <act>(CemCem_Lin1Fr01_CEM_LIN1.cemcem_lin1fr01_cem_lin1).RainSensActvn_CEM_LIN1 == 1 &amp;&amp; (CemCem_Lin1Fr01_CEM_LIN1.cemcem_lin1fr01_cem_lin1).WiprMotFrntLvrCmdSafeLvrInIntlPosn_CEM_LIN1 == 1 || ((EEPROM_Struct_PD.EEPROMStructPD).RSControlFlags &amp; 0x40) &gt; 0 != 0</act>
+      <ops>
+        <op subc="a">(CemCem_Lin1Fr01_CEM_LIN1.cemcem_lin1fr01_cem_lin1).RainSensActvn_CEM_LIN1 == 1</op>
+        <op subc="b">(CemCem_Lin1Fr01_CEM_LIN1.cemcem_lin1fr01_cem_lin1).WiprMotFrntLvrCmdSafeLvrInIntlPosn_CEM_LIN1 == 1</op>
+        <op subc="c">((EEPROM_Struct_PD.EEPROMStructPD).RSControlFlags &amp; 0x40) &gt; 0 != 0</op>
+      </ops>
+      <sim>((a &amp;&amp; b) || c)</sim>
+      <res idx="2">T</res>
+      <res idx="3">T</res>
+      <res idx="4">F</res>
+      <res idx="5">T</res>
+      <res idx="6">F</res>
+      <res idx="7">T</res>
+      <res idx="8">F</res>
+    </con>
+    <con idx="64">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>336</ln>
+      <act>((EEPROM_Struct_PD.EEPROMStructPD).RSControlFlags &amp; 0x40) &gt; 0</act>
+      <ops>
+        <op subc="a">((EEPROM_Struct_PD.EEPROMStructPD).RSControlFlags &amp; 0x40) &gt; 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="68">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>351</ln>
+      <act>(CemCem_Lin1Fr01_CEM_LIN1.cemcem_lin1fr01_cem_lin1).WiprMotFrntLvrCmdSafeLvrInIntlPosn_CEM_LIN1 == 1</act>
+      <ops>
+        <op subc="a">(CemCem_Lin1Fr01_CEM_LIN1.cemcem_lin1fr01_cem_lin1).WiprMotFrntLvrCmdSafeLvrInIntlPosn_CEM_LIN1 == 1</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="69">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>354</ln>
+      <act>rb_IntervalOnOndelay_mg &gt; 15</act>
+      <ops>
+        <op subc="a">rb_IntervalOnOndelay_mg &gt; 15</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="80">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>379</ln>
+      <act>(CemCem_Lin1Fr01_CEM_LIN1.cemcem_lin1fr01_cem_lin1).WiprMotIntlCmd_CEM_LIN1 &gt;= 7</act>
+      <ops>
+        <op subc="a">(CemCem_Lin1Fr01_CEM_LIN1.cemcem_lin1fr01_cem_lin1).WiprMotIntlCmd_CEM_LIN1 &gt;= 7</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="81">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>385</ln>
+      <act>rw_NoCommunicationCounter_g &gt; ((EEPROM_Struct_AD.EEPROMStructAD).p_t_autobahn_delay_on_g &gt;&gt; 5 &amp; 0x7) * 100 + 200</act>
+      <ops>
+        <op subc="a">rw_NoCommunicationCounter_g &gt; ((EEPROM_Struct_AD.EEPROMStructAD).p_t_autobahn_delay_on_g &gt;&gt; 5 &amp; 0x7) * 100 + 200</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="82">
+      <subc letter="a">
+        <pr a="2">
+          <b>4</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="3">
+          <b>4</b>
+        </pr>
+      </subc>
+      <ln>388</ln>
+      <act>(uF_SCIFlags_mg.Bit).B4 == 0 || (uF_ASIC_ControlFlags_g.Bit).B4 == 0</act>
+      <ops>
+        <op subc="a">(uF_SCIFlags_mg.Bit).B4 == 0</op>
+        <op subc="b">(uF_ASIC_ControlFlags_g.Bit).B4 == 0</op>
+      </ops>
+      <sim>(a || b)</sim>
+      <res idx="2">T</res>
+      <res idx="3">T</res>
+      <res idx="4">F</res>
+    </con>
+    <con idx="83">
+      <subc letter="a">
+        <pr a="1">
+          <b>9</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>5</b>
+        </pr>
+      </subc>
+      <subc letter="c">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="d">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>392</ln>
+      <act>((uF_VoltageStatus_g.Bit).B2 == 0 &amp;&amp; (rb_Verglasun_offenDebounce_mg &gt; 100 &amp;&amp; ((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x4) &gt; 0 == 1)) &amp;&amp; (uF_SCIFlags_mg.Bit).B4 == 0</act>
+      <ops>
+        <op subc="a">(uF_VoltageStatus_g.Bit).B2 == 0</op>
+        <op subc="b">rb_Verglasun_offenDebounce_mg &gt; 100</op>
+        <op subc="c">((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x4) &gt; 0 == 1</op>
+        <op subc="d">(uF_SCIFlags_mg.Bit).B4 == 0</op>
+      </ops>
+      <sim>((a &amp;&amp; (b &amp;&amp; c)) &amp;&amp; d)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+      <res idx="5">F</res>
+      <res idx="9">F</res>
+    </con>
+    <con idx="84">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>397</ln>
+      <act>((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x4) &gt; 0</act>
+      <ops>
+        <op subc="a">((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x4) &gt; 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="88">
+      <subc letter="a">
+        <pr a="2">
+          <b>4</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="3">
+          <b>4</b>
+        </pr>
+      </subc>
+      <ln>411</ln>
+      <act>(CemCem_Lin1Fr05_CEM_LIN1.cemcem_lin1fr05_cem_lin1).EnaOfflineMonitor_CEM_LIN1 == 0 || rw_CommandCloseWindowTimout_mg &gt; (6000)</act>
+      <ops>
+        <op subc="a">(CemCem_Lin1Fr05_CEM_LIN1.cemcem_lin1fr05_cem_lin1).EnaOfflineMonitor_CEM_LIN1 == 0</op>
+        <op subc="b">rw_CommandCloseWindowTimout_mg &gt; (6000)</op>
+      </ops>
+      <sim>(a || b)</sim>
+      <res idx="2">T</res>
+      <res idx="3">T</res>
+      <res idx="4">F</res>
+    </con>
+    <con idx="94">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>423</ln>
+      <act>rb_WakeupCounter_mg == 0</act>
+      <ops>
+        <op subc="a">rb_WakeupCounter_mg == 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="100">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>437</ln>
+      <act>rw_NoCommunicationCounter_g &gt;= (((EEPROM_Struct_AD.EEPROMStructAD).p_t_autobahn_delay_on_g &gt;&gt; 5 &amp; 0x7) * 100 + 200) - 3</act>
+      <ops>
+        <op subc="a">rw_NoCommunicationCounter_g &gt;= (((EEPROM_Struct_AD.EEPROMStructAD).p_t_autobahn_delay_on_g &gt;&gt; 5 &amp; 0x7) * 100 + 200) - 3</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="104">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>447</ln>
+      <act>(cab_PotistageMapping_mg)[((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x38) &gt;&gt; 3] + rb_Empfindlichkeit_LS_l &gt; 3</act>
+      <ops>
+        <op subc="a">(cab_PotistageMapping_mg)[((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x38) &gt;&gt; 3] + rb_Empfindlichkeit_LS_l &gt; 3</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="106">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>451</ln>
+      <act>rb_LSPotiStage_g &gt; 7</act>
+      <ops>
+        <op subc="a">rb_LSPotiStage_g &gt; 7</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="109">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>461</ln>
+      <act>rb_AfterResetCounter_l &lt; 250</act>
+      <ops>
+        <op subc="a">rb_AfterResetCounter_l &lt; 250</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="111">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>466</ln>
+      <act>rw_IgnitionOffDelay_mg &lt; (1000)</act>
+      <ops>
+        <op subc="a">rw_IgnitionOffDelay_mg &lt; (1000)</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="2">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>497</ln>
+      <act>rb_WiperSpeed_g &gt; 0 &amp;&amp; (uF_SCIFlags_mg.Bit).B6 == 1</act>
+      <ops>
+        <op subc="a">rb_WiperSpeed_g &gt; 0</op>
+        <op subc="b">(uF_SCIFlags_mg.Bit).B6 == 1</op>
+      </ops>
+      <sim>(a &amp;&amp; b)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+    </con>
+    <con idx="2">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>501</ln>
+      <act>rw_WipeCommandTimOut_mg &lt;= (400)</act>
+      <ops>
+        <op subc="a">rw_WipeCommandTimOut_mg &lt;= (400)</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="5">
+      <subc letter="a">
+        <pr a="2">
+          <b>6</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="2">
+          <b>4</b>
+        </pr>
+      </subc>
+      <subc letter="c">
+        <pr a="3">
+          <b>4</b>
+        </pr>
+        <pr a="5">
+          <b>6</b>
+        </pr>
+        <pr a="7">
+          <b>8</b>
+        </pr>
+      </subc>
+      <ln>511</ln>
+      <act>(CemCem_Lin1Fr01_CEM_LIN1.cemcem_lin1fr01_cem_lin1).WiprMotFrntLvrCmdSafeLvrInIntlPosn_CEM_LIN1 == 0 &amp;&amp; (uF_SCIFlags_mg.Bit).B6 == 1 || rw_WipeCommandTimOut_mg &gt; (400)</act>
+      <ops>
+        <op subc="a">(CemCem_Lin1Fr01_CEM_LIN1.cemcem_lin1fr01_cem_lin1).WiprMotFrntLvrCmdSafeLvrInIntlPosn_CEM_LIN1 == 0</op>
+        <op subc="b">(uF_SCIFlags_mg.Bit).B6 == 1</op>
+        <op subc="c">rw_WipeCommandTimOut_mg &gt; (400)</op>
+      </ops>
+      <sim>((a &amp;&amp; b) || c)</sim>
+      <res idx="2">T</res>
+      <res idx="3">T</res>
+      <res idx="4">F</res>
+      <res idx="5">T</res>
+      <res idx="6">F</res>
+      <res idx="7">T</res>
+      <res idx="8">F</res>
+    </con>
+    <con idx="6">
+      <subc letter="a">
+        <pr a="2">
+          <b>4</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="3">
+          <b>4</b>
+        </pr>
+      </subc>
+      <ln>518</ln>
+      <act>rb_WiperSpeed_g &gt; 0 || (uF_StatusRainsensor_mg.Bit).B7 == 0</act>
+      <ops>
+        <op subc="a">rb_WiperSpeed_g &gt; 0</op>
+        <op subc="b">(uF_StatusRainsensor_mg.Bit).B7 == 0</op>
+      </ops>
+      <sim>(a || b)</sim>
+      <res idx="2">T</res>
+      <res idx="3">T</res>
+      <res idx="4">F</res>
+    </con>
+    <con idx="7">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>522</ln>
+      <act>rb_parkpositioncounter_s &gt; 10</act>
+      <ops>
+        <op subc="a">rb_parkpositioncounter_s &gt; 10</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="10">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>529</ln>
+      <act>rb_parkpositioncounter_s &gt; (cab_WiperMotorRunntime_mg)[rb_WiperSpeed_g]</act>
+      <ops>
+        <op subc="a">rb_parkpositioncounter_s &gt; (cab_WiperMotorRunntime_mg)[rb_WiperSpeed_g]</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="14">
+      <subc letter="a">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>539</ln>
+      <act>(uF_SCIFlags_mg.Bit).B6 == 0 &amp;&amp; rb_WiperSpeed_g &gt; 0</act>
+      <ops>
+        <op subc="a">(uF_SCIFlags_mg.Bit).B6 == 0</op>
+        <op subc="b">rb_WiperSpeed_g &gt; 0</op>
+      </ops>
+      <sim>(a &amp;&amp; b)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+    </con>
+    <con idx="16">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>545</ln>
+      <act>(uF_SCIFlags_mg.Bit).B6 == 1</act>
+      <ops>
+        <op subc="a">(uF_SCIFlags_mg.Bit).B6 == 1</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="17">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>548</ln>
+      <act>(uF_StatusRainsensor_mg.Bit).B7 == 0</act>
+      <ops>
+        <op subc="a">(uF_StatusRainsensor_mg.Bit).B7 == 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="19">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>555</ln>
+      <act>rb_parkpositioncounter_s &lt; 255</act>
+      <ops>
+        <op subc="a">rb_parkpositioncounter_s &lt; 255</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="22">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>562</ln>
+      <act>rub_IntermDelayTime &gt; 5</act>
+      <ops>
+        <op subc="a">rub_IntermDelayTime &gt; 5</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="27">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>573</ln>
+      <act>rb_parkpositioncounter_s &gt; 7</act>
+      <ops>
+        <op subc="a">rb_parkpositioncounter_s &gt; 7</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="3">
+    <con idx="2">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>604</ln>
+      <act>((uLinConfirmationFlags.w)[0]).b10 != 0</act>
+      <ops>
+        <op subc="a">((uLinConfirmationFlags.w)[0]).b10 != 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="6">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>612</ln>
+      <act>((uLinConfirmationFlags.w)[0]).b9 != 0</act>
+      <ops>
+        <op subc="a">((uLinConfirmationFlags.w)[0]).b9 != 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="11">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>621</ln>
+      <act>((uLinConfirmationFlags.w)[0]).b8 != 0</act>
+      <ops>
+        <op subc="a">((uLinConfirmationFlags.w)[0]).b8 != 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="15">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>629</ln>
+      <act>((uLinConfirmationFlags.w)[0]).b7 != 0</act>
+      <ops>
+        <op subc="a">((uLinConfirmationFlags.w)[0]).b7 != 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="20">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>638</ln>
+      <act>((uLinConfirmationFlags.w)[0]).b6 != 0</act>
+      <ops>
+        <op subc="a">((uLinConfirmationFlags.w)[0]).b6 != 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="25">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>647</ln>
+      <act>((uLinConfirmationFlags.w)[0]).b5 != 0</act>
+      <ops>
+        <op subc="a">((uLinConfirmationFlags.w)[0]).b5 != 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="30">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>656</ln>
+      <act>0 == (uF_Main_Flags_g.Bit).B6</act>
+      <ops>
+        <op subc="a">0 == (uF_Main_Flags_g.Bit).B6</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="31">
+      <subc letter="a">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>659</ln>
+      <act>0 == ((EEPROM_Struct_PD.EEPROMStructPD).RSControlFlags &amp; 0x1) &amp;&amp; 0 == ((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x40) &gt; 0</act>
+      <ops>
+        <op subc="a">0 == ((EEPROM_Struct_PD.EEPROMStructPD).RSControlFlags &amp; 0x1)</op>
+        <op subc="b">0 == ((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x40) &gt; 0</op>
+      </ops>
+      <sim>(a &amp;&amp; b)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+    </con>
+    <con idx="32">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>661</ln>
+      <act>((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x40) &gt; 0</act>
+      <ops>
+        <op subc="a">((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x40) &gt; 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="4">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>702</ln>
+      <act>rb_IgnitionOndelay_mg &lt; 50</act>
+      <ops>
+        <op subc="a">rb_IgnitionOndelay_mg &lt; 50</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="4">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>708</ln>
+      <act>(uF_SCIFlags_mg.Bit).B6 == 0</act>
+      <ops>
+        <op subc="a">(uF_SCIFlags_mg.Bit).B6 == 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="5">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>711</ln>
+      <act>rb_OutOffParkCounter_mg &gt; 18</act>
+      <ops>
+        <op subc="a">rb_OutOffParkCounter_mg &gt; 18</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="9">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>724</ln>
+      <act>rw_AfterWWSWipeCounter_mg &lt; (50000)</act>
+      <ops>
+        <op subc="a">rw_AfterWWSWipeCounter_mg &lt; (50000)</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="11">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>730</ln>
+      <act>rw_AfterRSWipeCounter_mg &lt; (50000)</act>
+      <ops>
+        <op subc="a">rw_AfterRSWipeCounter_mg &lt; (50000)</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="13">
+      <subc letter="a">
+        <pr a="1">
+          <b>9</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>5</b>
+        </pr>
+      </subc>
+      <subc letter="c">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="d">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>737</ln>
+      <act>((rw_AfterRSWipeCounterAlt_mg &lt;= rw_tunnelWischVerzoegerung_l &amp;&amp; rb_speed_in_kmh_g &gt; 29) &amp;&amp; (uF_modi_lightsens_g.Bit).B2 == 1) &amp;&amp; rub_RSIntermDelayInit == 0xff</act>
+      <ops>
+        <op subc="a">rw_AfterRSWipeCounterAlt_mg &lt;= rw_tunnelWischVerzoegerung_l</op>
+        <op subc="b">rb_speed_in_kmh_g &gt; 29</op>
+        <op subc="c">(uF_modi_lightsens_g.Bit).B2 == 1</op>
+        <op subc="d">rub_RSIntermDelayInit == 0xff</op>
+      </ops>
+      <sim>(((a &amp;&amp; b) &amp;&amp; c) &amp;&amp; d)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+      <res idx="5">F</res>
+      <res idx="9">F</res>
+    </con>
+    <con idx="14">
+      <subc letter="a">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>746</ln>
+      <act>(uF_Communication_mg.Bit).B4 == 0 &amp;&amp; rw_AfterRSWipeCounter_mg &lt; rw_tunnelWischAktivierung_l</act>
+      <ops>
+        <op subc="a">(uF_Communication_mg.Bit).B4 == 0</op>
+        <op subc="b">rw_AfterRSWipeCounter_mg &lt; rw_tunnelWischAktivierung_l</op>
+      </ops>
+      <sim>(a &amp;&amp; b)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+    </con>
+    <con idx="17">
+      <subc letter="a">
+        <pr a="1">
+          <b>5</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="c">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>758</ln>
+      <act>(rw_AfterRSWipeCounter_mg &gt;= rw_AfterRSWipeCounterAlt_mg &amp;&amp; rb_tunnelWipeActive_g == 1) &amp;&amp; rb_WiperSpeed_g == 0</act>
+      <ops>
+        <op subc="a">rw_AfterRSWipeCounter_mg &gt;= rw_AfterRSWipeCounterAlt_mg</op>
+        <op subc="b">rb_tunnelWipeActive_g == 1</op>
+        <op subc="c">rb_WiperSpeed_g == 0</op>
+      </ops>
+      <sim>((a &amp;&amp; b) &amp;&amp; c)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+      <res idx="5">F</res>
+    </con>
+    <con idx="23">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>771</ln>
+      <act>(CemCem_Lin1Fr06_CEM_LIN1.cemcem_lin1fr06_cem_lin1).WshngCycActv_CEM_LIN1 != 1</act>
+      <ops>
+        <op subc="a">(CemCem_Lin1Fr06_CEM_LIN1.cemcem_lin1fr06_cem_lin1).WshngCycActv_CEM_LIN1 != 1</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="28">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>786</ln>
+      <act>(uF_Communication_mg.Bit).B3 == 1</act>
+      <ops>
+        <op subc="a">(uF_Communication_mg.Bit).B3 == 1</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="29">
+      <subc letter="a">
+        <pr a="2">
+          <b>4</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="3">
+          <b>4</b>
+        </pr>
+      </subc>
+      <ln>790</ln>
+      <act>(uF_StatusRainsensor_mg.Bit).B7 == 0 || rb_TunnelWipeTimeOut_mg &gt;= 50</act>
+      <ops>
+        <op subc="a">(uF_StatusRainsensor_mg.Bit).B7 == 0</op>
+        <op subc="b">rb_TunnelWipeTimeOut_mg &gt;= 50</op>
+      </ops>
+      <sim>(a || b)</sim>
+      <res idx="2">T</res>
+      <res idx="3">T</res>
+      <res idx="4">F</res>
+    </con>
+    <con idx="33">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>802</ln>
+      <act>(CemCem_Lin1Fr06_CEM_LIN1.cemcem_lin1fr06_cem_lin1).WshngCycActv_CEM_LIN1 != 1</act>
+      <ops>
+        <op subc="a">(CemCem_Lin1Fr06_CEM_LIN1.cemcem_lin1fr06_cem_lin1).WshngCycActv_CEM_LIN1 != 1</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="38">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>819</ln>
+      <act>(CemCem_Lin1Fr01_CEM_LIN1.cemcem_lin1fr01_cem_lin1).WiprMotFrntLvrCmdSafeLvrInIntlPosn_CEM_LIN1 == 1</act>
+      <ops>
+        <op subc="a">(CemCem_Lin1Fr01_CEM_LIN1.cemcem_lin1fr01_cem_lin1).WiprMotFrntLvrCmdSafeLvrInIntlPosn_CEM_LIN1 == 1</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="39">
+      <subc letter="a">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>822</ln>
+      <act>rb_WiperSpeed_g != 0 &amp;&amp; rb_WipeWorkStatus_mg == 1</act>
+      <ops>
+        <op subc="a">rb_WiperSpeed_g != 0</op>
+        <op subc="b">rb_WipeWorkStatus_mg == 1</op>
+      </ops>
+      <sim>(a &amp;&amp; b)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+    </con>
+    <con idx="40">
+      <subc letter="a">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>826</ln>
+      <act>(RSStatus.Bit).B5 == 0 &amp;&amp; (RSStatus.Bit).B6 == 0</act>
+      <ops>
+        <op subc="a">(RSStatus.Bit).B5 == 0</op>
+        <op subc="b">(RSStatus.Bit).B6 == 0</op>
+      </ops>
+      <sim>(a &amp;&amp; b)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+    </con>
+    <con idx="44">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>843</ln>
+      <act>(CemCem_Lin1Fr06_CEM_LIN1.cemcem_lin1fr06_cem_lin1).WshngCycActv_CEM_LIN1 != 1</act>
+      <ops>
+        <op subc="a">(CemCem_Lin1Fr06_CEM_LIN1.cemcem_lin1fr06_cem_lin1).WshngCycActv_CEM_LIN1 != 1</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="51">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>860</ln>
+      <act>rb_WiperSpeed_g &gt; 0</act>
+      <ops>
+        <op subc="a">rb_WiperSpeed_g &gt; 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="52">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>863</ln>
+      <act>rb_WiperSpeedAlt_g == 0</act>
+      <ops>
+        <op subc="a">rb_WiperSpeedAlt_g == 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="5">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="8">
+          <b>16</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="12">
+          <b>16</b>
+        </pr>
+      </subc>
+      <subc letter="c">
+        <pr a="14">
+          <b>16</b>
+        </pr>
+      </subc>
+      <subc letter="d">
+        <pr a="15">
+          <b>16</b>
+        </pr>
+      </subc>
+      <ln>882</ln>
+      <act>((((((((((((rw_SPINoCommCounter_g &gt; (0) || get_rb_LightVetoCounter_g() &gt; 0) || get_rb_LightSignalErrorCnt_g() &gt; 0) || rb_ASIC_SPI_ErrorCodeCnt_g &gt; 0) || rb_StaticNoValidAD_cnt_g &gt; 0) || get_rb_VDD_LightSignalErrorCnt_g() &gt; 0) || get_rb_LEDx_LStop_error_cnt_g() &gt; 0) || rb_ClockFreq_Error_cnt_g &gt; 0) 
+|| rb_ASIC_ALSx_ShortDetected_cnt_g != 0) || rb_ASIC_initTimeout_g &gt; 0) || rb_VIref_ErrCnt_g &gt; 0) &gt; 0 || rb_Err_State_Light_Sens_mg &gt; 0) || (uF_VoltageStatus_g.Bit).B0 == 1) || (uF_VoltageStatus_g.Bit).B3 == 1</act>
+      <ops>
+        <op subc="a">((((((((((rw_SPINoCommCounter_g &gt; (0) || get_rb_LightVetoCounter_g() &gt; 0) || get_rb_LightSignalErrorCnt_g() &gt; 0) || rb_ASIC_SPI_ErrorCodeCnt_g &gt; 0) || rb_StaticNoValidAD_cnt_g &gt; 0) || get_rb_VDD_LightSignalErrorCnt_g() &gt; 0) || get_rb_LEDx_LStop_error_cnt_g() &gt; 0) || rb_ClockFreq_Error_cnt_g &gt; 0) || 
+rb_ASIC_ALSx_ShortDetected_cnt_g != 0) || rb_ASIC_initTimeout_g &gt; 0) || rb_VIref_ErrCnt_g &gt; 0) &gt; 0</op>
+        <op subc="b">rb_Err_State_Light_Sens_mg &gt; 0</op>
+        <op subc="c">(uF_VoltageStatus_g.Bit).B0 == 1</op>
+        <op subc="d">(uF_VoltageStatus_g.Bit).B3 == 1</op>
+      </ops>
+      <sim>(((a || b) || c) || d)</sim>
+      <res idx="8">T</res>
+      <res idx="12">T</res>
+      <res idx="14">T</res>
+      <res idx="15">T</res>
+      <res idx="16">F</res>
+    </con>
+    <con idx="2">
+      <ln>886</ln>
+      <act>(((((((((rw_SPINoCommCounter_g &gt; (0) || get_rb_LightVetoCounter_g() &gt; 0) || get_rb_LightSignalErrorCnt_g() &gt; 0) || rb_ASIC_SPI_ErrorCodeCnt_g &gt; 0) || rb_StaticNoValidAD_cnt_g &gt; 0) || get_rb_VDD_LightSignalErrorCnt_g() &gt; 0) || get_rb_LEDx_LStop_error_cnt_g() &gt; 0) || rb_ClockFreq_Error_cnt_g &gt; 0) || 
+rb_ASIC_ALSx_ShortDetected_cnt_g != 0) || rb_ASIC_initTimeout_g &gt; 0) || rb_VIref_ErrCnt_g &gt; 0</act>
+      <ops>
+        <op subc="a">rw_SPINoCommCounter_g &gt; (0)</op>
+        <op subc="b">get_rb_LightVetoCounter_g() &gt; 0</op>
+        <op subc="c">get_rb_LightSignalErrorCnt_g() &gt; 0</op>
+        <op subc="d">rb_ASIC_SPI_ErrorCodeCnt_g &gt; 0</op>
+        <op subc="e">rb_StaticNoValidAD_cnt_g &gt; 0</op>
+        <op subc="f">get_rb_VDD_LightSignalErrorCnt_g() &gt; 0</op>
+        <op subc="g">get_rb_LEDx_LStop_error_cnt_g() &gt; 0</op>
+        <op subc="h">rb_ClockFreq_Error_cnt_g &gt; 0</op>
+        <op subc="i">rb_ASIC_ALSx_ShortDetected_cnt_g != 0</op>
+        <op subc="j">rb_ASIC_initTimeout_g &gt; 0</op>
+        <op subc="k">rb_VIref_ErrCnt_g &gt; 0</op>
+      </ops>
+      <sim>((((((((((a || b) || c) || d) || e) || f) || g) || h) || i) || j) || k)</sim>
+    </con>
+    <con idx="4">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>905</ln>
+      <act>rb_AnyErrorCounterDebounce_mg &gt; 0</act>
+      <ops>
+        <op subc="a">rb_AnyErrorCounterDebounce_mg &gt; 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="7">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>913</ln>
+      <act>rb_Err_State_Light_Sens_mg == 1</act>
+      <ops>
+        <op subc="a">rb_Err_State_Light_Sens_mg == 1</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="9">
+      <subc letter="a">
+        <pr a="4">
+          <b>8</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="6">
+          <b>8</b>
+        </pr>
+      </subc>
+      <subc letter="c">
+        <pr a="7">
+          <b>8</b>
+        </pr>
+      </subc>
+      <ln>920</ln>
+      <act>((uF_modi_lightsens_g.AllBit &amp; 0x2f) &gt; 0 || (uF_Main_Flags_g.Bit).B7 &gt; 0) || (uF_LightInternalStatus_g.Bit).B6 != 0</act>
+      <ops>
+        <op subc="a">(uF_modi_lightsens_g.AllBit &amp; 0x2f) &gt; 0</op>
+        <op subc="b">(uF_Main_Flags_g.Bit).B7 &gt; 0</op>
+        <op subc="c">(uF_LightInternalStatus_g.Bit).B6 != 0</op>
+      </ops>
+      <sim>((a || b) || c)</sim>
+      <res idx="4">T</res>
+      <res idx="6">T</res>
+      <res idx="7">T</res>
+      <res idx="8">F</res>
+    </con>
+    <con idx="11">
+      <subc letter="a">
+        <pr a="2">
+          <b>10</b>
+        </pr>
+        <pr a="3">
+          <b>11</b>
+        </pr>
+        <pr a="4">
+          <b>12</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="2">
+          <b>6</b>
+        </pr>
+        <pr a="3">
+          <b>7</b>
+        </pr>
+        <pr a="4">
+          <b>8</b>
+        </pr>
+      </subc>
+      <subc letter="c">
+        <pr a="5">
+          <b>7</b>
+        </pr>
+        <pr a="9">
+          <b>11</b>
+        </pr>
+        <pr a="13">
+          <b>15</b>
+        </pr>
+      </subc>
+      <subc letter="d">
+        <pr a="5">
+          <b>6</b>
+        </pr>
+        <pr a="9">
+          <b>10</b>
+        </pr>
+        <pr a="13">
+          <b>14</b>
+        </pr>
+      </subc>
+      <ln>929</ln>
+      <act>((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x1) &gt; 0 == 1 &amp;&amp; (uF_LightInternalStatus_g.Bit).B4 == 1 || (uF_modi_lightsens_g.Bit).B4 == 1 &amp;&amp; ((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x2) &gt; 0 == 1</act>
+      <ops>
+        <op subc="a">((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x1) &gt; 0 == 1</op>
+        <op subc="b">(uF_LightInternalStatus_g.Bit).B4 == 1</op>
+        <op subc="c">(uF_modi_lightsens_g.Bit).B4 == 1</op>
+        <op subc="d">((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x2) &gt; 0 == 1</op>
+      </ops>
+      <sim>((a &amp;&amp; b) || (c &amp;&amp; d))</sim>
+      <res idx="2">T</res>
+      <res idx="3">T</res>
+      <res idx="4">T</res>
+      <res idx="5">T</res>
+      <res idx="6">F</res>
+      <res idx="7">F</res>
+      <res idx="8">F</res>
+      <res idx="9">T</res>
+      <res idx="10">F</res>
+      <res idx="11">F</res>
+      <res idx="12">F</res>
+      <res idx="13">T</res>
+      <res idx="14">F</res>
+      <res idx="15">F</res>
+    </con>
+    <con idx="12">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>934</ln>
+      <act>((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x1) &gt; 0</act>
+      <ops>
+        <op subc="a">((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x1) &gt; 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="13">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>937</ln>
+      <act>((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x2) &gt; 0</act>
+      <ops>
+        <op subc="a">((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x2) &gt; 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="15">
+      <subc letter="a">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>945</ln>
+      <act>rb_AnyErrorCounterDebounce_l == 0 &amp;&amp; get_rb_LightVetoCounter_g() == 0</act>
+      <ops>
+        <op subc="a">rb_AnyErrorCounterDebounce_l == 0</op>
+        <op subc="b">get_rb_LightVetoCounter_g() == 0</op>
+      </ops>
+      <sim>(a &amp;&amp; b)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+    </con>
+    <con idx="18">
+      <subc letter="a">
+        <pr a="1">
+          <b>5</b>
+        </pr>
+        <pr a="2">
+          <b>6</b>
+        </pr>
+        <pr a="3">
+          <b>7</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="2">
+          <b>4</b>
+        </pr>
+      </subc>
+      <subc letter="c">
+        <pr a="3">
+          <b>4</b>
+        </pr>
+      </subc>
+      <ln>957</ln>
+      <act>(uF_Main_Flags_g.Bit).B6 == 0 &amp;&amp; ((EEPROM_Struct_PD.EEPROMStructPD).RSControlFlags == 0x8a || (EEPROM_Struct_PD.EEPROMStructPD).RSControlFlags == 0x98)</act>
+      <ops>
+        <op subc="a">(uF_Main_Flags_g.Bit).B6 == 0</op>
+        <op subc="b">(EEPROM_Struct_PD.EEPROMStructPD).RSControlFlags == 0x8a</op>
+        <op subc="c">(EEPROM_Struct_PD.EEPROMStructPD).RSControlFlags == 0x98</op>
+      </ops>
+      <sim>(a &amp;&amp; (b || c))</sim>
+      <res idx="1">T</res>
+      <res idx="2">T</res>
+      <res idx="3">T</res>
+      <res idx="4">F</res>
+      <res idx="5">F</res>
+      <res idx="6">F</res>
+      <res idx="7">F</res>
+    </con>
+    <con idx="30">
+      <subc letter="a">
+        <pr a="1">
+          <b>5</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="c">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>983</ln>
+      <act>((uF_LightInternalStatus_g.Bit).B0 == 1 &amp;&amp; (uF_Main_Flags_g.Bit).B6 == 0) &amp;&amp; rb_TempLightOn_l &gt; 0</act>
+      <ops>
+        <op subc="a">(uF_LightInternalStatus_g.Bit).B0 == 1</op>
+        <op subc="b">(uF_Main_Flags_g.Bit).B6 == 0</op>
+        <op subc="c">rb_TempLightOn_l &gt; 0</op>
+      </ops>
+      <sim>((a &amp;&amp; b) &amp;&amp; c)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+      <res idx="5">F</res>
+    </con>
+    <con idx="31">
+      <subc letter="a">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>988</ln>
+      <act>(uF_modi_lightsens_g.Bit).B4 == 1 &amp;&amp; ((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x2) &gt; 0 == 1</act>
+      <ops>
+        <op subc="a">(uF_modi_lightsens_g.Bit).B4 == 1</op>
+        <op subc="b">((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x2) &gt; 0 == 1</op>
+      </ops>
+      <sim>(a &amp;&amp; b)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+    </con>
+    <con idx="32">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>990</ln>
+      <act>((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x2) &gt; 0</act>
+      <ops>
+        <op subc="a">((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x2) &gt; 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="6">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1038</ln>
+      <act>rbi_HumTempComError_g != 0</act>
+      <ops>
+        <op subc="a">rbi_HumTempComError_g != 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="2">
+      <subc letter="a">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1041</ln>
+      <act>(rbi_HumTempComError_g &amp; 0x8) == 0x8 &amp;&amp; (rbi_HumTempComError_g &amp; 0x10) == 0x10</act>
+      <ops>
+        <op subc="a">(rbi_HumTempComError_g &amp; 0x8) == 0x8</op>
+        <op subc="b">(rbi_HumTempComError_g &amp; 0x10) == 0x10</op>
+      </ops>
+      <sim>(a &amp;&amp; b)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+    </con>
+    <con idx="7">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1052</ln>
+      <act>(rbi_HumTempComError_g &amp; 0x8) == 0x8</act>
+      <ops>
+        <op subc="a">(rbi_HumTempComError_g &amp; 0x8) == 0x8</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="12">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1063</ln>
+      <act>(rbi_HumTempComError_g &amp; 0x10) == 0x10</act>
+      <ops>
+        <op subc="a">(rbi_HumTempComError_g &amp; 0x10) == 0x10</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="35">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1106</ln>
+      <act>rw_Temperature_raw_g &lt; (0x2ad)</act>
+      <ops>
+        <op subc="a">rw_Temperature_raw_g &lt; (0x2ad)</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="37">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1111</ln>
+      <act>rw_Temperature_raw_g &gt; (0x4321)</act>
+      <ops>
+        <op subc="a">rw_Temperature_raw_g &gt; (0x4321)</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="40">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1121</ln>
+      <act>rw_Temperature_raw_g == (0)</act>
+      <ops>
+        <op subc="a">rw_Temperature_raw_g == (0)</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="44">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1131</ln>
+      <act>(rw_Temperature_Scheibe_g - (685)) / (10) &lt; (1650)</act>
+      <ops>
+        <op subc="a">(rw_Temperature_Scheibe_g - (685)) / (10) &lt; (1650)</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="51">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1147</ln>
+      <act>rw_DewPoint_g == (0)</act>
+      <ops>
+        <op subc="a">rw_DewPoint_g == (0)</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="55">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1157</ln>
+      <act>rw_DewPoint_g &lt; (1650)</act>
+      <ops>
+        <op subc="a">rw_DewPoint_g &lt; (1650)</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="62">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1173</ln>
+      <act>rb_Humidity_g == 0</act>
+      <ops>
+        <op subc="a">rb_Humidity_g == 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="7">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="4">
+          <b>8</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="6">
+          <b>8</b>
+        </pr>
+      </subc>
+      <subc letter="c">
+        <pr a="7">
+          <b>8</b>
+        </pr>
+      </subc>
+      <ln>1191</ln>
+      <act>(rb_Verglasun_ClosedDebounce_mg &gt; 100 || (uF_VoltageStatus_g.Bit).B2 == 1) || rw_CommandCloseWindowTimout_mg &gt; (6000)</act>
+      <ops>
+        <op subc="a">rb_Verglasun_ClosedDebounce_mg &gt; 100</op>
+        <op subc="b">(uF_VoltageStatus_g.Bit).B2 == 1</op>
+        <op subc="c">rw_CommandCloseWindowTimout_mg &gt; (6000)</op>
+      </ops>
+      <sim>((a || b) || c)</sim>
+      <res idx="4">T</res>
+      <res idx="6">T</res>
+      <res idx="7">T</res>
+      <res idx="8">F</res>
+    </con>
+    <con idx="4">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1199</ln>
+      <act>(uF_SCIFlags_mg.Bit).B0 == 1</act>
+      <ops>
+        <op subc="a">(uF_SCIFlags_mg.Bit).B0 == 1</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="7">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1205</ln>
+      <act>(uF_SCIFlags_mg.Bit).B4 == 1</act>
+      <ops>
+        <op subc="a">(uF_SCIFlags_mg.Bit).B4 == 1</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="10">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1211</ln>
+      <act>rw_CommandCloseWindowTimout_mg &gt; (6000)</act>
+      <ops>
+        <op subc="a">rw_CommandCloseWindowTimout_mg &gt; (6000)</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="8">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1233</ln>
+      <act>(uF_VoltageStatus_g.Bit).B0 == 1</act>
+      <ops>
+        <op subc="a">(uF_VoltageStatus_g.Bit).B0 == 1</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="2">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1236</ln>
+      <act>rb_underVoltageTimer_s &gt; 249</act>
+      <ops>
+        <op subc="a">rb_underVoltageTimer_s &gt; 249</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="7">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1251</ln>
+      <act>(uF_VoltageStatus_g.Bit).B0 == 1</act>
+      <ops>
+        <op subc="a">(uF_VoltageStatus_g.Bit).B0 == 1</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="8">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1256</ln>
+      <act>(uF_VoltageStatus_g.Bit).B3 == 1</act>
+      <ops>
+        <op subc="a">(uF_VoltageStatus_g.Bit).B3 == 1</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="9">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="2">
+          <b>10</b>
+        </pr>
+        <pr a="3">
+          <b>11</b>
+        </pr>
+        <pr a="4">
+          <b>12</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="2">
+          <b>6</b>
+        </pr>
+        <pr a="3">
+          <b>7</b>
+        </pr>
+        <pr a="4">
+          <b>8</b>
+        </pr>
+      </subc>
+      <subc letter="c">
+        <pr a="5">
+          <b>7</b>
+        </pr>
+        <pr a="9">
+          <b>11</b>
+        </pr>
+        <pr a="13">
+          <b>15</b>
+        </pr>
+      </subc>
+      <subc letter="d">
+        <pr a="5">
+          <b>6</b>
+        </pr>
+        <pr a="9">
+          <b>10</b>
+        </pr>
+        <pr a="13">
+          <b>14</b>
+        </pr>
+      </subc>
+      <ln>1283</ln>
+      <act>rb_InternalTemperature_g &gt; 0 &amp;&amp; rb_InternalTemperature_g &lt; 62 || ((ras_ASIC_MUX_MeasAD_g)[3]).avg &gt; (0) &amp;&amp; ((ras_ASIC_MUX_MeasAD_g)[3]).avg &lt; (367)</act>
+      <ops>
+        <op subc="a">rb_InternalTemperature_g &gt; 0</op>
+        <op subc="b">rb_InternalTemperature_g &lt; 62</op>
+        <op subc="c">((ras_ASIC_MUX_MeasAD_g)[3]).avg &gt; (0)</op>
+        <op subc="d">((ras_ASIC_MUX_MeasAD_g)[3]).avg &lt; (367)</op>
+      </ops>
+      <sim>((a &amp;&amp; b) || (c &amp;&amp; d))</sim>
+      <res idx="2">T</res>
+      <res idx="3">T</res>
+      <res idx="4">T</res>
+      <res idx="5">T</res>
+      <res idx="6">F</res>
+      <res idx="7">F</res>
+      <res idx="8">F</res>
+      <res idx="9">T</res>
+      <res idx="10">F</res>
+      <res idx="11">F</res>
+      <res idx="12">F</res>
+      <res idx="13">T</res>
+      <res idx="14">F</res>
+      <res idx="15">F</res>
+    </con>
+    <con idx="2">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1289</ln>
+      <act>rb_overTemperatureTimer_s &gt; (10000)</act>
+      <ops>
+        <op subc="a">rb_overTemperatureTimer_s &gt; (10000)</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="5">
+      <subc letter="a">
+        <pr a="2">
+          <b>10</b>
+        </pr>
+        <pr a="3">
+          <b>11</b>
+        </pr>
+        <pr a="4">
+          <b>12</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="2">
+          <b>6</b>
+        </pr>
+        <pr a="3">
+          <b>7</b>
+        </pr>
+        <pr a="4">
+          <b>8</b>
+        </pr>
+      </subc>
+      <subc letter="c">
+        <pr a="5">
+          <b>7</b>
+        </pr>
+        <pr a="9">
+          <b>11</b>
+        </pr>
+        <pr a="13">
+          <b>15</b>
+        </pr>
+      </subc>
+      <subc letter="d">
+        <pr a="5">
+          <b>6</b>
+        </pr>
+        <pr a="9">
+          <b>10</b>
+        </pr>
+        <pr a="13">
+          <b>14</b>
+        </pr>
+      </subc>
+      <ln>1299</ln>
+      <act>rb_InternalTemperature_g &gt; 0 &amp;&amp; rb_InternalTemperature_g &lt; 63 || ((ras_ASIC_MUX_MeasAD_g)[3]).avg &gt; (0) &amp;&amp; ((ras_ASIC_MUX_MeasAD_g)[3]).avg &lt; (485)</act>
+      <ops>
+        <op subc="a">rb_InternalTemperature_g &gt; 0</op>
+        <op subc="b">rb_InternalTemperature_g &lt; 63</op>
+        <op subc="c">((ras_ASIC_MUX_MeasAD_g)[3]).avg &gt; (0)</op>
+        <op subc="d">((ras_ASIC_MUX_MeasAD_g)[3]).avg &lt; (485)</op>
+      </ops>
+      <sim>((a &amp;&amp; b) || (c &amp;&amp; d))</sim>
+      <res idx="2">T</res>
+      <res idx="3">T</res>
+      <res idx="4">T</res>
+      <res idx="5">T</res>
+      <res idx="6">F</res>
+      <res idx="7">F</res>
+      <res idx="8">F</res>
+      <res idx="9">T</res>
+      <res idx="10">F</res>
+      <res idx="11">F</res>
+      <res idx="12">F</res>
+      <res idx="13">T</res>
+      <res idx="14">F</res>
+      <res idx="15">F</res>
+    </con>
+    <con idx="6">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1306</ln>
+      <act>rb_overTemperatureTimer_s &gt; (10000)</act>
+      <ops>
+        <op subc="a">rb_overTemperatureTimer_s &gt; (10000)</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="10">
+    <con idx="3">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1335</ln>
+      <act>rb_HUD_Cnt_s &lt; 15</act>
+      <ops>
+        <op subc="a">rb_HUD_Cnt_s &lt; 15</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="11">
+    <con idx="6">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1365</ln>
+      <act>rl_hud_Brightness_l &gt;= rl_eeprom_hud_max_l</act>
+      <ops>
+        <op subc="a">rl_hud_Brightness_l &gt;= rl_eeprom_hud_max_l</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="8">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1370</ln>
+      <act>rl_hud_Brightness_l &gt; (126000)</act>
+      <ops>
+        <op subc="a">rl_hud_Brightness_l &gt; (126000)</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="12">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1395</ln>
+      <act>get_rw_Amb_light16bit_g() * (20) &lt; (16383)</act>
+      <ops>
+        <op subc="a">get_rw_Amb_light16bit_g() * (20) &lt; (16383)</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="13">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1418</ln>
+      <act>((EEPROM_Struct_PD.EEPROMStructPD).RSControlFlags &amp; 0x2) &gt; 0 == 1 &amp;&amp; 1 == (uF_ASIC_ControlFlags_g.Bit).B2</act>
+      <ops>
+        <op subc="a">((EEPROM_Struct_PD.EEPROMStructPD).RSControlFlags &amp; 0x2) &gt; 0 == 1</op>
+        <op subc="b">1 == (uF_ASIC_ControlFlags_g.Bit).B2</op>
+      </ops>
+      <sim>(a &amp;&amp; b)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+    </con>
+    <con idx="2">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1420</ln>
+      <act>((EEPROM_Struct_PD.EEPROMStructPD).RSControlFlags &amp; 0x2) &gt; 0</act>
+      <ops>
+        <op subc="a">((EEPROM_Struct_PD.EEPROMStructPD).RSControlFlags &amp; 0x2) &gt; 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="3">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1424</ln>
+      <act>(EEPROM_Struct_AD.EEPROMStructAD).SolarShadowCorrFactor1 &gt; 0</act>
+      <ops>
+        <op subc="a">(EEPROM_Struct_AD.EEPROMStructAD).SolarShadowCorrFactor1 &gt; 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="6">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1433</ln>
+      <act>rw_IrLightforSOSE_Corr1_l &gt; rw_Solar_light16bit_2_g</act>
+      <ops>
+        <op subc="a">rw_IrLightforSOSE_Corr1_l &gt; rw_Solar_light16bit_2_g</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="9">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1442</ln>
+      <act>rw_IrLightforSOSE_Corr1_l &gt; rw_Solar_light16bit_1_g</act>
+      <ops>
+        <op subc="a">rw_IrLightforSOSE_Corr1_l &gt; rw_Solar_light16bit_1_g</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="12">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1451</ln>
+      <act>(EEPROM_Struct_AD.EEPROMStructAD).SolarShadowCorrFactor2 &gt; 0</act>
+      <ops>
+        <op subc="a">(EEPROM_Struct_AD.EEPROMStructAD).SolarShadowCorrFactor2 &gt; 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="15">
+      <subc letter="a">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1460</ln>
+      <act>rw_IrLightforSOSE_Corr2_l &gt;= rw_SoSe_SunInt_2D_Le_l &amp;&amp; rw_IrLightforSOSE_Corr2_l &gt;= rw_SoSe_SunInt_2D_Re_l</act>
+      <ops>
+        <op subc="a">rw_IrLightforSOSE_Corr2_l &gt;= rw_SoSe_SunInt_2D_Le_l</op>
+        <op subc="b">rw_IrLightforSOSE_Corr2_l &gt;= rw_SoSe_SunInt_2D_Re_l</op>
+      </ops>
+      <sim>(a &amp;&amp; b)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+    </con>
+    <con idx="19">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1468</ln>
+      <act>rw_SoSe_SunInt_2D_Le_l &gt; (240)</act>
+      <ops>
+        <op subc="a">rw_SoSe_SunInt_2D_Le_l &gt; (240)</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="23">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1475</ln>
+      <act>rw_SoSe_SunInt_2D_Re_l &gt; (240)</act>
+      <ops>
+        <op subc="a">rw_SoSe_SunInt_2D_Re_l &gt; (240)</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="14">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="2">
+          <b>4</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="3">
+          <b>4</b>
+        </pr>
+      </subc>
+      <ln>1496</ln>
+      <act>(uF_ASIC_ControlFlags_g.Bit).B1 == 0 || (uF_Main_Flags_g.Bit).B6 == 1</act>
+      <ops>
+        <op subc="a">(uF_ASIC_ControlFlags_g.Bit).B1 == 0</op>
+        <op subc="b">(uF_Main_Flags_g.Bit).B6 == 1</op>
+      </ops>
+      <sim>(a || b)</sim>
+      <res idx="2">T</res>
+      <res idx="3">T</res>
+      <res idx="4">F</res>
+    </con>
+    <con idx="2">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1501</ln>
+      <act>rb_InitLightValCnt_l &lt; 100</act>
+      <ops>
+        <op subc="a">rb_InitLightValCnt_l &lt; 100</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="19">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1533</ln>
+      <act>(EEPROM_Struct_PD.EEPROMStructPD).RSControlFlags == 0x98</act>
+      <ops>
+        <op subc="a">(EEPROM_Struct_PD.EEPROMStructPD).RSControlFlags == 0x98</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="35">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1559</ln>
+      <act>rb_Err_State_Light_Sens_mg == 1</act>
+      <ops>
+        <op subc="a">rb_Err_State_Light_Sens_mg == 1</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="15">
+    <con idx="7">
+      <subc letter="a">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1630</ln>
+      <act>1 == ((EEPROM_Struct_PD.EEPROMStructPD).RSControlFlags &amp; 0x1) &amp;&amp; 0 == ((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x40) &gt; 0</act>
+      <ops>
+        <op subc="a">1 == ((EEPROM_Struct_PD.EEPROMStructPD).RSControlFlags &amp; 0x1)</op>
+        <op subc="b">0 == ((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x40) &gt; 0</op>
+      </ops>
+      <sim>(a &amp;&amp; b)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+    </con>
+    <con idx="8">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1632</ln>
+      <act>((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x40) &gt; 0</act>
+      <ops>
+        <op subc="a">((EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte0_g &amp; 0x40) &gt; 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="9">
+      <subc letter="a">
+        <pr a="16">
+          <b>32</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="24">
+          <b>32</b>
+        </pr>
+      </subc>
+      <subc letter="c">
+        <pr a="28">
+          <b>32</b>
+        </pr>
+      </subc>
+      <subc letter="d">
+        <pr a="30">
+          <b>32</b>
+        </pr>
+      </subc>
+      <subc letter="e">
+        <pr a="31">
+          <b>32</b>
+        </pr>
+      </subc>
+      <ln>1640</ln>
+      <act>((((uF_VoltageStatus_g.Bit).B3 != 0 || rb_RS_LS_Error1_g != 0) || rb_RS_LS_Error2_g != 0) || rb_RainS_Error1_g != 0) || (uF_E2ConfigErrorFlags_g.Bit).B6 != 0</act>
+      <ops>
+        <op subc="a">(uF_VoltageStatus_g.Bit).B3 != 0</op>
+        <op subc="b">rb_RS_LS_Error1_g != 0</op>
+        <op subc="c">rb_RS_LS_Error2_g != 0</op>
+        <op subc="d">rb_RainS_Error1_g != 0</op>
+        <op subc="e">(uF_E2ConfigErrorFlags_g.Bit).B6 != 0</op>
+      </ops>
+      <sim>((((a || b) || c) || d) || e)</sim>
+      <res idx="16">T</res>
+      <res idx="24">T</res>
+      <res idx="28">T</res>
+      <res idx="30">T</res>
+      <res idx="31">T</res>
+      <res idx="32">F</res>
+    </con>
+    <con idx="11">
+      <subc letter="a">
+        <pr a="4">
+          <b>8</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="6">
+          <b>8</b>
+        </pr>
+      </subc>
+      <subc letter="c">
+        <pr a="7">
+          <b>8</b>
+        </pr>
+      </subc>
+      <ln>1652</ln>
+      <act>((rb_RS_LS_Error1_g &amp; 0x3) != 0 || 1 == (uF_Diagnose_pre_Flag.Bit).B3) || (uF_E2ConfigErrorFlags_g.Bit).B6 != 0</act>
+      <ops>
+        <op subc="a">(rb_RS_LS_Error1_g &amp; 0x3) != 0</op>
+        <op subc="b">1 == (uF_Diagnose_pre_Flag.Bit).B3</op>
+        <op subc="c">(uF_E2ConfigErrorFlags_g.Bit).B6 != 0</op>
+      </ops>
+      <sim>((a || b) || c)</sim>
+      <res idx="4">T</res>
+      <res idx="6">T</res>
+      <res idx="7">T</res>
+      <res idx="8">F</res>
+    </con>
+    <con idx="13">
+      <subc letter="a">
+        <pr a="16">
+          <b>32</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="24">
+          <b>32</b>
+        </pr>
+      </subc>
+      <subc letter="c">
+        <pr a="28">
+          <b>32</b>
+        </pr>
+      </subc>
+      <subc letter="d">
+        <pr a="30">
+          <b>32</b>
+        </pr>
+      </subc>
+      <subc letter="e">
+        <pr a="31">
+          <b>32</b>
+        </pr>
+      </subc>
+      <ln>1659</ln>
+      <act>(((rb_RS_LS_Error1_g != 0 || rb_RS_LS_Error2_g != 0) || rb_LightS_Error1_g != 0) || (uF_E2ConfigErrorFlags_g.Bit).B6 != 0) || (uF_LIN_DiagReq2_mg.Bit).B1</act>
+      <ops>
+        <op subc="a">rb_RS_LS_Error1_g != 0</op>
+        <op subc="b">rb_RS_LS_Error2_g != 0</op>
+        <op subc="c">rb_LightS_Error1_g != 0</op>
+        <op subc="d">(uF_E2ConfigErrorFlags_g.Bit).B6 != 0</op>
+        <op subc="e">(uF_LIN_DiagReq2_mg.Bit).B1</op>
+      </ops>
+      <sim>((((a || b) || c) || d) || e)</sim>
+      <res idx="16">T</res>
+      <res idx="24">T</res>
+      <res idx="28">T</res>
+      <res idx="30">T</res>
+      <res idx="31">T</res>
+      <res idx="32">F</res>
+    </con>
+    <con idx="18">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1675</ln>
+      <act>(uF_ASIC_Error_Flags_g.Bit).B0 != 0</act>
+      <ops>
+        <op subc="a">(uF_ASIC_Error_Flags_g.Bit).B0 != 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="23">
+      <subc letter="a">
+        <pr a="2">
+          <b>4</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="3">
+          <b>4</b>
+        </pr>
+      </subc>
+      <ln>1688</ln>
+      <act>(uF_ASIC_Error_Flags_g.Bit).B0 != 0 || (uF_ASIC_Error_Flags_g.Bit).B1 != 0</act>
+      <ops>
+        <op subc="a">(uF_ASIC_Error_Flags_g.Bit).B0 != 0</op>
+        <op subc="b">(uF_ASIC_Error_Flags_g.Bit).B1 != 0</op>
+      </ops>
+      <sim>(a || b)</sim>
+      <res idx="2">T</res>
+      <res idx="3">T</res>
+      <res idx="4">F</res>
+    </con>
+  </sub>
+  <sub idx="16">
+    <con idx="9">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1719</ln>
+      <act>rb_Index_l &lt; 8</act>
+      <ops>
+        <op subc="a">rb_Index_l &lt; 8</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="17">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1736</ln>
+      <act>rb_MessageID_l == ((EEPROM_Struct_PD.EEPROMStructPD).IDRLSs_01 &amp; 0x3f)</act>
+      <ops>
+        <op subc="a">rb_MessageID_l == ((EEPROM_Struct_PD.EEPROMStructPD).IDRLSs_01 &amp; 0x3f)</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="18">
+    <con idx="3">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1754</ln>
+      <act>rb_k_cycleIn50ms &gt;= 10</act>
+      <ops>
+        <op subc="a">rb_k_cycleIn50ms &gt;= 10</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="8">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1761</ln>
+      <act>rb_k_cycleIn500ms &gt;= 2</act>
+      <ops>
+        <op subc="a">rb_k_cycleIn500ms &gt;= 2</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="19">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1775</ln>
+      <act>rl_CurrentHud &gt;= (100)</act>
+      <ops>
+        <op subc="a">rl_CurrentHud &gt;= (100)</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="5">
+      <subc letter="a">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1782</ln>
+      <act>rw_LastCurrDiff &gt;= -15 &amp;&amp; rw_LastCurrDiff &lt;= 15</act>
+      <ops>
+        <op subc="a">rw_LastCurrDiff &gt;= -15</op>
+        <op subc="b">rw_LastCurrDiff &lt;= 15</op>
+      </ops>
+      <sim>(a &amp;&amp; b)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+    </con>
+    <con idx="9">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1790</ln>
+      <act>currLevel &lt; 0</act>
+      <ops>
+        <op subc="a">currLevel &lt; 0</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="11">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1795</ln>
+      <act>currLevel &gt; 9</act>
+      <ops>
+        <op subc="a">currLevel &gt; 9</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="20">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1813</ln>
+      <act>(uF_LightInternalStatus_g.Bit).B0 == 1 &amp;&amp; (uF_Main_Flags_g.Bit).B6 == 0</act>
+      <ops>
+        <op subc="a">(uF_LightInternalStatus_g.Bit).B0 == 1</op>
+        <op subc="b">(uF_Main_Flags_g.Bit).B6 == 0</op>
+      </ops>
+      <sim>(a &amp;&amp; b)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+    </con>
+    <con idx="2">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1817</ln>
+      <act>uF_modi_lightsens_g.AllBit &amp; (byte)2</act>
+      <ops>
+        <op subc="a">uF_modi_lightsens_g.AllBit &amp; (byte)2</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="4">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1822</ln>
+      <act>uF_modi_lightsens_g.AllBit &amp; (byte)4</act>
+      <ops>
+        <op subc="a">uF_modi_lightsens_g.AllBit &amp; (byte)4</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="5">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1826</ln>
+      <act>rb_speed_in_kmh_g &gt;= 10</act>
+      <ops>
+        <op subc="a">rb_speed_in_kmh_g &gt;= 10</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="8">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1836</ln>
+      <act>uF_modi_lightsens_g.AllBit &amp; (byte)1</act>
+      <ops>
+        <op subc="a">uF_modi_lightsens_g.AllBit &amp; (byte)1</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="21">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1858</ln>
+      <act>rb_hud_data_update == 1</act>
+      <ops>
+        <op subc="a">rb_hud_data_update == 1</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="4">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1863</ln>
+      <act>RW_Update_Time_Count &lt; rb_hud_refresh_time</act>
+      <ops>
+        <op subc="a">RW_Update_Time_Count &lt; rb_hud_refresh_time</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="7">
+      <subc letter="a">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1868</ln>
+      <act>rl_current_hud_lux &lt; (100) &amp;&amp; RW_Amb_Fw_Result_End &lt; (100)</act>
+      <ops>
+        <op subc="a">rl_current_hud_lux &lt; (100)</op>
+        <op subc="b">RW_Amb_Fw_Result_End &lt; (100)</op>
+      </ops>
+      <sim>(a &amp;&amp; b)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+    </con>
+    <con idx="9">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1875</ln>
+      <act>rb_hud_refresh_time == RW_Update_Time_Count</act>
+      <ops>
+        <op subc="a">rb_hud_refresh_time == RW_Update_Time_Count</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="22">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1891</ln>
+      <act>i &lt; n</act>
+      <ops>
+        <op subc="a">i &lt; n</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="2">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1893</ln>
+      <act>j &lt; n - i</act>
+      <ops>
+        <op subc="a">j &lt; n - i</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="3">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1896</ln>
+      <act>(rb_storeHUDValueEvery500ms)[j - 1] &gt; (rb_storeHUDValueEvery500ms)[j]</act>
+      <ops>
+        <op subc="a">(rb_storeHUDValueEvery500ms)[j - 1] &gt; (rb_storeHUDValueEvery500ms)[j]</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="23">
+    <con idx="4">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1913</ln>
+      <act>rb_k_cycleIn50ms &gt;= 5</act>
+      <ops>
+        <op subc="a">rb_k_cycleIn50ms &gt;= 5</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="7">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1918</ln>
+      <act>rb_count &lt; 5</act>
+      <ops>
+        <op subc="a">rb_count &lt; 5</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="10">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1924</ln>
+      <act>rb_count &lt; 5</act>
+      <ops>
+        <op subc="a">rb_count &lt; 5</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="24">
+    <con idx="3">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1963</ln>
+      <act>i &lt; u8_len</act>
+      <ops>
+        <op subc="a">i &lt; u8_len</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="5">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1967</ln>
+      <act>j &lt; 8</act>
+      <ops>
+        <op subc="a">j &lt; 8</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="6">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>1970</ln>
+      <act>u8_crc8 &amp; 0x80</act>
+      <ops>
+        <op subc="a">u8_crc8 &amp; 0x80</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+  </sub>
+  <sub idx="27">
+    <con idx="2">
+      <subc letter="a">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>2015</ln>
+      <act>rb_550nm_Transmission_local_Coding &gt; 90 &amp;&amp; rb_550nm_Transmission_local_Coding &lt;= 100</act>
+      <ops>
+        <op subc="a">rb_550nm_Transmission_local_Coding &gt; 90</op>
+        <op subc="b">rb_550nm_Transmission_local_Coding &lt;= 100</op>
+      </ops>
+      <sim>(a &amp;&amp; b)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+    </con>
+    <con idx="4">
+      <subc letter="a">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>2020</ln>
+      <act>rb_880nm_Transmission_local_Coding &gt; 90 &amp;&amp; rb_880nm_Transmission_local_Coding &lt;= 100</act>
+      <ops>
+        <op subc="a">rb_880nm_Transmission_local_Coding &gt; 90</op>
+        <op subc="b">rb_880nm_Transmission_local_Coding &lt;= 100</op>
+      </ops>
+      <sim>(a &amp;&amp; b)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+    </con>
+    <con idx="5">
+      <subc letter="a">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>2024</ln>
+      <act>rb_550nm_Transmission_local_Coding &gt;= 15 &amp;&amp; rb_550nm_Transmission_local_Coding &lt;= 90</act>
+      <ops>
+        <op subc="a">rb_550nm_Transmission_local_Coding &gt;= 15</op>
+        <op subc="b">rb_550nm_Transmission_local_Coding &lt;= 90</op>
+      </ops>
+      <sim>(a &amp;&amp; b)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+    </con>
+    <con idx="10">
+      <subc letter="a">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>2036</ln>
+      <act>rb_880nm_Transmission_local_Coding &gt;= 15 &amp;&amp; rb_880nm_Transmission_local_Coding &lt;= 90</act>
+      <ops>
+        <op subc="a">rb_880nm_Transmission_local_Coding &gt;= 15</op>
+        <op subc="b">rb_880nm_Transmission_local_Coding &lt;= 90</op>
+      </ops>
+      <sim>(a &amp;&amp; b)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+    </con>
+    <con idx="15">
+      <subc letter="a">
+        <pr a="2">
+          <b>4</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="3">
+          <b>4</b>
+        </pr>
+      </subc>
+      <ln>2048</ln>
+      <act>rb_550nm_Transmission_local_Coding_outOfRangeFlag == 1 || rb_880nm_Transmission_local_Coding_outOfRangeFlag == 1</act>
+      <ops>
+        <op subc="a">rb_550nm_Transmission_local_Coding_outOfRangeFlag == 1</op>
+        <op subc="b">rb_880nm_Transmission_local_Coding_outOfRangeFlag == 1</op>
+      </ops>
+      <sim>(a || b)</sim>
+      <res idx="2">T</res>
+      <res idx="3">T</res>
+      <res idx="4">F</res>
+    </con>
+    <con idx="20">
+      <subc letter="a">
+        <pr a="1">
+          <b>17</b>
+        </pr>
+        <pr a="2">
+          <b>18</b>
+        </pr>
+        <pr a="3">
+          <b>19</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>9</b>
+        </pr>
+        <pr a="2">
+          <b>10</b>
+        </pr>
+        <pr a="3">
+          <b>11</b>
+        </pr>
+      </subc>
+      <subc letter="c">
+        <pr a="1">
+          <b>5</b>
+        </pr>
+        <pr a="2">
+          <b>6</b>
+        </pr>
+        <pr a="3">
+          <b>7</b>
+        </pr>
+      </subc>
+      <subc letter="d">
+        <pr a="2">
+          <b>4</b>
+        </pr>
+      </subc>
+      <subc letter="e">
+        <pr a="3">
+          <b>4</b>
+        </pr>
+      </subc>
+      <ln>2062</ln>
+      <act>((rb_550nm_Transmission_local_Coding_outOfRangeFlag == 0 &amp;&amp; rb_880nm_Transmission_local_Coding_outOfRangeFlag == 0) &amp;&amp; (EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte2_g != (rb_880nm_Transmission_local_Coding &lt;&lt; 4 | rb_550nm_Transmission_local_Coding)) &amp;&amp; ((uF_Main_Flags_g.Bit).B2 == 0 || (
+uF_Main_Flags_g.Bit).B1 == 1)</act>
+      <ops>
+        <op subc="a">rb_550nm_Transmission_local_Coding_outOfRangeFlag == 0</op>
+        <op subc="b">rb_880nm_Transmission_local_Coding_outOfRangeFlag == 0</op>
+        <op subc="c">(EEPROM_Struct_PD.EEPROMStructPD).EEKodierbyte2_g != (rb_880nm_Transmission_local_Coding &lt;&lt; 4 | rb_550nm_Transmission_local_Coding)</op>
+        <op subc="d">(uF_Main_Flags_g.Bit).B2 == 0</op>
+        <op subc="e">(uF_Main_Flags_g.Bit).B1 == 1</op>
+      </ops>
+      <sim>(((a &amp;&amp; b) &amp;&amp; c) &amp;&amp; (d || e))</sim>
+      <res idx="1">T</res>
+      <res idx="2">T</res>
+      <res idx="3">T</res>
+      <res idx="4">F</res>
+      <res idx="5">F</res>
+      <res idx="6">F</res>
+      <res idx="7">F</res>
+      <res idx="9">F</res>
+      <res idx="10">F</res>
+      <res idx="11">F</res>
+      <res idx="17">F</res>
+      <res idx="18">F</res>
+      <res idx="19">F</res>
+    </con>
+  </sub>
+  <sub idx="28">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>2084</ln>
+      <act>rb_VehTypeValueDebounce &lt; 20</act>
+      <ops>
+        <op subc="a">rb_VehTypeValueDebounce &lt; 20</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="4">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>2091</ln>
+      <act>(uF_Main_Flags_g.Bit).B6 == 1</act>
+      <ops>
+        <op subc="a">(uF_Main_Flags_g.Bit).B6 == 1</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="8">
+      <subc letter="a">
+        <pr a="1">
+          <b>9</b>
+        </pr>
+        <pr a="2">
+          <b>10</b>
+        </pr>
+        <pr a="3">
+          <b>11</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>5</b>
+        </pr>
+        <pr a="2">
+          <b>6</b>
+        </pr>
+        <pr a="3">
+          <b>7</b>
+        </pr>
+      </subc>
+      <subc letter="c">
+        <pr a="2">
+          <b>4</b>
+        </pr>
+      </subc>
+      <subc letter="d">
+        <pr a="3">
+          <b>4</b>
+        </pr>
+      </subc>
+      <ln>2098</ln>
+      <act>(rb_BaseType &lt; 4 &amp;&amp; (rb_Kodierbyte1_Update_g &amp; 12) &gt;&gt; 2 != rb_BaseType) &amp;&amp; ((uF_Main_Flags_g.Bit).B2 == 0 || (uF_Main_Flags_g.Bit).B1 == 1)</act>
+      <ops>
+        <op subc="a">rb_BaseType &lt; 4</op>
+        <op subc="b">(rb_Kodierbyte1_Update_g &amp; 12) &gt;&gt; 2 != rb_BaseType</op>
+        <op subc="c">(uF_Main_Flags_g.Bit).B2 == 0</op>
+        <op subc="d">(uF_Main_Flags_g.Bit).B1 == 1</op>
+      </ops>
+      <sim>((a &amp;&amp; b) &amp;&amp; (c || d))</sim>
+      <res idx="1">T</res>
+      <res idx="2">T</res>
+      <res idx="3">T</res>
+      <res idx="4">F</res>
+      <res idx="5">F</res>
+      <res idx="6">F</res>
+      <res idx="7">F</res>
+      <res idx="9">F</res>
+      <res idx="10">F</res>
+      <res idx="11">F</res>
+    </con>
+  </sub>
+  <sub idx="29">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>2119</ln>
+      <act>rb_lightValueDebounce &lt; 20</act>
+      <ops>
+        <op subc="a">rb_lightValueDebounce &lt; 20</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="4">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>2126</ln>
+      <act>(uF_Main_Flags_g.Bit).B6 == 1</act>
+      <ops>
+        <op subc="a">(uF_Main_Flags_g.Bit).B6 == 1</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="8">
+      <subc letter="a">
+        <pr a="1">
+          <b>9</b>
+        </pr>
+        <pr a="2">
+          <b>10</b>
+        </pr>
+        <pr a="3">
+          <b>11</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>5</b>
+        </pr>
+        <pr a="2">
+          <b>6</b>
+        </pr>
+        <pr a="3">
+          <b>7</b>
+        </pr>
+      </subc>
+      <subc letter="c">
+        <pr a="2">
+          <b>4</b>
+        </pr>
+      </subc>
+      <subc letter="d">
+        <pr a="3">
+          <b>4</b>
+        </pr>
+      </subc>
+      <ln>2133</ln>
+      <act>(offset &lt; 8 &amp;&amp; rb_OldSensorLs != offset) &amp;&amp; ((uF_Main_Flags_g.Bit).B2 == 0 || (uF_Main_Flags_g.Bit).B1 == 1)</act>
+      <ops>
+        <op subc="a">offset &lt; 8</op>
+        <op subc="b">rb_OldSensorLs != offset</op>
+        <op subc="c">(uF_Main_Flags_g.Bit).B2 == 0</op>
+        <op subc="d">(uF_Main_Flags_g.Bit).B1 == 1</op>
+      </ops>
+      <sim>((a &amp;&amp; b) &amp;&amp; (c || d))</sim>
+      <res idx="1">T</res>
+      <res idx="2">T</res>
+      <res idx="3">T</res>
+      <res idx="4">F</res>
+      <res idx="5">F</res>
+      <res idx="6">F</res>
+      <res idx="7">F</res>
+      <res idx="9">F</res>
+      <res idx="10">F</res>
+      <res idx="11">F</res>
+    </con>
+  </sub>
+  <sub idx="33">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>2222</ln>
+      <act>rb_speed_in_kmh_g &lt; 5 &amp;&amp; rb_OutsideTemp_mg &lt;= 0</act>
+      <ops>
+        <op subc="a">rb_speed_in_kmh_g &lt; 5</op>
+        <op subc="b">rb_OutsideTemp_mg &lt;= 0</op>
+      </ops>
+      <sim>(a &amp;&amp; b)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+    </con>
+  </sub>
+  <sub idx="34">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>2244</ln>
+      <act>data</act>
+      <ops>
+        <op subc="a">data</op>
+      </ops>
+      <sim>a</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+    </con>
+    <con idx="2">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>2247</ln>
+      <act>!parity</act>
+      <ops>
+        <op subc="a">parity</op>
+      </ops>
+      <sim>! a</sim>
+      <res idx="1">F</res>
+      <res idx="2">T</res>
+    </con>
+    <con idx="4">
+      <subc letter="a">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>2251</ln>
+      <act>!parity</act>
+      <ops>
+        <op subc="a">parity</op>
+      </ops>
+      <sim>! a</sim>
+      <res idx="1">F</res>
+      <res idx="2">T</res>
+    </con>
+  </sub>
+</unit_mcdc_tables>

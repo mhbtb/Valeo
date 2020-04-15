@@ -1,0 +1,33 @@
+    Processing options file C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\CustomerInterface\ModuleTest\CCAST_.CFG
+    Reading environment script "C:/Users/zhu1/Downloads/SW_Need_Change_Managemant/GEEA2.0/E4-2_SW/RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03/05_SwDev/01_SrcCode/Application/CustomerInterface/ModuleTest\1234.env"
+    Initializing search list
+    Creating the Environment Directory
+    Creating Environment "1234"
+    Copying environment file C:/VCAST/DATA/iar/RL78/vcast_debug.dep
+    Copying environment file C:/VCAST/DATA/iar/RL78/vcast_debug.ewd
+    Copying environment file C:/VCAST/DATA/iar/RL78/vcast_debug.ewp
+    Copying environment file C:/VCAST/DATA/iar/RL78/vcast_debug.eww
+    Copying environment file C:/VCAST/DATA/iar/RL78/lnkr5f10pgj.xcl
+    Copying environment file C:/VCAST/DATA/iar/rl78/settings/vcast_debug.dni
+    Unit 8 (not-stubbed): User Defined Globals
+       Parsing 
+       Initializing parse data
+       Generating harness code
+       Saving unit data
+    Parsing G5_RLS_LIN_GEELY2DOT0
+    Unit 9 (uut): G5_RLS_LIN_GEELY2DOT0
+       Loading stored IL
+       Initializing parse data
+       Generating harness code
+       Saving unit data
+    Compiling file VECTORCAST_IO
+    Compiling file Test Case Data
+    Compiling file User Defined Globals
+    Compiling file G5_RLS_LIN_GEELY2DOT0
+    Compiling file Data File Number 1
+    Compiling file Data File Number 2
+    Compiling file Driver
+    Compiling file User Defined Package
+    Linking Environment
+    Writing VectorCAST Database Files to Disk
+    Environment built Successfully

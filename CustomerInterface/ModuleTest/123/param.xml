@@ -1,0 +1,2049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paramfile version="1">
+  <source_file index="1">
+    <path>C:/Users/zhu1/Downloads/SW_Need_Change_Managemant/GEEA2.0/E4-2_SW/RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03/05_SwDev/01_SrcCode/Application/CustomerInterface/ModuleTest/123/S0000008.c</path>
+  </source_file>
+  <source_file index="2">
+    <path>C:/baseline/RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3/05_SwDev/01_SrcCode/Application/CustomerInterface/G5_RLS_LIN_GEELY2DOT0.c</path>
+  </source_file>
+  <source_file index="3">
+    <path>C:\BASELINE\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SWDEV\01_SRCCODE\APPLICATION\LIN\G5_LINsci_sr.h</path>
+  </source_file>
+  <source_file index="4">
+    <path>C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\CustomerInterface\G5_rls_linst.h</path>
+  </source_file>
+  <source_file index="5">
+    <path>C:\BASELINE\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SWDEV\01_SRCCODE\APPLICATION\LIGHT\G5_DippedBeam_sr.h</path>
+  </source_file>
+  <source_file index="6">
+    <path>C:\BASELINE\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SWDEV\01_SRCCODE\APPLICATION\PERIPHERALS\G5_ASIC_Control_sr.h</path>
+  </source_file>
+  <source_file index="7">
+    <path>C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\CustomerInterface\G5_AsicFramesLin.h</path>
+  </source_file>
+  <unit name="USER_GLOBALS_VCAST" index="8" sbf="0" unit_description="Not Stubbed Unit">
+    <source_file index="1">
+      <path>C:/Users/zhu1/Downloads/SW_Need_Change_Managemant/GEEA2.0/E4-2_SW/RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03/05_SwDev/01_SrcCode/Application/CustomerInterface/ModuleTest/123/S0000008.c</path>
+    </source_file>
+    <global name="VECTORCAST_INT1" index="1" typeid="800002"/>
+    <global name="VECTORCAST_INT2" index="2" typeid="800002"/>
+    <global name="VECTORCAST_INT3" index="3" typeid="800002"/>
+    <global name="VECTORCAST_FLT1" index="4" typeid="800003"/>
+    <global name="VECTORCAST_STR1" index="5" typeid="100001"/>
+    <global name="VECTORCAST_BUFFER" index="6" typeid="100002"/>
+  </unit>
+  <unit name="G5_RLS_LIN_GEELY2DOT0" index="9" sbf="0" unit_description="UUT">
+    <source_file index="2">
+      <path>C:/baseline/RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3/05_SwDev/01_SrcCode/Application/CustomerInterface/G5_RLS_LIN_GEELY2DOT0.c</path>
+    </source_file>
+    <global name="uF_SCIFlags_mg" index="1" typeid="900004"/>
+    <global name="rb_LIN_BIT_ERROR_COUNTER_g" index="2" typeid="900006"/>
+    <global name="rb_LIN_OVERTHEADERMAX_COUNTER_g" index="3" typeid="900006"/>
+    <global name="rb_LIN_CHECKSUMERROR_COUNTER_g" index="4" typeid="900006"/>
+    <global name="rb_LIN_OVERTFRAMEMAX_COUNTER_g" index="5" typeid="900006"/>
+    <global name="rb_LIN_NORESPONSE_COUNTER_g" index="6" typeid="900006"/>
+    <global name="rb_LIN_FRAMINGERROR_COUNTER_g" index="7" typeid="900006"/>
+    <global name="uF_Communication_mg" index="8" typeid="900023"/>
+    <global name="uF_Butterfly_Flags_g" index="9" typeid="900004"/>
+    <global name="rb_LastLINErrorCode_g" index="10" typeid="900006"/>
+    <global name="rw_NoCommunicationCounter_g" index="11" typeid="900022"/>
+    <global name="rb_intervaltime_rainSensorOff_g" index="12" typeid="900006"/>
+    <global name="rb_Release_IntervalMarker_Update_g" index="13" typeid="900006"/>
+    <global name="uF_StalkInPos_Flags_g" index="14" typeid="900004" c_static="1"/>
+    <global name="rb_Verglasun_offenDebounce_mg" index="15" typeid="900006" c_static="1"/>
+    <global name="rb_Verglasun_ClosedDebounce_mg" index="16" typeid="900006" c_static="1"/>
+    <global name="rw_CommandCloseWindowTimout_mg" index="17" typeid="900022" c_static="1"/>
+    <global name="rb_KL15_mg" index="18" typeid="900006" c_static="1"/>
+    <global name="rb_AnyErrorCounterDebounce_mg" index="19" typeid="900006" c_static="1"/>
+    <global name="rw_AfterRSWipeCounter_mg" index="20" typeid="900022" c_static="1"/>
+    <global name="rw_AfterRSWipeCounterAlt_mg" index="21" typeid="900022" c_static="1"/>
+    <global name="rw_AfterWWSWipeCounter_mg" index="22" typeid="900022" c_static="1"/>
+    <global name="rw_WipeCommandTimOut_mg" index="23" typeid="900022" c_static="1"/>
+    <global name="rb_IgnitionOndelay_mg" index="24" typeid="900006" c_static="1"/>
+    <global name="rb_Err_State_Light_Sens_mg" index="25" typeid="900006" c_static="1"/>
+    <global name="rb_OutsideTemp_mg" index="26" typeid="900003" c_static="1"/>
+    <global name="rb_WipeWorkStatus_mg" index="27" typeid="900006" c_static="1"/>
+    <global name="HUDEverageValue" index="28" typeid="100014" c_static="1"/>
+    <global name="rb_storeHUDValueEvery500ms" index="29" typeid="100013" c_static="1"/>
+    <global name="rb_storeFW_ValueEvery50ms" index="30" typeid="100015" c_static="1"/>
+    <global name="rb_storeAMB_ValueEvery50ms" index="31" typeid="100016" c_static="1"/>
+    <global name="FW_Average_In_50ms" index="32" typeid="900037" c_static="1"/>
+    <global name="AMB_Average_In_50ms" index="33" typeid="900037" c_static="1"/>
+    <global name="FW_Average_In_50ms_Old" index="34" typeid="900037" c_static="1"/>
+    <global name="AMB_Average_In_50ms_Old" index="35" typeid="900037" c_static="1"/>
+    <global name="RW_Amb_Fw_Result_End" index="36" typeid="900037" c_static="1"/>
+    <global name="rb_hud_data_update" index="37" typeid="900006" c_static="1"/>
+    <global name="RW_Update_Time_Count" index="38" typeid="900006" c_static="1"/>
+    <global name="EEPROM_Struct_PD" index="39" typeid="900026"/>
+    <global name="rb_Humidity_raw_g" index="40" typeid="900006"/>
+    <global name="rb_Humidity_g" index="41" typeid="900006"/>
+    <global name="rw_Temperature_raw_g" index="42" typeid="900022"/>
+    <global name="rw_DewPoint_g" index="43" typeid="900022"/>
+    <global name="rbi_HumTempComError_g" index="44" typeid="900006"/>
+    <global name="EEPROM_Struct_AD" index="45" typeid="900028"/>
+    <global name="rb_WDG_BusTaskCounter_g" index="46" typeid="900006"/>
+    <global name="uLinIndicationFlags" index="47" typeid="900007"/>
+    <global name="uLinConfirmationFlags" index="48" typeid="900030"/>
+    <global name="rb_WakeupCounter_mg" index="49" typeid="900006"/>
+    <global name="RlsmCem_SerNrLin1Fr01_CEM_LIN1" index="50" typeid="900038"/>
+    <global name="RlsmCem_Lin1PartNrFr02_CEM_LIN1" index="51" typeid="900039"/>
+    <global name="RlsmCem_Lin1PartNrFr01_CEM_LIN1" index="52" typeid="900040"/>
+    <global name="RlsmCem_Lin1Fr03_CEM_LIN1" index="53" typeid="900032"/>
+    <global name="RlsmCem_Lin1Fr02_CEM_LIN1" index="54" typeid="900034"/>
+    <global name="RlsmCem_Lin1Fr01_CEM_LIN1" index="55" typeid="900012"/>
+    <global name="CemCem_Lin1Fr06_CEM_LIN1" index="56" typeid="900018"/>
+    <global name="CemCem_Lin1Fr05_CEM_LIN1" index="57" typeid="900001"/>
+    <global name="CemCem_Lin1Fr04_CEM_LIN1" index="58" typeid="900016"/>
+    <global name="CemCem_Lin1Fr03_CEM_LIN1" index="59" typeid="900014"/>
+    <global name="CemCem_Lin1Fr02_CEM_LIN1" index="60" typeid="900009"/>
+    <global name="CemCem_Lin1Fr01_CEM_LIN1" index="61" typeid="900024"/>
+    <global name="uF_VoltageStatus_g" index="62" typeid="900004"/>
+    <global name="rb_InternalTemperature_g" index="63" typeid="900006"/>
+    <global name="rb_ClockFreq_Error_cnt_g" index="64" typeid="900006"/>
+    <global name="uF_uC_Error_g" index="65" typeid="900023"/>
+    <global name="uF_Diagnose_pre_Flag" index="66" typeid="900023"/>
+    <global name="rub_RSIntermDelayInit" index="67" typeid="900006"/>
+    <global name="rb_LimitMemomryNoWiperReaction_g" index="68" typeid="900006"/>
+    <global name="rbi_WiperStarted_g" index="69" typeid="900006"/>
+    <global name="rb_LIN_SensitivityShift_g" index="70" typeid="900006"/>
+    <global name="RSStatus" index="71" typeid="900020"/>
+    <global name="rub_IntermDelayTime" index="72" typeid="900006"/>
+    <global name="rb_PotiStageFromBox_g" index="73" typeid="900006"/>
+    <global name="rw_rain_intensitiy_g" index="74" typeid="900022"/>
+    <global name="uF_StatusRainsensor_mg" index="75" typeid="900023"/>
+    <global name="uF_StatusRainsensor2_mg" index="76" typeid="900023"/>
+    <global name="rb_WiperSpeed_g" index="77" typeid="900006"/>
+    <global name="rb_WiperSpeedAlt_g" index="78" typeid="900006"/>
+    <global name="uF_LIN_DiagReq2_mg" index="79" typeid="900004"/>
+    <global name="uF_Main_Flags_g" index="80" typeid="900004"/>
+    <global name="rb_RS_LS_Error1_g" index="81" typeid="900006"/>
+    <global name="rb_RS_LS_Error2_g" index="82" typeid="900006"/>
+    <global name="rb_RainS_Error1_g" index="83" typeid="900006"/>
+    <global name="rb_LightS_Error1_g" index="84" typeid="900006"/>
+    <global name="rw_EEPROM_Address_to_Write_g" index="85" typeid="900022"/>
+    <global name="rb_I2C_EEPROM_bytesToWrite_g" index="86" typeid="900006"/>
+    <global name="rab_EEPROM_Bytes_toWrite_g" index="87" typeid="100017"/>
+    <global name="uF_E2ConfigErrorFlags_g" index="88" typeid="900004"/>
+    <global name="rb_speed_in_kmh_g" index="89" typeid="900006"/>
+    <global name="rb_LSPotiStage_g" index="90" typeid="900006"/>
+    <global name="uF_Check_lightsensor_g" index="91" typeid="900023"/>
+    <global name="uF_modi_lightsens_g" index="92" typeid="900023"/>
+    <global name="uF_LightInternalStatus_g" index="93" typeid="900023"/>
+    <global name="rw_StandbyTimeOutCnt_g" index="94" typeid="900022"/>
+    <global name="rb_ASIC_ALSx_ShortDetected_cnt_g" index="95" typeid="900006"/>
+    <global name="rb_ASIC_ALSx_ShortDetected_Error_g" index="96" typeid="900006"/>
+    <global name="uF_ASIC_ControlFlags_g" index="97" typeid="900023"/>
+    <global name="uF_GainAdjustFlags_g" index="98" typeid="900023"/>
+    <global name="uF_ASIC_Error_Flags_g" index="99" typeid="900023"/>
+    <global name="uF_ASIC_Error_Flags1_g" index="100" typeid="900023"/>
+    <global name="uF_ASIC_Ctrl_Error_Flags_g" index="101" typeid="900023"/>
+    <global name="rw_Solar_light16bit_1_g" index="102" typeid="900022"/>
+    <global name="rw_Solar_light16bit_2_g" index="103" typeid="900022"/>
+    <global name="ras_ASIC_MUX_MeasAD_g" index="104" typeid="100006"/>
+    <global name="rb_ASIC_initTimeout_g" index="105" typeid="900006"/>
+    <global name="rb_VIref_ErrCnt_g" index="106" typeid="900006"/>
+    <global name="rb_ASIC_SPI_ErrorCodeCnt_g" index="107" typeid="900006"/>
+    <global name="rb_StaticNoValidAD_cnt_g" index="108" typeid="900006"/>
+    <global name="rw_SPINoCommCounter_g" index="109" typeid="900022"/>
+    <subprog name="GetLeWWS" index="1" mangled="GetLeWWS" parameterization="()">
+      <global index="57"/>
+      <global index="62"/>
+      <global index="15"/>
+      <global index="16"/>
+      <global index="47"/>
+      <global index="1"/>
+      <global index="26"/>
+      <global index="60"/>
+      <global index="55"/>
+      <global index="59"/>
+      <global index="58"/>
+      <global index="56"/>
+      <global index="71"/>
+      <global index="75"/>
+      <global index="11"/>
+      <global index="8"/>
+      <global index="89"/>
+      <global index="61"/>
+      <global index="98"/>
+      <global index="18"/>
+      <global index="94"/>
+      <global index="24"/>
+      <global index="39"/>
+      <global index="22"/>
+      <global index="23"/>
+      <global index="70"/>
+      <global index="73"/>
+      <global index="45"/>
+      <global index="97"/>
+      <global index="17"/>
+      <global index="49"/>
+      <global index="13"/>
+      <global index="76"/>
+      <global index="0"/>
+      <global index="90"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="GetLsWWS" index="2" mangled="GetLsWWS" parameterization="()">
+      <global index="77"/>
+      <global index="1"/>
+      <global index="23"/>
+      <global index="68"/>
+      <global index="61"/>
+      <global index="75"/>
+      <global index="69"/>
+      <global index="72"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="CopyRLSData" index="3" mangled="CopyRLSData" parameterization="()">
+      <global index="48"/>
+      <global index="1"/>
+      <global index="80"/>
+      <global index="39"/>
+      <global index="66"/>
+      <global index="46"/>
+      <function unit="10" index="2"/>
+      <function unit="10" index="10"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="RainFunction" index="4" mangled="RainFunction" parameterization="()">
+      <global index="45"/>
+      <global index="24"/>
+      <global index="74"/>
+      <global index="20"/>
+      <global index="1"/>
+      <global index="22"/>
+      <global index="21"/>
+      <global index="89"/>
+      <global index="92"/>
+      <global index="67"/>
+      <global index="8"/>
+      <global index="77"/>
+      <global index="56"/>
+      <global index="55"/>
+      <global index="75"/>
+      <global index="61"/>
+      <global index="27"/>
+      <global index="71"/>
+      <global index="78"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="LightFunction" index="5" mangled="LightFunction" parameterization="()">
+      <global index="109"/>
+      <global index="107"/>
+      <global index="108"/>
+      <global index="64"/>
+      <global index="95"/>
+      <global index="105"/>
+      <global index="106"/>
+      <global index="25"/>
+      <global index="62"/>
+      <global index="19"/>
+      <global index="92"/>
+      <global index="80"/>
+      <global index="93"/>
+      <global index="39"/>
+      <global index="55"/>
+      <global index="0"/>
+      <global index="53"/>
+      <function unit="10" index="3"/>
+      <function unit="10" index="7"/>
+      <function unit="10" index="8"/>
+      <function unit="10" index="9"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="Humidity_Function" index="6" mangled="Humidity_Function" parameterization="()">
+      <global index="44"/>
+      <global index="54"/>
+      <global index="42"/>
+      <global index="43"/>
+      <global index="41"/>
+      <global index="40"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="StandByMode" index="7" mangled="StandByMode" parameterization="()">
+      <global index="16"/>
+      <global index="62"/>
+      <global index="17"/>
+      <global index="1"/>
+      <global index="97"/>
+      <global index="53"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="VoltageDetect" index="8" mangled="VoltageDetect" parameterization="()">
+      <global index="62"/>
+      <global index="53"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="TemperatureDetect" index="9" mangled="TemperatureDetect" parameterization="()">
+      <global index="63"/>
+      <global index="104"/>
+      <global index="53"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="OutPutHudSendCount" index="10" mangled="OutPutHudSendCount" parameterization="()">
+      <global index="54"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="OutPutHudValue" index="11" mangled="OutPutHudValue" parameterization="()">
+      <global index="39"/>
+      <global index="54"/>
+      <function unit="10" index="4"/>
+      <function unit="10" index="5"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="OutPutTwliBriValue" index="12" mangled="OutPutTwliBriValue" parameterization="()">
+      <global index="55"/>
+      <function unit="10" index="4"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="OutPutSolarValue" index="13" mangled="OutPutSolarValue" parameterization="()">
+      <global index="39"/>
+      <global index="97"/>
+      <global index="45"/>
+      <global index="103"/>
+      <global index="102"/>
+      <global index="53"/>
+      <function unit="10" index="6"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="OutPutBrightnessValue" index="14" mangled="OutPutBrightnessValue" parameterization="()">
+      <global index="97"/>
+      <global index="80"/>
+      <global index="54"/>
+      <global index="55"/>
+      <global index="53"/>
+      <global index="39"/>
+      <global index="25"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="CheckErrors" index="15" mangled="CheckErrors" c_static="1" parameterization="()">
+      <global index="81"/>
+      <global index="66"/>
+      <global index="91"/>
+      <global index="99"/>
+      <global index="101"/>
+      <global index="82"/>
+      <global index="65"/>
+      <global index="100"/>
+      <global index="83"/>
+      <global index="71"/>
+      <global index="84"/>
+      <global index="93"/>
+      <global index="96"/>
+      <global index="55"/>
+      <global index="39"/>
+      <global index="62"/>
+      <global index="88"/>
+      <global index="79"/>
+      <global index="25"/>
+      <global index="53"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="ApplLinInit" index="16" mangled="ApplLinInit" parameterization="(byte)">
+      <param name="rb_LIN_State_l" index="1" typeid="900006"/>
+      <global index="50"/>
+      <global index="51"/>
+      <global index="52"/>
+      <global index="53"/>
+      <global index="54"/>
+      <global index="55"/>
+      <global index="20"/>
+      <global index="21"/>
+      <global index="22"/>
+      <global index="1"/>
+      <global index="75"/>
+      <global index="73"/>
+      <global index="23"/>
+      <global index="19"/>
+      <global index="27"/>
+      <function unit="10" index="1"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="ApplLinSlavePreCopy" index="17" mangled="ApplLinSlavePreCopy" parameterization="(byte)">
+      <param name="rb_MessageID_l" index="1" typeid="900006"/>
+      <global index="39"/>
+      <global index="55"/>
+      <global index="8"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="GetFiveTableValue_500ms" index="18" mangled="GetFiveTableValue_500ms" parameterization="(unsigned long)">
+      <param name="rl_HUD_Brightness_50ms" index="1" typeid="900037"/>
+      <global index="29"/>
+      <global index="28"/>
+      <global index="37"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="AdjustOutHudValue" index="19" mangled="AdjustOutHudValue" parameterization="(unsigned long)unsigned long">
+      <param name="rl_CurrentHud" index="1" typeid="900037"/>
+      <param name="return" index="2" typeid="900037"/>
+      <global index="36"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="GetUpdateTimeForLightStatus" index="20" mangled="GetUpdateTimeForLightStatus" parameterization="()unsigned char">
+      <param name="return" index="1" typeid="900006"/>
+      <global index="93"/>
+      <global index="80"/>
+      <global index="92"/>
+      <global index="89"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="CalcHUDMean_1000ms" index="21" mangled="CalcHUDMean_1000ms" parameterization="()unsigned long">
+      <param name="return" index="1" typeid="900037"/>
+      <global index="37"/>
+      <global index="38"/>
+      <global index="28"/>
+      <global index="36"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="orderHUDValue" index="22" mangled="orderHUDValue" parameterization="(int)">
+      <param name="n" index="1" typeid="900003"/>
+      <global index="29"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="GetFiveTableValue_50ms" index="23" mangled="GetFiveTableValue_50ms" parameterization="(unsigned long,unsigned long)">
+      <param name="Fw" index="1" typeid="900037"/>
+      <param name="Amb" index="2" typeid="900037"/>
+      <global index="30"/>
+      <global index="31"/>
+      <global index="32"/>
+      <global index="33"/>
+      <global index="34"/>
+      <global index="35"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="CRC8SAEJ1850" index="24" mangled="CRC8SAEJ1850" parameterization="(byte*,byte)byte">
+      <param name="u8_data" index="1" typeid="900041"/>
+      <param name="u8_len" index="2" typeid="900006"/>
+      <param name="return" index="3" typeid="900006"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="GetOutdBriStsCrcj1850" index="25" mangled="GetOutdBriStsCrcj1850" parameterization="(byte)byte">
+      <param name="OutdBriSts" index="1" typeid="900006"/>
+      <param name="return" index="2" typeid="900006"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="GetHudCrcj1850" index="26" mangled="GetHudCrcj1850" parameterization="(unsigned long)byte">
+      <param name="hudSrc" index="1" typeid="900037"/>
+      <param name="return" index="2" typeid="900006"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="GetLightTransmission" index="27" mangled="GetLightTransmission" parameterization="(byte,byte)">
+      <param name="trans_550nm" index="1" typeid="900006"/>
+      <param name="trans_880nm" index="2" typeid="900006"/>
+      <global index="55"/>
+      <global index="39"/>
+      <global index="80"/>
+      <global index="87"/>
+      <global index="85"/>
+      <global index="86"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="Get_BCMVehType" index="28" mangled="Get_BCMVehType" parameterization="(byte)">
+      <param name="CarType" index="1" typeid="900006"/>
+      <global index="80"/>
+      <global index="39"/>
+      <global index="87"/>
+      <global index="85"/>
+      <global index="86"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="Set_BCMLightOffset" index="29" mangled="Set_BCMLightOffset" parameterization="(byte)">
+      <param name="offset" index="1" typeid="900006"/>
+      <global index="80"/>
+      <global index="39"/>
+      <global index="87"/>
+      <global index="85"/>
+      <global index="86"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="SendRLSSerNo" index="30" mangled="SendRLSSerNo" parameterization="()">
+      <global index="50"/>
+      <global index="39"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="SendRLSMPartNo" index="31" mangled="SendRLSMPartNo" parameterization="()">
+      <global index="52"/>
+      <global index="39"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="SendRLSMPartNo10" index="32" mangled="SendRLSMPartNo10" parameterization="()">
+      <global index="51"/>
+      <global index="39"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="WipeWinterModeCheck" index="33" mangled="WipeWinterModeCheck" parameterization="()">
+      <global index="89"/>
+      <global index="26"/>
+      <global index="27"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="IsByteOddParity" index="34" mangled="IsByteOddParity" parameterization="(byte)byte">
+      <param name="data" index="1" typeid="900006"/>
+      <param name="return" index="2" typeid="900006"/>
+      <source_file index="2"/>
+    </subprog>
+  </unit>
+  <unit name="uut_prototype_stubs" index="10" sbf="0" unit_description="Stubbed Unit">
+    <global name="EEPROM_Struct_PD" index="1" typeid="900026"/>
+    <global name="rb_Humidity_raw_g" index="2" typeid="900006"/>
+    <global name="rb_Humidity_g" index="3" typeid="900006"/>
+    <global name="rw_Temperature_raw_g" index="4" typeid="900022"/>
+    <global name="rw_DewPoint_g" index="5" typeid="900022"/>
+    <global name="rbi_HumTempComError_g" index="6" typeid="900006"/>
+    <global name="EEPROM_Struct_AD" index="7" typeid="900028"/>
+    <global name="rb_WDG_BusTaskCounter_g" index="8" typeid="900006"/>
+    <global name="uLinIndicationFlags" index="9" typeid="900007"/>
+    <global name="uLinConfirmationFlags" index="10" typeid="900030"/>
+    <global name="rb_WakeupCounter_mg" index="11" typeid="900006"/>
+    <global name="RlsmCem_SerNrLin1Fr01_CEM_LIN1" index="12" typeid="900038"/>
+    <global name="RlsmCem_Lin1PartNrFr02_CEM_LIN1" index="13" typeid="900039"/>
+    <global name="RlsmCem_Lin1PartNrFr01_CEM_LIN1" index="14" typeid="900040"/>
+    <global name="RlsmCem_Lin1Fr03_CEM_LIN1" index="15" typeid="900032"/>
+    <global name="RlsmCem_Lin1Fr02_CEM_LIN1" index="16" typeid="900034"/>
+    <global name="RlsmCem_Lin1Fr01_CEM_LIN1" index="17" typeid="900012"/>
+    <global name="CemCem_Lin1Fr06_CEM_LIN1" index="18" typeid="900018"/>
+    <global name="CemCem_Lin1Fr05_CEM_LIN1" index="19" typeid="900001"/>
+    <global name="CemCem_Lin1Fr04_CEM_LIN1" index="20" typeid="900016"/>
+    <global name="CemCem_Lin1Fr03_CEM_LIN1" index="21" typeid="900014"/>
+    <global name="CemCem_Lin1Fr02_CEM_LIN1" index="22" typeid="900009"/>
+    <global name="CemCem_Lin1Fr01_CEM_LIN1" index="23" typeid="900024"/>
+    <global name="uF_VoltageStatus_g" index="24" typeid="900004"/>
+    <global name="rb_InternalTemperature_g" index="25" typeid="900006"/>
+    <global name="rb_ClockFreq_Error_cnt_g" index="26" typeid="900006"/>
+    <global name="uF_uC_Error_g" index="27" typeid="900023"/>
+    <global name="uF_Diagnose_pre_Flag" index="28" typeid="900023"/>
+    <global name="rub_RSIntermDelayInit" index="29" typeid="900006"/>
+    <global name="rb_LimitMemomryNoWiperReaction_g" index="30" typeid="900006"/>
+    <global name="rbi_WiperStarted_g" index="31" typeid="900006"/>
+    <global name="rb_LIN_SensitivityShift_g" index="32" typeid="900006"/>
+    <global name="RSStatus" index="33" typeid="900020"/>
+    <global name="rub_IntermDelayTime" index="34" typeid="900006"/>
+    <global name="rb_PotiStageFromBox_g" index="35" typeid="900006"/>
+    <global name="rw_rain_intensitiy_g" index="36" typeid="900022"/>
+    <global name="uF_StatusRainsensor_mg" index="37" typeid="900023"/>
+    <global name="uF_StatusRainsensor2_mg" index="38" typeid="900023"/>
+    <global name="rb_WiperSpeed_g" index="39" typeid="900006"/>
+    <global name="rb_WiperSpeedAlt_g" index="40" typeid="900006"/>
+    <global name="uF_LIN_DiagReq2_mg" index="41" typeid="900004"/>
+    <global name="uF_Main_Flags_g" index="42" typeid="900004"/>
+    <global name="rb_RS_LS_Error1_g" index="43" typeid="900006"/>
+    <global name="rb_RS_LS_Error2_g" index="44" typeid="900006"/>
+    <global name="rb_RainS_Error1_g" index="45" typeid="900006"/>
+    <global name="rb_LightS_Error1_g" index="46" typeid="900006"/>
+    <global name="rw_EEPROM_Address_to_Write_g" index="47" typeid="900022"/>
+    <global name="rb_I2C_EEPROM_bytesToWrite_g" index="48" typeid="900006"/>
+    <global name="rab_EEPROM_Bytes_toWrite_g" index="49" typeid="100017"/>
+    <global name="uF_E2ConfigErrorFlags_g" index="50" typeid="900004"/>
+    <global name="rb_speed_in_kmh_g" index="51" typeid="900006"/>
+    <global name="rb_LSPotiStage_g" index="52" typeid="900006"/>
+    <global name="uF_Check_lightsensor_g" index="53" typeid="900023"/>
+    <global name="uF_modi_lightsens_g" index="54" typeid="900023"/>
+    <global name="uF_LightInternalStatus_g" index="55" typeid="900023"/>
+    <global name="rw_StandbyTimeOutCnt_g" index="56" typeid="900022"/>
+    <global name="rb_ASIC_ALSx_ShortDetected_cnt_g" index="57" typeid="900006"/>
+    <global name="rb_ASIC_ALSx_ShortDetected_Error_g" index="58" typeid="900006"/>
+    <global name="uF_ASIC_ControlFlags_g" index="59" typeid="900023"/>
+    <global name="uF_GainAdjustFlags_g" index="60" typeid="900023"/>
+    <global name="uF_ASIC_Error_Flags_g" index="61" typeid="900023"/>
+    <global name="uF_ASIC_Error_Flags1_g" index="62" typeid="900023"/>
+    <global name="uF_ASIC_Ctrl_Error_Flags_g" index="63" typeid="900023"/>
+    <global name="rw_Solar_light16bit_1_g" index="64" typeid="900022"/>
+    <global name="rw_Solar_light16bit_2_g" index="65" typeid="900022"/>
+    <global name="ras_ASIC_MUX_MeasAD_g" index="66" typeid="100006"/>
+    <global name="rb_ASIC_initTimeout_g" index="67" typeid="900006"/>
+    <global name="rb_VIref_ErrCnt_g" index="68" typeid="900006"/>
+    <global name="rb_ASIC_SPI_ErrorCodeCnt_g" index="69" typeid="900006"/>
+    <global name="rb_StaticNoValidAD_cnt_g" index="70" typeid="900006"/>
+    <global name="rw_SPINoCommCounter_g" index="71" typeid="900022"/>
+    <subprog name="sci_init" index="1" mangled="sci_init" parameterization="(byte)">
+      <param name="rb_WakeUpFrame_l" index="1" typeid="900006"/>
+      <source_file index="3"/>
+    </subprog>
+    <subprog name="Check_StartupActiveErrors" index="2" mangled="Check_StartupActiveErrors" parameterization="()">
+      <source_file index="4"/>
+    </subprog>
+    <subprog name="get_rb_LightVetoCounter_g" index="3" mangled="get_rb_LightVetoCounter_g" parameterization="()byte">
+      <param name="return" index="1" typeid="900006"/>
+      <source_file index="5"/>
+    </subprog>
+    <subprog name="get_rw_Amb_light16bit_g" index="4" mangled="get_rw_Amb_light16bit_g" parameterization="()unsigned">
+      <param name="return" index="1" typeid="900022"/>
+      <source_file index="6"/>
+    </subprog>
+    <subprog name="get_rl_HUD_light32bit_g" index="5" mangled="get_rl_HUD_light32bit_g" parameterization="()unsigned long">
+      <param name="return" index="1" typeid="900037"/>
+      <source_file index="6"/>
+    </subprog>
+    <subprog name="get_rw_IR_light16bit_g" index="6" mangled="get_rw_IR_light16bit_g" parameterization="()unsigned">
+      <param name="return" index="1" typeid="900022"/>
+      <source_file index="6"/>
+    </subprog>
+    <subprog name="get_rb_LightSignalErrorCnt_g" index="7" mangled="get_rb_LightSignalErrorCnt_g" parameterization="()byte">
+      <param name="return" index="1" typeid="900006"/>
+      <source_file index="6"/>
+    </subprog>
+    <subprog name="get_rb_VDD_LightSignalErrorCnt_g" index="8" mangled="get_rb_VDD_LightSignalErrorCnt_g" parameterization="()byte">
+      <param name="return" index="1" typeid="900006"/>
+      <source_file index="6"/>
+    </subprog>
+    <subprog name="get_rb_LEDx_LStop_error_cnt_g" index="9" mangled="get_rb_LEDx_LStop_error_cnt_g" parameterization="()byte">
+      <param name="return" index="1" typeid="900006"/>
+      <source_file index="6"/>
+    </subprog>
+    <subprog name="CopyRLSDataAsic" index="10" mangled="CopyRLSDataAsic" parameterization="()">
+      <source_file index="7"/>
+    </subprog>
+  </unit>
+  <environment_exceptions/>
+  <macro name="ASIC_ALS1_READY_FLG" int="1"/>
+  <macro name="ASIC_ALS2_INC_READY_FLG" int="1"/>
+  <macro name="ASIC_ALS2_READY_FLG" int="2"/>
+  <macro name="ASIC_ALS4_INC_READY_FLG" int="2"/>
+  <macro name="ASIC_ALS5_INC_READY_FLG" int="4"/>
+  <macro name="ASIC_ALS5_READY_FLG" int="16"/>
+  <macro name="ASIC_ALS6_READY_FLG" int="32"/>
+  <macro name="ASIC_MEAS_FREQ" int="100"/>
+  <macro name="ASIC_REC_INC_READY_FLG" int="8"/>
+  <macro name="ASIC_REC_READY_FLG" int="64"/>
+  <macro name="ASIC_START_MEAS" int="18"/>
+  <macro name="BRK_I_vect" int="126"/>
+  <macro name="CALLT_80_vect" int="128"/>
+  <macro name="CALLT_82_vect" int="130"/>
+  <macro name="CALLT_84_vect" int="132"/>
+  <macro name="CALLT_86_vect" int="134"/>
+  <macro name="CALLT_88_vect" int="136"/>
+  <macro name="CALLT_8A_vect" int="138"/>
+  <macro name="CALLT_8C_vect" int="140"/>
+  <macro name="CALLT_8E_vect" int="142"/>
+  <macro name="CALLT_90_vect" int="144"/>
+  <macro name="CALLT_92_vect" int="146"/>
+  <macro name="CALLT_94_vect" int="148"/>
+  <macro name="CALLT_96_vect" int="150"/>
+  <macro name="CALLT_98_vect" int="152"/>
+  <macro name="CALLT_9A_vect" int="154"/>
+  <macro name="CALLT_9C_vect" int="156"/>
+  <macro name="CALLT_9E_vect" int="158"/>
+  <macro name="CALLT_A0_vect" int="160"/>
+  <macro name="CALLT_A2_vect" int="162"/>
+  <macro name="CALLT_A4_vect" int="164"/>
+  <macro name="CALLT_A6_vect" int="166"/>
+  <macro name="CALLT_A8_vect" int="168"/>
+  <macro name="CALLT_AA_vect" int="170"/>
+  <macro name="CALLT_AC_vect" int="172"/>
+  <macro name="CALLT_AE_vect" int="174"/>
+  <macro name="CALLT_B0_vect" int="176"/>
+  <macro name="CALLT_B2_vect" int="178"/>
+  <macro name="CALLT_B4_vect" int="180"/>
+  <macro name="CALLT_B6_vect" int="182"/>
+  <macro name="CALLT_B8_vect" int="184"/>
+  <macro name="CALLT_BA_vect" int="186"/>
+  <macro name="CALLT_BC_vect" int="188"/>
+  <macro name="CALLT_BE_vect" int="190"/>
+  <macro name="CASE_ASIC_CNT_MD_NORMAL" int="12"/>
+  <macro name="CASE_ASIC_CNT_MD_PRE_STANDBY" int="50"/>
+  <macro name="CASE_ASIC_CNT_MD_RESET" int="0"/>
+  <macro name="CASE_ASIC_CNT_MD_STANDBY" int="51"/>
+  <macro name="CASE_ASIC_CNT_MD_STANDBY_CLOSE_WD" int="60"/>
+  <macro name="CASE_ASIC_CNT_TEST_EN_RESET" int="10"/>
+  <macro name="CB_AMBLIGHT_100lx" int="5"/>
+  <macro name="CB_ANBHIGH_TO_LOW_FAKT" int="8"/>
+  <macro name="CB_ASIC_CLEAR_DIAG" int="8"/>
+  <macro name="CB_ASIC_INIT_MD" int="0"/>
+  <macro name="CB_ASIC_LOOP1_MD" int="1"/>
+  <macro name="CB_ASIC_LOOP2_MD" int="2"/>
+  <macro name="CB_ASIC_LOPEN_MD" int="5"/>
+  <macro name="CB_ASIC_LRAMP_MD" int="3"/>
+  <macro name="CB_ASIC_LRETURN" int="198"/>
+  <macro name="CB_ASIC_LSTOP_MD" int="4"/>
+  <macro name="CB_ASIC_NOVALID_ADVALUES_THRSHD" int="9"/>
+  <macro name="CB_ASIC_SET_DIAG" int="10"/>
+  <macro name="CB_ASIC_SLEEP_MD" int="7"/>
+  <macro name="CB_ASIC_WAKEUP_MD" int="6"/>
+  <macro name="CB_CHG_MUX_STMEAS_RQ" int="12"/>
+  <macro name="CB_DEF_ACTR_REG" int="143"/>
+  <macro name="CB_DEF_AFTERTUNNELDELAYOFFS" int="11"/>
+  <macro name="CB_DEF_ALS1_4_SETTING" int="36"/>
+  <macro name="CB_DEF_ALS5_6_INREC_SETTING" int="0"/>
+  <macro name="CB_DEF_ALSX_FILTER" int="1"/>
+  <macro name="CB_DEF_AMB_BASE_DAY_THRESHOLD" int="187"/>
+  <macro name="CB_DEF_AMB_BASE_NIGHT_THRESHOLD" int="135"/>
+  <macro name="CB_DEF_AMB_TUNNELTHRESHOLDSCALING" int="4"/>
+  <macro name="CB_DEF_ANSAMLUN_ADIT_OFFS" int="0"/>
+  <macro name="CB_DEF_ASIC_AFSTHR_REG" int="153"/>
+  <macro name="CB_DEF_ASIC_DIAGV" int="120"/>
+  <macro name="CB_DEF_ASIC_FRAME_01" int="64"/>
+  <macro name="CB_DEF_ASIC_FRAME_02" int="64"/>
+  <macro name="CB_DEF_ASIC_FRAME_03" int="64"/>
+  <macro name="CB_DEF_ASIC_FRAME_04" int="64"/>
+  <macro name="CB_DEF_ASIC_LCTR" int="0"/>
+  <macro name="CB_DEF_ASIC_RCTR_REG" int="164"/>
+  <macro name="CB_DEF_ASIC_RFCTR_REG" int="128"/>
+  <macro name="CB_DEF_ASIC_SCHED_CONFIG" int="0"/>
+  <macro name="CB_DEF_AUDI_HW_PART_NUMBER_1" int="48"/>
+  <macro name="CB_DEF_AUDI_HW_PART_NUMBER_10_INDEX" int="32"/>
+  <macro name="CB_DEF_AUDI_HW_PART_NUMBER_11_INDEX" int="32"/>
+  <macro name="CB_DEF_AUDI_HW_PART_NUMBER_2" int="49"/>
+  <macro name="CB_DEF_AUDI_HW_PART_NUMBER_3" int="55"/>
+  <macro name="CB_DEF_AUDI_HW_PART_NUMBER_4_5" int="114"/>
+  <macro name="CB_DEF_AUDI_HW_PART_NUMBER_6_7" int="7"/>
+  <macro name="CB_DEF_AUDI_HW_PART_NUMBER_8_9" int="144"/>
+  <macro name="CB_DEF_AUDI_SW_PART_NUMBER_1" int="56"/>
+  <macro name="CB_DEF_AUDI_SW_PART_NUMBER_10_INDEX" int="32"/>
+  <macro name="CB_DEF_AUDI_SW_PART_NUMBER_11_INDEX" int="32"/>
+  <macro name="CB_DEF_AUDI_SW_PART_NUMBER_2" int="49"/>
+  <macro name="CB_DEF_AUDI_SW_PART_NUMBER_3" int="65"/>
+  <macro name="CB_DEF_AUDI_SW_PART_NUMBER_4_5" int="149"/>
+  <macro name="CB_DEF_AUDI_SW_PART_NUMBER_6_7" int="85"/>
+  <macro name="CB_DEF_AUDI_SW_PART_NUMBER_8_9" int="85"/>
+  <macro name="CB_DEF_AUTOBAHN_DELAY_ON" int="73"/>
+  <macro name="CB_DEF_AUTOBAHN_ON_OFF" int="84"/>
+  <macro name="CB_DEF_BCM1_LIN1_01" int="133"/>
+  <macro name="CB_DEF_BCM1_LIN1_02" int="71"/>
+  <macro name="CB_DEF_BCM1_LIN1_03" int="151"/>
+  <macro name="CB_DEF_BCM1_LIN1_04" int="193"/>
+  <macro name="CB_DEF_BCM1_LIN1_05" int="37"/>
+  <macro name="CB_DEF_B_FACTOR_IREF_HI_GAIN_HI" int="64"/>
+  <macro name="CB_DEF_B_FACTOR_IREF_HI_GAIN_LO" int="216"/>
+  <macro name="CB_DEF_B_FACTOR_IREF_LO_GAIN_HI" int="64"/>
+  <macro name="CB_DEF_B_FACTOR_IREF_LO_GAIN_LO" int="216"/>
+  <macro name="CB_DEF_COMBINED_FW_AL_THRS" int="0"/>
+  <macro name="CB_DEF_CUSTOMER_FW_SWA_SCALING" int="128"/>
+  <macro name="CB_DEF_CUSTOMER_IR_SWA_SCALING" int="128"/>
+  <macro name="CB_DEF_DARK_TO_TWILIGHT_THRESH_AMB" int="10"/>
+  <macro name="CB_DEF_DARK_TO_TWILIGHT_THRESH_FW" int="10"/>
+  <macro name="CB_DEF_DARK_TO_TWILIGHT_TIME" int="15"/>
+  <macro name="CB_DEF_DAY_DELAY" int="93"/>
+  <macro name="CB_DEF_DEC_ST2_SPEICHER" int="31"/>
+  <macro name="CB_DEF_DIAG_REQUEST_FACTOR" int="7"/>
+  <macro name="CB_DEF_DYN_COMP_CCD_MINUS_1" int="134"/>
+  <macro name="CB_DEF_DYN_COMP_CCD_MINUS_2" int="48"/>
+  <macro name="CB_DEF_E2_MAXST2SIGNALLAENGE" int="140"/>
+  <macro name="CB_DEF_E2_RESERVED" int="0"/>
+  <macro name="CB_DEF_EEPROM_ERASE_COUNTER" int="0"/>
+  <macro name="CB_DEF_ERASE_COUNTER" int="0"/>
+  <macro name="CB_DEF_ERROR_ACTIVE_1" int="0"/>
+  <macro name="CB_DEF_ERROR_ACTIVE_2" int="0"/>
+  <macro name="CB_DEF_ERROR_ACTIVE_3" int="0"/>
+  <macro name="CB_DEF_ERR_DATA_01" int="64"/>
+  <macro name="CB_DEF_FERTIGUNGSDATUM_JAHR" int="13"/>
+  <macro name="CB_DEF_FERTIGUNGSDATUM_MONAT" int="1"/>
+  <macro name="CB_DEF_FERTIGUNGSDATUM_TAG" int="1"/>
+  <macro name="CB_DEF_FOSC_LEDUL" int="129"/>
+  <macro name="CB_DEF_FRONTWASCHEN_AUTOBAHNDELAY" int="87"/>
+  <macro name="CB_DEF_FW_BASE_DAY_THRESHOLD" int="180"/>
+  <macro name="CB_DEF_FW_BASE_NIGHT_THRESHOLD" int="135"/>
+  <macro name="CB_DEF_GAINOFFSET_E2" int="0"/>
+  <macro name="CB_DEF_GAINSETUP_0_1" int="1"/>
+  <macro name="CB_DEF_GAINSETUP_10_MOD" int="160"/>
+  <macro name="CB_DEF_GAINSETUP_2_3" int="35"/>
+  <macro name="CB_DEF_GAINSETUP_4_5" int="69"/>
+  <macro name="CB_DEF_GAINSETUP_6_7" int="103"/>
+  <macro name="CB_DEF_GAINSETUP_8_9" int="137"/>
+  <macro name="CB_DEF_HALIOS_CLOCK_CONTROL_REG" int="144"/>
+  <macro name="CB_DEF_HARDWARESTAND_0" int="48"/>
+  <macro name="CB_DEF_HARDWARESTAND_1" int="49"/>
+  <macro name="CB_DEF_HUD_FACTOR" int="0"/>
+  <macro name="CB_DEF_HUD_RESOLUTION" int="100"/>
+  <macro name="CB_DEF_HUD_VALUE" int="655"/>
+  <macro name="CB_DEF_I2C_DEBUG_CONFIG" int="255"/>
+  <macro name="CB_DEF_ICE_DETECTION_TEMPERATURE" int="80"/>
+  <macro name="CB_DEF_ICO1H" int="0"/>
+  <macro name="CB_DEF_ICO1L" int="128"/>
+  <macro name="CB_DEF_ICO2H" int="0"/>
+  <macro name="CB_DEF_ICO2L" int="112"/>
+  <macro name="CB_DEF_IDFSS_01" int="64"/>
+  <macro name="CB_DEF_IDRLSS_01" int="85"/>
+  <macro name="CB_DEF_IDRLSS_02" int="32"/>
+  <macro name="CB_DEF_IDRLSS_03" int="226"/>
+  <macro name="CB_DEF_IDRLSS_04" int="216"/>
+  <macro name="CB_DEF_IDRLSS_05" int="3"/>
+  <macro name="CB_DEF_IDRLSS_06" int="196"/>
+  <macro name="CB_DEF_INCIDENTCOUNTER1" int="0"/>
+  <macro name="CB_DEF_INCIDENTCOUNTER2" int="0"/>
+  <macro name="CB_DEF_INCIDENTCOUNTER3" int="0"/>
+  <macro name="CB_DEF_INCIDENTCOUNTER4" int="0"/>
+  <macro name="CB_DEF_INCIDENTCOUNTER5" int="0"/>
+  <macro name="CB_DEF_INCIDENTCOUNTER6" int="0"/>
+  <macro name="CB_DEF_INCIDENTCOUNTER7" int="0"/>
+  <macro name="CB_DEF_INC_SPEICHER" int="100"/>
+  <macro name="CB_DEF_INTCO" int="16"/>
+  <macro name="CB_DEF_INTERVALS_WAS_ACTIVE" int="0"/>
+  <macro name="CB_DEF_IR_BASE_DAY_THRESHOLD" int="90"/>
+  <macro name="CB_DEF_IR_BASE_NIGHT_THRESHOLD" int="68"/>
+  <macro name="CB_DEF_KODIERBYTE_0" int="0"/>
+  <macro name="CB_DEF_KODIERBYTE_1" int="0"/>
+  <macro name="CB_DEF_KODIERBYTE_2" int="108"/>
+  <macro name="CB_DEF_LIGHTLS_ERROR_ACTIVE1" int="0"/>
+  <macro name="CB_DEF_LIGHT_CTRL_SETTINGS1" int="132"/>
+  <macro name="CB_DEF_LIGHT_CTRL_SETTINGS2" int="196"/>
+  <macro name="CB_DEF_LIGHT_CTRL_SETTINGS3" int="140"/>
+  <macro name="CB_DEF_LINID_SPARE_01" int="64"/>
+  <macro name="CB_DEF_LS_RS_ERROR_ACTIVE1" int="0"/>
+  <macro name="CB_DEF_LS_RS_ERROR_ACTIVE2" int="0"/>
+  <macro name="CB_DEF_MAXTEMPERATUREOFFSETT" int="70"/>
+  <macro name="CB_DEF_MAXTEMPERATUREOFFSET_G" int="70"/>
+  <macro name="CB_DEF_NAD" int="3"/>
+  <macro name="CB_DEF_NIGHT_DELAY" int="93"/>
+  <macro name="CB_DEF_NOM_DELTA_INTV" int="255"/>
+  <macro name="CB_DEF_PCO_PI_REGULATOR" int="96"/>
+  <macro name="CB_DEF_PRJ_SPECIFIC_CONFIG" int="3"/>
+  <macro name="CB_DEF_PRODUKTIONSNUMMER_0" int="0"/>
+  <macro name="CB_DEF_PRODUKTIONSNUMMER_1" int="0"/>
+  <macro name="CB_DEF_PRODUKTIONSNUMMER_2" int="0"/>
+  <macro name="CB_DEF_PRODUKTIONSNUMMER_3" int="0"/>
+  <macro name="CB_DEF_PROD_DATA" int="0"/>
+  <macro name="CB_DEF_RAINNIGHTBITTHRS" int="1"/>
+  <macro name="CB_DEF_RAINRS_ERROR_ACTIVE1" int="0"/>
+  <macro name="CB_DEF_REGENLICHTSCHWELLE_LOW_HIGH" int="27"/>
+  <macro name="CB_DEF_REGENLICHTSCHWELLE_ZEIT" int="68"/>
+  <macro name="CB_DEF_REGULATION48LIGHTONTIME" int="108"/>
+  <macro name="CB_DEF_REGULATION48THRESHOLD_AMB" int="30"/>
+  <macro name="CB_DEF_REGULATION48THRESHOLD_FW" int="25"/>
+  <macro name="CB_DEF_RELEASE_INTERVAL_MARKER" int="0"/>
+  <macro name="CB_DEF_RESF" int="0"/>
+  <macro name="CB_DEF_RSCONTROLFLAGS" int="1"/>
+  <macro name="CB_DEF_RSEMPFFACTORSCALING" int="199"/>
+  <macro name="CB_DEF_RSEMPFFACTORSCALING_1" int="201"/>
+  <macro name="CB_DEF_SCHLIEREN_FLAG" int="104"/>
+  <macro name="CB_DEF_SENSOR_ERRORX" int="0"/>
+  <macro name="CB_DEF_SENS_CONFIG_DATA" int="0"/>
+  <macro name="CB_DEF_SERIAL_NUMMER" int="0"/>
+  <macro name="CB_DEF_SHTERRDEBOUNCEJITTER" int="60"/>
+  <macro name="CB_DEF_SLOAR_SHADOW_CORR_FACTOR1" int="0"/>
+  <macro name="CB_DEF_SLOAR_SHADOW_CORR_FACTOR2" int="7"/>
+  <macro name="CB_DEF_SOFTWARESTAND_0" int="48"/>
+  <macro name="CB_DEF_SOFTWARESTAND_1" int="48"/>
+  <macro name="CB_DEF_SOFTWARESTAND_2" int="1"/>
+  <macro name="CB_DEF_SOFTWARESTAND_3" int="0"/>
+  <macro name="CB_DEF_SOSES_01" int="64"/>
+  <macro name="CB_DEF_SPARE" int="0"/>
+  <macro name="CB_DEF_STANDBYMODESCANTIME" int="36"/>
+  <macro name="CB_DEF_STANDBYTIMOUT" int="43"/>
+  <macro name="CB_DEF_STANDBY_RAIN_MEASUREMENT_1" int="0"/>
+  <macro name="CB_DEF_STANDBY_RAIN_MEASUREMENT_2" int="0"/>
+  <macro name="CB_DEF_STANDBY_RAIN_MEASUREMENT_3" int="0"/>
+  <macro name="CB_DEF_STANDBY_RAIN_MEASUREMENT_4" int="0"/>
+  <macro name="CB_DEF_STANDBY_RAIN_MEASUREMENT_5" int="0"/>
+  <macro name="CB_DEF_STANDBY_RAIN_MEASUREMENT_6" int="0"/>
+  <macro name="CB_DEF_STBY_DELTA_INTV_HB" int="9"/>
+  <macro name="CB_DEF_STBY_DELTA_INTV_LB" int="37"/>
+  <macro name="CB_DEF_STBY_REGV_HB" int="0"/>
+  <macro name="CB_DEF_STBY_REGV_IMBALANCE" int="20"/>
+  <macro name="CB_DEF_STBY_REGV_LB" int="0"/>
+  <macro name="CB_DEF_THRESHOLD_TEMPICERISK" int="106"/>
+  <macro name="CB_DEF_THR_DELTA_INTV" int="200"/>
+  <macro name="CB_DEF_TUNNELDEBOUNCEFACTOR" int="45"/>
+  <macro name="CB_DEF_TUNNELTHRESHOLDSCALING" int="68"/>
+  <macro name="CB_DEF_TUNWISCHVERZAKTIV" int="136"/>
+  <macro name="CB_DEF_TWILIGHT_TO_DARK_THRESH_AMB" int="4"/>
+  <macro name="CB_DEF_TWILIGHT_TO_DARK_THRESH_FW" int="4"/>
+  <macro name="CB_DEF_TWILIGHT_TO_DARK_TIME" int="37"/>
+  <macro name="CB_DEF_UPPER_TOL_SUW" int="0"/>
+  <macro name="CB_DEF_VARIANT_ID" int="1"/>
+  <macro name="CB_DEF_VERYBRIGHTINTUNL_DIST_THRS_g" int="70"/>
+  <macro name="CB_DEF_VERYBRIGHTINTUNNELDELAY" int="70"/>
+  <macro name="CB_DEF_WATCHDOGRESETCOUNTER" int="0"/>
+  <macro name="CB_DEF_WIPER_SPEED_HYSTERESIS" int="100"/>
+  <macro name="CB_DEF_WWSS_01" int="50"/>
+  <macro name="CB_DEF_ZUSPLATE" int="0"/>
+  <macro name="CB_DEPRESSED_PARK_POINTER_DEF" int="2"/>
+  <macro name="CB_DIAG_DEF_NAD" int="123"/>
+  <macro name="CB_FREQ_NOTTRIMMED_CNT_THRSHD" int="100"/>
+  <macro name="CB_INPARKPOSITION_S" int="0"/>
+  <macro name="CB_INREC_ABS_LOWER1_LEVEL" int="50"/>
+  <macro name="CB_INREC_ABS_LOWER_LEVEL" int="30"/>
+  <macro name="CB_INREC_ABS_UPPER1_LEVEL" int="200"/>
+  <macro name="CB_INREC_ABS_UPPER_LEVEL" int="225"/>
+  <macro name="CB_LIGHT_ERROR_THRESHOLD_MG" int="40"/>
+  <macro name="CB_MAX_ACTR_REG" int="255"/>
+  <macro name="CB_MAX_AFTERTUNNELDELAYOFFS" int="31"/>
+  <macro name="CB_MAX_ALS1_4_SETTING" int="255"/>
+  <macro name="CB_MAX_ALS5_6_INREC_SETTING" int="255"/>
+  <macro name="CB_MAX_ALSX_FILTER" int="1"/>
+  <macro name="CB_MAX_AMB_BASE_DAY_THRESHOLD" int="254"/>
+  <macro name="CB_MAX_AMB_BASE_NIGHT_THRESHOLD" int="190"/>
+  <macro name="CB_MAX_AMB_TUNNELTHRESHOLDSCALING" int="255"/>
+  <macro name="CB_MAX_ANSAMLUN_ADIT_OFFS" int="180"/>
+  <macro name="CB_MAX_ASIC_AFSTHR_REG" int="255"/>
+  <macro name="CB_MAX_ASIC_DIAGV" int="255"/>
+  <macro name="CB_MAX_ASIC_FRAME_01" int="255"/>
+  <macro name="CB_MAX_ASIC_FRAME_02" int="255"/>
+  <macro name="CB_MAX_ASIC_FRAME_03" int="255"/>
+  <macro name="CB_MAX_ASIC_FRAME_04" int="255"/>
+  <macro name="CB_MAX_ASIC_LCTR" int="255"/>
+  <macro name="CB_MAX_ASIC_RCTR_REG" int="255"/>
+  <macro name="CB_MAX_ASIC_RFCTR_REG" int="255"/>
+  <macro name="CB_MAX_ASIC_SCHED_CONFIG" int="255"/>
+  <macro name="CB_MAX_AUDI_HW_PART_NUMBER_1" int="255"/>
+  <macro name="CB_MAX_AUDI_HW_PART_NUMBER_10_INDEX" int="255"/>
+  <macro name="CB_MAX_AUDI_HW_PART_NUMBER_11_INDEX" int="255"/>
+  <macro name="CB_MAX_AUDI_HW_PART_NUMBER_2" int="255"/>
+  <macro name="CB_MAX_AUDI_HW_PART_NUMBER_3" int="255"/>
+  <macro name="CB_MAX_AUDI_HW_PART_NUMBER_4_5" int="255"/>
+  <macro name="CB_MAX_AUDI_HW_PART_NUMBER_6_7" int="255"/>
+  <macro name="CB_MAX_AUDI_HW_PART_NUMBER_8_9" int="255"/>
+  <macro name="CB_MAX_AUDI_SW_PART_NUMBER_1" int="255"/>
+  <macro name="CB_MAX_AUDI_SW_PART_NUMBER_10_INDEX" int="255"/>
+  <macro name="CB_MAX_AUDI_SW_PART_NUMBER_11_INDEX" int="255"/>
+  <macro name="CB_MAX_AUDI_SW_PART_NUMBER_2" int="255"/>
+  <macro name="CB_MAX_AUDI_SW_PART_NUMBER_3" int="255"/>
+  <macro name="CB_MAX_AUDI_SW_PART_NUMBER_4_5" int="255"/>
+  <macro name="CB_MAX_AUDI_SW_PART_NUMBER_6_7" int="255"/>
+  <macro name="CB_MAX_AUDI_SW_PART_NUMBER_8_9" int="255"/>
+  <macro name="CB_MAX_AUTOBAHN_DELAY_ON" int="255"/>
+  <macro name="CB_MAX_AUTOBAHN_ON_OFF" int="255"/>
+  <macro name="CB_MAX_BCM1_LIN1_01" int="255"/>
+  <macro name="CB_MAX_BCM1_LIN1_02" int="255"/>
+  <macro name="CB_MAX_BCM1_LIN1_03" int="255"/>
+  <macro name="CB_MAX_BCM1_LIN1_04" int="255"/>
+  <macro name="CB_MAX_BCM1_LIN1_05" int="255"/>
+  <macro name="CB_MAX_B_FACTOR_IREF_HI_GAIN_HI" int="255"/>
+  <macro name="CB_MAX_B_FACTOR_IREF_HI_GAIN_LO" int="255"/>
+  <macro name="CB_MAX_B_FACTOR_IREF_LO_GAIN_HI" int="255"/>
+  <macro name="CB_MAX_B_FACTOR_IREF_LO_GAIN_LO" int="255"/>
+  <macro name="CB_MAX_COMBINED_FW_AL_THRS" int="255"/>
+  <macro name="CB_MAX_CUSTOMER_FW_SWA_SCALING" int="220"/>
+  <macro name="CB_MAX_CUSTOMER_IR_SWA_SCALING" int="220"/>
+  <macro name="CB_MAX_DARK_TO_TWILIGHT_THRESH_AMB" int="255"/>
+  <macro name="CB_MAX_DARK_TO_TWILIGHT_THRESH_FW" int="255"/>
+  <macro name="CB_MAX_DARK_TO_TWILIGHT_TIME" int="255"/>
+  <macro name="CB_MAX_DAY_DELAY" int="200"/>
+  <macro name="CB_MAX_DEC_INT_SP_OFF" int="255"/>
+  <macro name="CB_MAX_DEC_OVR_SPEICHER" int="127"/>
+  <macro name="CB_MAX_DEC_ST2_SPEICHER" int="255"/>
+  <macro name="CB_MAX_DEC_STX_SPEICHER" int="100"/>
+  <macro name="CB_MAX_DIAG_REQUEST_FACTOR" int="16"/>
+  <macro name="CB_MAX_DYN_COMP_CCD_MINUS_1" int="255"/>
+  <macro name="CB_MAX_DYN_COMP_CCD_MINUS_2" int="255"/>
+  <macro name="CB_MAX_E2_MAXST2SIGNALLAENGE" int="255"/>
+  <macro name="CB_MAX_E2_RESERVED" int="255"/>
+  <macro name="CB_MAX_EEPROM_ERASE_COUNTER" int="255"/>
+  <macro name="CB_MAX_EMPF_FAKTOR_ST2_OFFS" int="255"/>
+  <macro name="CB_MAX_EP_ST2_EPR_IN_ST2" int="180"/>
+  <macro name="CB_MAX_ERASE_COUNTER" int="255"/>
+  <macro name="CB_MAX_ERROR_ACTIVE_1" int="255"/>
+  <macro name="CB_MAX_ERROR_ACTIVE_2" int="255"/>
+  <macro name="CB_MAX_ERROR_ACTIVE_3" int="255"/>
+  <macro name="CB_MAX_ERR_DATA_01" int="255"/>
+  <macro name="CB_MAX_FERTIGUNGSDATUM_JAHR" int="99"/>
+  <macro name="CB_MAX_FERTIGUNGSDATUM_MONAT" int="12"/>
+  <macro name="CB_MAX_FERTIGUNGSDATUM_TAG" int="31"/>
+  <macro name="CB_MAX_FOSC_LEDUL" int="255"/>
+  <macro name="CB_MAX_FRONTWASCHEN_AUTOBAHNDELAY" int="255"/>
+  <macro name="CB_MAX_FW_BASE_DAY_THRESHOLD" int="210"/>
+  <macro name="CB_MAX_FW_BASE_NIGHT_THRESHOLD" int="200"/>
+  <macro name="CB_MAX_GAINOFFSET_E2" int="255"/>
+  <macro name="CB_MAX_GAINSETUP" int="224"/>
+  <macro name="CB_MAX_HALIOS_CLOCK_CONTROL_REG" int="255"/>
+  <macro name="CB_MAX_HARDWARESTAND_0" int="255"/>
+  <macro name="CB_MAX_HARDWARESTAND_1" int="255"/>
+  <macro name="CB_MAX_HUD_FACTOR" int="255"/>
+  <macro name="CB_MAX_HUD_RESOLUTION" int="255"/>
+  <macro name="CB_MAX_HUD_VALUE" int="65535"/>
+  <macro name="CB_MAX_I2C_DEBUG_CONFIG" int="255"/>
+  <macro name="CB_MAX_ICE_DETECTION_TEMPERATURE" int="255"/>
+  <macro name="CB_MAX_ICO1H" int="255"/>
+  <macro name="CB_MAX_ICO1L" int="255"/>
+  <macro name="CB_MAX_ICO2H" int="255"/>
+  <macro name="CB_MAX_ICO2L" int="255"/>
+  <macro name="CB_MAX_IDFSS_01" int="255"/>
+  <macro name="CB_MAX_IDRLSS_01" int="255"/>
+  <macro name="CB_MAX_IDRLSS_02" int="255"/>
+  <macro name="CB_MAX_IDRLSS_03" int="255"/>
+  <macro name="CB_MAX_IDRLSS_04" int="255"/>
+  <macro name="CB_MAX_IDRLSS_05" int="255"/>
+  <macro name="CB_MAX_IDRLSS_06" int="255"/>
+  <macro name="CB_MAX_INCIDENTCOUNTER1" int="255"/>
+  <macro name="CB_MAX_INCIDENTCOUNTER2" int="255"/>
+  <macro name="CB_MAX_INCIDENTCOUNTER3" int="255"/>
+  <macro name="CB_MAX_INCIDENTCOUNTER4" int="255"/>
+  <macro name="CB_MAX_INCIDENTCOUNTER5" int="255"/>
+  <macro name="CB_MAX_INCIDENTCOUNTER6" int="255"/>
+  <macro name="CB_MAX_INCIDENTCOUNTER7" int="255"/>
+  <macro name="CB_MAX_INC_SPEICHER" int="255"/>
+  <macro name="CB_MAX_INTCO" int="255"/>
+  <macro name="CB_MAX_INTERVALS_WAS_ACTIVE" int="255"/>
+  <macro name="CB_MAX_IR_BASE_DAY_THRESHOLD" int="170"/>
+  <macro name="CB_MAX_IR_BASE_NIGHT_THRESHOLD" int="190"/>
+  <macro name="CB_MAX_KODIERBYTE_0" int="255"/>
+  <macro name="CB_MAX_KODIERBYTE_1" int="255"/>
+  <macro name="CB_MAX_KODIERBYTE_2" int="255"/>
+  <macro name="CB_MAX_LIGHTLS_ERROR_ACTIVE1" int="255"/>
+  <macro name="CB_MAX_LIGHT_CTRL_SETTINGS1" int="255"/>
+  <macro name="CB_MAX_LIGHT_CTRL_SETTINGS2" int="255"/>
+  <macro name="CB_MAX_LIGHT_CTRL_SETTINGS3" int="255"/>
+  <macro name="CB_MAX_LINID_SPARE_01" int="255"/>
+  <macro name="CB_MAX_LS_RS_ERROR_ACTIVE1" int="255"/>
+  <macro name="CB_MAX_LS_RS_ERROR_ACTIVE2" int="255"/>
+  <macro name="CB_MAX_MAXOVERWIPESENSITIVITY" int="35"/>
+  <macro name="CB_MAX_MAXTEMPERATUREOFFSETT" int="255"/>
+  <macro name="CB_MAX_MAX_SIGNALLAENGE" int="250"/>
+  <macro name="CB_MAX_NACHWISCH_2" int="255"/>
+  <macro name="CB_MAX_NACHWISCH_3" int="255"/>
+  <macro name="CB_MAX_NACHWISCH_4_ST1_MIN" int="255"/>
+  <macro name="CB_MAX_NAD" int="126"/>
+  <macro name="CB_MAX_NIGHT_DELAY" int="200"/>
+  <macro name="CB_MAX_NOM_DELTA_INTV" int="255"/>
+  <macro name="CB_MAX_PCO_PI_REGULATOR" int="255"/>
+  <macro name="CB_MAX_PRJ_SPECIFIC_CONFIG" int="255"/>
+  <macro name="CB_MAX_PRODUKTIONSNUMMER_0" int="255"/>
+  <macro name="CB_MAX_PRODUKTIONSNUMMER_1" int="255"/>
+  <macro name="CB_MAX_PRODUKTIONSNUMMER_2" int="255"/>
+  <macro name="CB_MAX_PRODUKTIONSNUMMER_3" int="255"/>
+  <macro name="CB_MAX_PROD_DATA" int="255"/>
+  <macro name="CB_MAX_RAINNIGHTBITTHRS" int="255"/>
+  <macro name="CB_MAX_RAINRS_ERROR_ACTIVE1" int="255"/>
+  <macro name="CB_MAX_RB_STUFE1_WITH_INT_OG" int="255"/>
+  <macro name="CB_MAX_REGENLICHTSCHWELLE_LOW_HIGH" int="255"/>
+  <macro name="CB_MAX_REGENLICHTSCHWELLE_ZEIT" int="255"/>
+  <macro name="CB_MAX_REGULATION48LIGHTONTIME" int="255"/>
+  <macro name="CB_MAX_REGULATION48THRESHOLD_AMB" int="255"/>
+  <macro name="CB_MAX_REGULATION48THRESHOLD_FW" int="255"/>
+  <macro name="CB_MAX_RELEASE_INTERVAL_MARKER" int="255"/>
+  <macro name="CB_MAX_RESF" int="255"/>
+  <macro name="CB_MAX_RSCONTROLFLAGS" int="255"/>
+  <macro name="CB_MAX_RSEMPFFACTORSCALING" int="255"/>
+  <macro name="CB_MAX_RS_SENSITIVITY_0" int="35"/>
+  <macro name="CB_MAX_RS_SENSITIVITY_1" int="35"/>
+  <macro name="CB_MAX_RS_SENSITIVITY_2" int="35"/>
+  <macro name="CB_MAX_RS_SENSITIVITY_3" int="40"/>
+  <macro name="CB_MAX_RS_SENSITIVITY_4" int="40"/>
+  <macro name="CB_MAX_RS_SENSITIVITY_5" int="40"/>
+  <macro name="CB_MAX_RS_SENSITIVITY_6" int="40"/>
+  <macro name="CB_MAX_RS_SENSITIVITY_7" int="40"/>
+  <macro name="CB_MAX_RS_SENSITIVITY_8" int="40"/>
+  <macro name="CB_MAX_SCHLIEREN_FLAG" int="255"/>
+  <macro name="CB_MAX_SCHWELLE_SCHWALL" int="140"/>
+  <macro name="CB_MAX_SENSOR_ERRORX" int="255"/>
+  <macro name="CB_MAX_SENS_CONFIG_DATA" int="255"/>
+  <macro name="CB_MAX_SERIAL_NUMMER" int="255"/>
+  <macro name="CB_MAX_SHTERRDEBOUNCEJITTER" int="255"/>
+  <macro name="CB_MAX_SIG_ANS_SCHW_OFFS" int="255"/>
+  <macro name="CB_MAX_SLOAR_SHADOW_CORR_FACTOR1" int="255"/>
+  <macro name="CB_MAX_SLOAR_SHADOW_CORR_FACTOR2" int="255"/>
+  <macro name="CB_MAX_SOFTWARESTAND_0" int="255"/>
+  <macro name="CB_MAX_SOFTWARESTAND_1" int="255"/>
+  <macro name="CB_MAX_SOFTWARESTAND_2" int="255"/>
+  <macro name="CB_MAX_SOFTWARESTAND_3" int="255"/>
+  <macro name="CB_MAX_SOSES_01" int="255"/>
+  <macro name="CB_MAX_SPARE" int="255"/>
+  <macro name="CB_MAX_STANDBYMODESCANTIME" int="255"/>
+  <macro name="CB_MAX_STANDBYTIMOUT" int="255"/>
+  <macro name="CB_MAX_STANDBY_RAIN_MEASUREMENT_1" int="255"/>
+  <macro name="CB_MAX_STANDBY_RAIN_MEASUREMENT_2" int="255"/>
+  <macro name="CB_MAX_STANDBY_RAIN_MEASUREMENT_3" int="255"/>
+  <macro name="CB_MAX_STANDBY_RAIN_MEASUREMENT_4" int="255"/>
+  <macro name="CB_MAX_STANDBY_RAIN_MEASUREMENT_5" int="255"/>
+  <macro name="CB_MAX_STANDBY_RAIN_MEASUREMENT_6" int="255"/>
+  <macro name="CB_MAX_STBY_DELTA_INTV_HB" int="9"/>
+  <macro name="CB_MAX_STBY_DELTA_INTV_LB" int="255"/>
+  <macro name="CB_MAX_STBY_REGV_HB" int="16"/>
+  <macro name="CB_MAX_STBY_REGV_IMBALANCE" int="255"/>
+  <macro name="CB_MAX_STBY_REGV_LB" int="255"/>
+  <macro name="CB_MAX_STUFE1_OG" int="230"/>
+  <macro name="CB_MAX_STUFE1_UG" int="210"/>
+  <macro name="CB_MAX_TEILENUMMERN_INDEX" int="255"/>
+  <macro name="CB_MAX_THRESHOLD_TEMPICERISK" int="255"/>
+  <macro name="CB_MAX_THR_DELTA_INTV" int="255"/>
+  <macro name="CB_MAX_TUNNELDEBOUNCEFACTOR" int="230"/>
+  <macro name="CB_MAX_TUNNELTHRESHOLDSCALING" int="255"/>
+  <macro name="CB_MAX_TUNWISCHVERZAKTIV" int="255"/>
+  <macro name="CB_MAX_TWILIGHT_TO_DARK_THRESH_AMB" int="255"/>
+  <macro name="CB_MAX_TWILIGHT_TO_DARK_THRESH_FW" int="255"/>
+  <macro name="CB_MAX_TWILIGHT_TO_DARK_TIME" int="255"/>
+  <macro name="CB_MAX_UPPER_TOL_SUW" int="1"/>
+  <macro name="CB_MAX_VARIANT_ID" int="255"/>
+  <macro name="CB_MAX_VERYBRIGHTINTUNL_DIST_THRS_g" int="255"/>
+  <macro name="CB_MAX_VERYBRIGHTINTUNNELDELAY" int="255"/>
+  <macro name="CB_MAX_WATCHDOGRESETCOUNTER" int="255"/>
+  <macro name="CB_MAX_WIPER_SPEED_HYSTERESIS" int="119"/>
+  <macro name="CB_MAX_WWSS_01" int="255"/>
+  <macro name="CB_MAX_ZUSPLATE" int="255"/>
+  <macro name="CB_MIN_ACTR_REG" int="0"/>
+  <macro name="CB_MIN_AFTERTUNNELDELAYOFFS" int="0"/>
+  <macro name="CB_MIN_ALS1_4_SETTING" int="0"/>
+  <macro name="CB_MIN_ALS5_6_INREC_SETTING" int="0"/>
+  <macro name="CB_MIN_ALSX_FILTER" int="0"/>
+  <macro name="CB_MIN_AMB_BASE_DAY_THRESHOLD" int="50"/>
+  <macro name="CB_MIN_AMB_BASE_NIGHT_THRESHOLD" int="40"/>
+  <macro name="CB_MIN_AMB_TUNNELTHRESHOLDSCALING" int="0"/>
+  <macro name="CB_MIN_ANSAMLUN_ADIT_OFFS" int="0"/>
+  <macro name="CB_MIN_ASIC_AFSTHR_REG" int="0"/>
+  <macro name="CB_MIN_ASIC_DIAGV" int="0"/>
+  <macro name="CB_MIN_ASIC_FRAME_01" int="0"/>
+  <macro name="CB_MIN_ASIC_FRAME_02" int="0"/>
+  <macro name="CB_MIN_ASIC_FRAME_03" int="0"/>
+  <macro name="CB_MIN_ASIC_FRAME_04" int="0"/>
+  <macro name="CB_MIN_ASIC_LCTR" int="0"/>
+  <macro name="CB_MIN_ASIC_RCTR_REG" int="0"/>
+  <macro name="CB_MIN_ASIC_RFCTR_REG" int="0"/>
+  <macro name="CB_MIN_ASIC_SCHED_CONFIG" int="0"/>
+  <macro name="CB_MIN_AUDI_HW_PART_NUMBER_1" int="0"/>
+  <macro name="CB_MIN_AUDI_HW_PART_NUMBER_10_INDEX" int="0"/>
+  <macro name="CB_MIN_AUDI_HW_PART_NUMBER_11_INDEX" int="0"/>
+  <macro name="CB_MIN_AUDI_HW_PART_NUMBER_2" int="0"/>
+  <macro name="CB_MIN_AUDI_HW_PART_NUMBER_3" int="0"/>
+  <macro name="CB_MIN_AUDI_HW_PART_NUMBER_4_5" int="0"/>
+  <macro name="CB_MIN_AUDI_HW_PART_NUMBER_6_7" int="0"/>
+  <macro name="CB_MIN_AUDI_HW_PART_NUMBER_8_9" int="0"/>
+  <macro name="CB_MIN_AUDI_SW_PART_NUMBER_1" int="0"/>
+  <macro name="CB_MIN_AUDI_SW_PART_NUMBER_10_INDEX" int="0"/>
+  <macro name="CB_MIN_AUDI_SW_PART_NUMBER_11_INDEX" int="0"/>
+  <macro name="CB_MIN_AUDI_SW_PART_NUMBER_2" int="0"/>
+  <macro name="CB_MIN_AUDI_SW_PART_NUMBER_3" int="0"/>
+  <macro name="CB_MIN_AUDI_SW_PART_NUMBER_4_5" int="0"/>
+  <macro name="CB_MIN_AUDI_SW_PART_NUMBER_6_7" int="0"/>
+  <macro name="CB_MIN_AUDI_SW_PART_NUMBER_8_9" int="0"/>
+  <macro name="CB_MIN_AUTOBAHN_DELAY_ON" int="0"/>
+  <macro name="CB_MIN_AUTOBAHN_ON_OFF" int="0"/>
+  <macro name="CB_MIN_BCM1_LIN1_01" int="0"/>
+  <macro name="CB_MIN_BCM1_LIN1_02" int="0"/>
+  <macro name="CB_MIN_BCM1_LIN1_03" int="0"/>
+  <macro name="CB_MIN_BCM1_LIN1_04" int="0"/>
+  <macro name="CB_MIN_BCM1_LIN1_05" int="0"/>
+  <macro name="CB_MIN_B_FACTOR_IREF_HI_GAIN_HI" int="0"/>
+  <macro name="CB_MIN_B_FACTOR_IREF_HI_GAIN_LO" int="0"/>
+  <macro name="CB_MIN_B_FACTOR_IREF_LO_GAIN_HI" int="0"/>
+  <macro name="CB_MIN_B_FACTOR_IREF_LO_GAIN_LO" int="0"/>
+  <macro name="CB_MIN_COMBINED_FW_AL_THRS" int="0"/>
+  <macro name="CB_MIN_CUSTOMER_FW_SWA_SCALING" int="50"/>
+  <macro name="CB_MIN_CUSTOMER_IR_SWA_SCALING" int="50"/>
+  <macro name="CB_MIN_DARK_TO_TWILIGHT_THRESH_AMB" int="1"/>
+  <macro name="CB_MIN_DARK_TO_TWILIGHT_THRESH_FW" int="1"/>
+  <macro name="CB_MIN_DARK_TO_TWILIGHT_TIME" int="1"/>
+  <macro name="CB_MIN_DAY_DELAY" int="50"/>
+  <macro name="CB_MIN_DEC_INT_SP_OFF" int="5"/>
+  <macro name="CB_MIN_DEC_OVR_SPEICHER" int="6"/>
+  <macro name="CB_MIN_DEC_ST2_SPEICHER" int="10"/>
+  <macro name="CB_MIN_DEC_STX_SPEICHER" int="30"/>
+  <macro name="CB_MIN_DIAG_REQUEST_FACTOR" int="5"/>
+  <macro name="CB_MIN_DYN_COMP_CCD_MINUS_1" int="0"/>
+  <macro name="CB_MIN_DYN_COMP_CCD_MINUS_2" int="0"/>
+  <macro name="CB_MIN_E2_MAXST2SIGNALLAENGE" int="20"/>
+  <macro name="CB_MIN_E2_RESERVED" int="0"/>
+  <macro name="CB_MIN_EEPROM_ERASE_COUNTER" int="0"/>
+  <macro name="CB_MIN_EMPF_FAKTOR_ST2_OFFS" int="3"/>
+  <macro name="CB_MIN_EP_ST2_EPR_IN_ST2" int="128"/>
+  <macro name="CB_MIN_ERASE_COUNTER" int="0"/>
+  <macro name="CB_MIN_ERROR_ACTIVE_1" int="0"/>
+  <macro name="CB_MIN_ERROR_ACTIVE_2" int="0"/>
+  <macro name="CB_MIN_ERROR_ACTIVE_3" int="0"/>
+  <macro name="CB_MIN_ERR_DATA_01" int="0"/>
+  <macro name="CB_MIN_FERTIGUNGSDATUM_JAHR" int="13"/>
+  <macro name="CB_MIN_FERTIGUNGSDATUM_MONAT" int="1"/>
+  <macro name="CB_MIN_FERTIGUNGSDATUM_TAG" int="1"/>
+  <macro name="CB_MIN_FOSC_LEDUL" int="0"/>
+  <macro name="CB_MIN_FRONTWASCHEN_AUTOBAHNDELAY" int="0"/>
+  <macro name="CB_MIN_FW_BASE_DAY_THRESHOLD" int="70"/>
+  <macro name="CB_MIN_FW_BASE_NIGHT_THRESHOLD" int="50"/>
+  <macro name="CB_MIN_GAINOFFSET_E2" int="0"/>
+  <macro name="CB_MIN_GAINSETUP" int="0"/>
+  <macro name="CB_MIN_HALIOS_CLOCK_CONTROL_REG" int="0"/>
+  <macro name="CB_MIN_HARDWARESTAND_0" int="0"/>
+  <macro name="CB_MIN_HARDWARESTAND_1" int="0"/>
+  <macro name="CB_MIN_HUD_FACTOR" int="0"/>
+  <macro name="CB_MIN_HUD_RESOLUTION" int="0"/>
+  <macro name="CB_MIN_HUD_VALUE" int="0"/>
+  <macro name="CB_MIN_I2C_DEBUG_CONFIG" int="0"/>
+  <macro name="CB_MIN_ICE_DETECTION_TEMPERATURE" int="0"/>
+  <macro name="CB_MIN_ICO1H" int="0"/>
+  <macro name="CB_MIN_ICO1L" int="0"/>
+  <macro name="CB_MIN_ICO2H" int="0"/>
+  <macro name="CB_MIN_ICO2L" int="0"/>
+  <macro name="CB_MIN_IDFSS_01" int="0"/>
+  <macro name="CB_MIN_IDRLSS_01" int="0"/>
+  <macro name="CB_MIN_IDRLSS_02" int="0"/>
+  <macro name="CB_MIN_IDRLSS_03" int="0"/>
+  <macro name="CB_MIN_IDRLSS_04" int="0"/>
+  <macro name="CB_MIN_IDRLSS_05" int="0"/>
+  <macro name="CB_MIN_IDRLSS_06" int="0"/>
+  <macro name="CB_MIN_INCIDENTCOUNTER1" int="0"/>
+  <macro name="CB_MIN_INCIDENTCOUNTER2" int="0"/>
+  <macro name="CB_MIN_INCIDENTCOUNTER3" int="0"/>
+  <macro name="CB_MIN_INCIDENTCOUNTER4" int="0"/>
+  <macro name="CB_MIN_INCIDENTCOUNTER5" int="0"/>
+  <macro name="CB_MIN_INCIDENTCOUNTER6" int="0"/>
+  <macro name="CB_MIN_INCIDENTCOUNTER7" int="0"/>
+  <macro name="CB_MIN_INC_SPEICHER" int="0"/>
+  <macro name="CB_MIN_INTCO" int="0"/>
+  <macro name="CB_MIN_INTERVALS_WAS_ACTIVE" int="0"/>
+  <macro name="CB_MIN_IR_BASE_DAY_THRESHOLD" int="40"/>
+  <macro name="CB_MIN_IR_BASE_NIGHT_THRESHOLD" int="30"/>
+  <macro name="CB_MIN_KODIERBYTE_0" int="0"/>
+  <macro name="CB_MIN_KODIERBYTE_1" int="0"/>
+  <macro name="CB_MIN_KODIERBYTE_2" int="0"/>
+  <macro name="CB_MIN_LIGHTLS_ERROR_ACTIVE1" int="0"/>
+  <macro name="CB_MIN_LIGHT_CTRL_SETTINGS1" int="1"/>
+  <macro name="CB_MIN_LIGHT_CTRL_SETTINGS2" int="1"/>
+  <macro name="CB_MIN_LIGHT_CTRL_SETTINGS3" int="1"/>
+  <macro name="CB_MIN_LINID_SPARE_01" int="0"/>
+  <macro name="CB_MIN_LS_RS_ERROR_ACTIVE1" int="0"/>
+  <macro name="CB_MIN_LS_RS_ERROR_ACTIVE2" int="0"/>
+  <macro name="CB_MIN_MAXOVERWIPESENSITIVITY" int="2"/>
+  <macro name="CB_MIN_MAXTEMPERATUREOFFSETT" int="0"/>
+  <macro name="CB_MIN_MAX_SIGNALLAENGE" int="120"/>
+  <macro name="CB_MIN_NACHWISCH_2" int="11"/>
+  <macro name="CB_MIN_NACHWISCH_3" int="11"/>
+  <macro name="CB_MIN_NACHWISCH_4_ST1_MIN" int="11"/>
+  <macro name="CB_MIN_NAD" int="1"/>
+  <macro name="CB_MIN_NIGHT_DELAY" int="50"/>
+  <macro name="CB_MIN_NOM_DELTA_INTV" int="0"/>
+  <macro name="CB_MIN_PCO_PI_REGULATOR" int="0"/>
+  <macro name="CB_MIN_PRJ_SPECIFIC_CONFIG" int="0"/>
+  <macro name="CB_MIN_PRODUKTIONSNUMMER_0" int="0"/>
+  <macro name="CB_MIN_PRODUKTIONSNUMMER_1" int="0"/>
+  <macro name="CB_MIN_PRODUKTIONSNUMMER_2" int="0"/>
+  <macro name="CB_MIN_PRODUKTIONSNUMMER_3" int="0"/>
+  <macro name="CB_MIN_PROD_DATA" int="0"/>
+  <macro name="CB_MIN_RAINNIGHTBITTHRS" int="0"/>
+  <macro name="CB_MIN_RAINRS_ERROR_ACTIVE1" int="0"/>
+  <macro name="CB_MIN_RB_STUFE1_WITH_INT_OG" int="0"/>
+  <macro name="CB_MIN_REGENLICHTSCHWELLE_LOW_HIGH" int="0"/>
+  <macro name="CB_MIN_REGENLICHTSCHWELLE_ZEIT" int="0"/>
+  <macro name="CB_MIN_REGULATION48LIGHTONTIME" int="20"/>
+  <macro name="CB_MIN_REGULATION48THRESHOLD_AMB" int="0"/>
+  <macro name="CB_MIN_REGULATION48THRESHOLD_FW" int="0"/>
+  <macro name="CB_MIN_RELEASE_INTERVAL_MARKER" int="0"/>
+  <macro name="CB_MIN_RESF" int="0"/>
+  <macro name="CB_MIN_RSCONTROLFLAGS" int="0"/>
+  <macro name="CB_MIN_RSEMPFFACTORSCALING" int="0"/>
+  <macro name="CB_MIN_RS_SENSITIVITY_0" int="2"/>
+  <macro name="CB_MIN_RS_SENSITIVITY_1" int="2"/>
+  <macro name="CB_MIN_RS_SENSITIVITY_2" int="2"/>
+  <macro name="CB_MIN_RS_SENSITIVITY_3" int="2"/>
+  <macro name="CB_MIN_RS_SENSITIVITY_4" int="2"/>
+  <macro name="CB_MIN_RS_SENSITIVITY_5" int="2"/>
+  <macro name="CB_MIN_RS_SENSITIVITY_6" int="2"/>
+  <macro name="CB_MIN_RS_SENSITIVITY_7" int="2"/>
+  <macro name="CB_MIN_RS_SENSITIVITY_8" int="2"/>
+  <macro name="CB_MIN_SCHLIEREN_FLAG" int="4"/>
+  <macro name="CB_MIN_SCHWELLE_SCHWALL" int="25"/>
+  <macro name="CB_MIN_SENSOR_ERRORX" int="0"/>
+  <macro name="CB_MIN_SENS_CONFIG_DATA" int="0"/>
+  <macro name="CB_MIN_SERIAL_NUMMER" int="0"/>
+  <macro name="CB_MIN_SHTERRDEBOUNCEJITTER" int="0"/>
+  <macro name="CB_MIN_SIG_ANS_SCHW_OFFS" int="10"/>
+  <macro name="CB_MIN_SLOAR_SHADOW_CORR_FACTOR1" int="0"/>
+  <macro name="CB_MIN_SLOAR_SHADOW_CORR_FACTOR2" int="0"/>
+  <macro name="CB_MIN_SOFTWARESTAND_0" int="0"/>
+  <macro name="CB_MIN_SOFTWARESTAND_1" int="0"/>
+  <macro name="CB_MIN_SOFTWARESTAND_2" int="0"/>
+  <macro name="CB_MIN_SOFTWARESTAND_3" int="0"/>
+  <macro name="CB_MIN_SOSES_01" int="0"/>
+  <macro name="CB_MIN_SPARE" int="0"/>
+  <macro name="CB_MIN_STANDBYMODESCANTIME" int="0"/>
+  <macro name="CB_MIN_STANDBYTIMOUT" int="0"/>
+  <macro name="CB_MIN_STANDBY_RAIN_MEASUREMENT_1" int="0"/>
+  <macro name="CB_MIN_STANDBY_RAIN_MEASUREMENT_2" int="0"/>
+  <macro name="CB_MIN_STANDBY_RAIN_MEASUREMENT_3" int="0"/>
+  <macro name="CB_MIN_STANDBY_RAIN_MEASUREMENT_4" int="0"/>
+  <macro name="CB_MIN_STANDBY_RAIN_MEASUREMENT_5" int="0"/>
+  <macro name="CB_MIN_STANDBY_RAIN_MEASUREMENT_6" int="0"/>
+  <macro name="CB_MIN_STBY_DELTA_INTV_HB" int="2"/>
+  <macro name="CB_MIN_STBY_DELTA_INTV_LB" int="0"/>
+  <macro name="CB_MIN_STBY_REGV_HB" int="0"/>
+  <macro name="CB_MIN_STBY_REGV_IMBALANCE" int="0"/>
+  <macro name="CB_MIN_STBY_REGV_LB" int="0"/>
+  <macro name="CB_MIN_STUFE1_OG" int="170"/>
+  <macro name="CB_MIN_STUFE1_UG" int="150"/>
+  <macro name="CB_MIN_TEILENUMMERN_INDEX" int="0"/>
+  <macro name="CB_MIN_THRESHOLD_TEMPICERISK" int="0"/>
+  <macro name="CB_MIN_THR_DELTA_INTV" int="0"/>
+  <macro name="CB_MIN_TUNNELDEBOUNCEFACTOR" int="0"/>
+  <macro name="CB_MIN_TUNNELTHRESHOLDSCALING" int="0"/>
+  <macro name="CB_MIN_TUNWISCHVERZAKTIV" int="0"/>
+  <macro name="CB_MIN_TWILIGHT_TO_DARK_THRESH_AMB" int="1"/>
+  <macro name="CB_MIN_TWILIGHT_TO_DARK_THRESH_FW" int="1"/>
+  <macro name="CB_MIN_TWILIGHT_TO_DARK_TIME" int="1"/>
+  <macro name="CB_MIN_UPPER_TOL_SUW" int="0"/>
+  <macro name="CB_MIN_VARIANT_ID" int="0"/>
+  <macro name="CB_MIN_VERYBRIGHTINTUNL_DIST_THRS_g" int="20"/>
+  <macro name="CB_MIN_VERYBRIGHTINTUNNELDELAY" int="20"/>
+  <macro name="CB_MIN_WATCHDOGRESETCOUNTER" int="0"/>
+  <macro name="CB_MIN_WIPER_SPEED_HYSTERESIS" int="17"/>
+  <macro name="CB_MIN_WWSS_01" int="0"/>
+  <macro name="CB_MIN_ZUSPLATE" int="0"/>
+  <macro name="CB_NO_NEXT_RQ" int="0"/>
+  <macro name="CB_NUMBER_OF_REG_ASIC10112_g" int="28"/>
+  <macro name="CB_OFFSETT_ADDIT_NOM" int="64"/>
+  <macro name="CB_PARKTOWENDELAGEOBEN_S" int="1"/>
+  <macro name="CB_SIZEOF_ASIC_CTRREG_G" int="28"/>
+  <macro name="CB_SIZE_OF_MUX_MEASAD_g" int="9"/>
+  <macro name="CB_STANDBY_THRESHOLD" int="20"/>
+  <macro name="CB_STEPRESPPERREQUEST_G" int="2"/>
+  <macro name="CB_STMEAS_RQ" int="3"/>
+  <macro name="CB_TIMFORAFWTHRS_INC_g" int="2"/>
+  <macro name="CB_VDDX_ERRORCNT_THRESHOLD_MG" int="40"/>
+  <macro name="CB_WENDELAGEOBENTOPARK_S" int="2"/>
+  <macro name="CLEAR_EEPROM" int="255"/>
+  <macro name="CW_CALIB_CRC_END" int="291"/>
+  <macro name="CW_CALIB_CRC_START" int="271"/>
+  <macro name="CW_DEF_A_FACTOR_ALS1" int="356"/>
+  <macro name="CW_DEF_A_FACTOR_ALS2" int="652"/>
+  <macro name="CW_DEF_A_FACTOR_ALS3" int="512"/>
+  <macro name="CW_DEF_A_FACTOR_ALS4" int="512"/>
+  <macro name="CW_DEF_A_FACTOR_ALS5" int="426"/>
+  <macro name="CW_DEF_A_FACTOR_ALS6" int="512"/>
+  <macro name="CW_DEF_A_FACTOR_INREC" int="424"/>
+  <macro name="CW_DEF_CRC_CHECKSUM_CALIBRATION" int="65535"/>
+  <macro name="CW_DEF_FUNCTION_ID" int="11"/>
+  <macro name="CW_DEF_NO_RAIN_PRESENT_THRSH_HB" int="1"/>
+  <macro name="CW_DEF_NO_RAIN_PRESENT_THRSH_LB" int="44"/>
+  <macro name="CW_DEWPOINT_MIN_mg" int="1"/>
+  <macro name="CW_DEWPOINT_OFFSETT_mg" int="4"/>
+  <macro name="CW_E2_ERASECOUNTER_ADRESS" int="339"/>
+  <macro name="CW_E2_IDBCM1_LIN1_01_ADRESS" int="327"/>
+  <macro name="CW_E2_IDFSS_01_ADRESS" int="325"/>
+  <macro name="CW_E2_IDFSS_ENH_01_ADRESS" int="306"/>
+  <macro name="CW_E2_IDFSS_ERR_DATA_ADRESS" int="346"/>
+  <macro name="CW_E2_IDRLSS_01_ADRESS" int="326"/>
+  <macro name="CW_E2_IDSOSES_01_ADRESS" int="329"/>
+  <macro name="CW_E2_IDWWSS_01_ADRESS" int="328"/>
+  <macro name="CW_E2_NAD_ADRESS" int="324"/>
+  <macro name="CW_E2_SENSOR_ERROR1_ADRESS" int="774"/>
+  <macro name="CW_E2_SENSOR_ERROR2_ADRESS" int="775"/>
+  <macro name="CW_E2_SENSOR_ERROR3_ADRESS" int="776"/>
+  <macro name="CW_E2_SENSOR_ERROR4_ADRESS" int="777"/>
+  <macro name="CW_E2_SENSOR_ERROR5_ADRESS" int="778"/>
+  <macro name="CW_E2_SENSOR_ERROR6_ADRESS" int="779"/>
+  <macro name="CW_E2_SENSOR_RESF_ADRESS" int="796"/>
+  <macro name="CW_E2_WATCHDOGRESETCOUTERADRESS" int="773"/>
+  <macro name="CW_EEPROM_INCIDENT1_ADDRESS" int="780"/>
+  <macro name="CW_EEPROM_INCIDENT2_ADDRESS" int="781"/>
+  <macro name="CW_EEPROM_INCIDENT3_ADDRESS" int="782"/>
+  <macro name="CW_EEPROM_INCIDENT4_ADDRESS" int="783"/>
+  <macro name="CW_EEPROM_INCIDENT5_ADDRESS" int="784"/>
+  <macro name="CW_EEPROM_INCIDENT6_ADDRESS" int="785"/>
+  <macro name="CW_EEPROM_PD_START_ADR" int="256"/>
+  <macro name="CW_FOSC_LEDUL_ADDR_g" int="593"/>
+  <macro name="CW_INTERVAL_MARKER_ADRESS" int="792"/>
+  <macro name="CW_LIGHTLS_ERROR_ACTIVE1_ADR" int="789"/>
+  <macro name="CW_LIN1_3_IDLE_TIMOUT" int="260"/>
+  <macro name="CW_LIN2_0_IDLE_TIMOUT" int="400"/>
+  <macro name="CW_MAX_A_FACTOR_ALS1" int="65535"/>
+  <macro name="CW_MAX_A_FACTOR_ALS2" int="65535"/>
+  <macro name="CW_MAX_A_FACTOR_ALS3" int="65535"/>
+  <macro name="CW_MAX_A_FACTOR_ALS4" int="65535"/>
+  <macro name="CW_MAX_A_FACTOR_ALS5" int="49151"/>
+  <macro name="CW_MAX_A_FACTOR_ALS6" int="65535"/>
+  <macro name="CW_MAX_A_FACTOR_INREC" int="65535"/>
+  <macro name="CW_MAX_CRC_CHECKSUM_CALIBRATION" int="65535"/>
+  <macro name="CW_MAX_FUNCTION_ID" int="65535"/>
+  <macro name="CW_MAX_NO_RAIN_PRESENT_THRSH_HB" int="255"/>
+  <macro name="CW_MAX_NO_RAIN_PRESENT_THRSH_LB" int="255"/>
+  <macro name="CW_MIN_A_FACTOR_ALS1" int="0"/>
+  <macro name="CW_MIN_A_FACTOR_ALS2" int="0"/>
+  <macro name="CW_MIN_A_FACTOR_ALS3" int="0"/>
+  <macro name="CW_MIN_A_FACTOR_ALS4" int="0"/>
+  <macro name="CW_MIN_A_FACTOR_ALS5" int="0"/>
+  <macro name="CW_MIN_A_FACTOR_ALS6" int="0"/>
+  <macro name="CW_MIN_A_FACTOR_INREC" int="0"/>
+  <macro name="CW_MIN_CRC_CHECKSUM_CALIBRATION" int="0"/>
+  <macro name="CW_MIN_FUNCTION_ID" int="0"/>
+  <macro name="CW_MIN_NO_RAIN_PRESENT_THRSH_HB" int="0"/>
+  <macro name="CW_MIN_NO_RAIN_PRESENT_THRSH_LB" int="0"/>
+  <macro name="CW_RAINRS_ERROR_ACTIVE1_ADR" int="790"/>
+  <macro name="CW_REGV_OSAT_CNT_THRSHD" int="1400"/>
+  <macro name="CW_RS_LS_ERROR_ACTIVE1_ADR" int="787"/>
+  <macro name="CW_RS_LS_ERROR_ACTIVE2_ADR" int="788"/>
+  <macro name="CW_SENS_CONFIG_DATA_ADRESS" int="793"/>
+  <macro name="CW_TEMPERATURE_MIN_mg" int="1"/>
+  <macro name="CW_TEMPERATURE_OFFSETT_mg" int="4"/>
+  <macro name="CW_WAIT_FOR_SPI_TIMOUT" int="200"/>
+  <macro name="CW_WAIT_FOR_STANDBY" int="1000"/>
+  <macro name="CW_chksum2000_FEEF_END" int="65263"/>
+  <macro name="CW_chksum2000_FEEF_START" int="8192"/>
+  <macro name="GAINOFFSET_ADDRESS" int="791"/>
+  <macro name="HIGH" int="1"/>
+  <macro name="IDX_ACTR_REG" int="3"/>
+  <macro name="IDX_ADCVH_REG" int="24"/>
+  <macro name="IDX_ADCVL_REG" int="25"/>
+  <macro name="IDX_AFSTHR_REG" int="23"/>
+  <macro name="IDX_ALS1_AD" int="0"/>
+  <macro name="IDX_ALS2_AD" int="1"/>
+  <macro name="IDX_ALS5_AD" int="4"/>
+  <macro name="IDX_ALS6_AD" int="5"/>
+  <macro name="IDX_AVGVH_REG" int="26"/>
+  <macro name="IDX_AVGVL_REG" int="27"/>
+  <macro name="IDX_CAL_ICALHI_IHI_GHI_AD" int="5"/>
+  <macro name="IDX_CAL_ICALHI_IHI_GHI_INC_AD" int="9"/>
+  <macro name="IDX_CAL_ICALLO_ILO_GHI_AD" int="4"/>
+  <macro name="IDX_CAL_IHI_ICALHI_GHI_AD" int="3"/>
+  <macro name="IDX_CAL_IHI_ICALHI_GHI_INC_AD" int="8"/>
+  <macro name="IDX_CAL_IHI_ILO_GLO_AD" int="1"/>
+  <macro name="IDX_CAL_IHI_ILO_GLO_INC_AD" int="7"/>
+  <macro name="IDX_CAL_ILO_ICALLO_GHI_AD" int="2"/>
+  <macro name="IDX_CAL_ILO_IHI_GLO_AD" int="0"/>
+  <macro name="IDX_CAL_ILO_IHI_GLO_INC_AD" int="6"/>
+  <macro name="IDX_DIAGV_REG" int="15"/>
+  <macro name="IDX_GCTR_REG" int="0"/>
+  <macro name="IDX_HCTR_REG" int="1"/>
+  <macro name="IDX_ICO1H_REG" int="7"/>
+  <macro name="IDX_ICO1L_REG" int="8"/>
+  <macro name="IDX_ICO2H_REG" int="9"/>
+  <macro name="IDX_ICO2L_REG" int="10"/>
+  <macro name="IDX_INREC_AD" int="6"/>
+  <macro name="IDX_INTCO_REG" int="22"/>
+  <macro name="IDX_INTVH_REG" int="20"/>
+  <macro name="IDX_INTVL_REG" int="21"/>
+  <macro name="IDX_INVALID_AD" int="255"/>
+  <macro name="IDX_LCTR_REG" int="4"/>
+  <macro name="IDX_MCTR_REG" int="2"/>
+  <macro name="IDX_PCO_REG" int="6"/>
+  <macro name="IDX_RCTR_REG" int="5"/>
+  <macro name="IDX_REGVH_REG" int="13"/>
+  <macro name="IDX_REGVL_REG" int="14"/>
+  <macro name="IDX_RFCTR_REG" int="19"/>
+  <macro name="IDX_RREGH_REG" int="11"/>
+  <macro name="IDX_RREGL_REG" int="12"/>
+  <macro name="IDX_RSI_AD" int="0"/>
+  <macro name="IDX_STATH_REG" int="16"/>
+  <macro name="IDX_STATL_REG" int="17"/>
+  <macro name="IDX_TRIM_REG" int="18"/>
+  <macro name="IDX_VDDA_AD" int="7"/>
+  <macro name="IDX_VDDD_AD" int="8"/>
+  <macro name="IDX_VDIAG_LEDA_AD" int="1"/>
+  <macro name="IDX_VDIAG_LEDB_AD" int="2"/>
+  <macro name="IDX_VIREF_HI_AD" int="6"/>
+  <macro name="IDX_VIREF_LO_AD" int="5"/>
+  <macro name="IDX_VREF_AD" int="4"/>
+  <macro name="IDX_VTEMP_AD" int="3"/>
+  <macro name="INIT_E2VARIABLES" int="0"/>
+  <macro name="INPUT" int="1"/>
+  <macro name="INTAD_vect" int="52"/>
+  <macro name="INTCSI00_vect" int="30"/>
+  <macro name="INTCSI11_vect" int="38"/>
+  <macro name="INTCSI20_vect" int="20"/>
+  <macro name="INTCSIS0_vect" int="60"/>
+  <macro name="INTDBG_vect" int="2"/>
+  <macro name="INTDMA0_vect" int="26"/>
+  <macro name="INTDMA1_vect" int="28"/>
+  <macro name="INTFL_vect" int="98"/>
+  <macro name="INTIIC00_vect" int="30"/>
+  <macro name="INTIIC11_vect" int="38"/>
+  <macro name="INTIIC20_vect" int="20"/>
+  <macro name="INTIICA0_vect" int="42"/>
+  <macro name="INTIT_vect" int="56"/>
+  <macro name="INTLR_vect" int="78"/>
+  <macro name="INTLS_vect" int="80"/>
+  <macro name="INTLT_vect" int="76"/>
+  <macro name="INTLVI_vect" int="6"/>
+  <macro name="INTMD_vect" int="94"/>
+  <macro name="INTP0_vect" int="8"/>
+  <macro name="INTP1_vect" int="10"/>
+  <macro name="INTP2_vect" int="12"/>
+  <macro name="INTP3_vect" int="14"/>
+  <macro name="INTP4_vect" int="16"/>
+  <macro name="INTP5_vect" int="18"/>
+  <macro name="INTRTC_vect" int="54"/>
+  <macro name="INTSR0_vect" int="32"/>
+  <macro name="INTSR1_vect" int="38"/>
+  <macro name="INTSR2_vect" int="22"/>
+  <macro name="INTSRE0_vect" int="34"/>
+  <macro name="INTSRE1_vect" int="40"/>
+  <macro name="INTSRE2_vect" int="24"/>
+  <macro name="INTSRES0_vect" int="82"/>
+  <macro name="INTSRS0_vect" int="62"/>
+  <macro name="INTST0_vect" int="30"/>
+  <macro name="INTST1_vect" int="36"/>
+  <macro name="INTST2_vect" int="20"/>
+  <macro name="INTSTS0_vect" int="60"/>
+  <macro name="INTTM00_vect" int="44"/>
+  <macro name="INTTM01H_vect" int="34"/>
+  <macro name="INTTM01_vect" int="46"/>
+  <macro name="INTTM02_vect" int="48"/>
+  <macro name="INTTM03H_vect" int="40"/>
+  <macro name="INTTM03_vect" int="50"/>
+  <macro name="INTTM04_vect" int="66"/>
+  <macro name="INTTM05_vect" int="68"/>
+  <macro name="INTTM06_vect" int="70"/>
+  <macro name="INTTM07_vect" int="72"/>
+  <macro name="INTWDTI_vect" int="4"/>
+  <macro name="INTWUTM_vect" int="64"/>
+  <macro name="LEDx_CNT_ERR_THRS" int="20"/>
+  <macro name="LINBAUDRATE" int="19200"/>
+  <macro name="LOW" int="0"/>
+  <macro name="MAX_SPI_NO_COMM_CNT" int="32640"/>
+  <macro name="NOM_DELTA_INTV_BYTE_ADDRESS" int="797"/>
+  <macro name="NO_CURRENT_MEAS" int="255"/>
+  <macro name="OUTPUT" int="0"/>
+  <macro name="PFDL_BUSY" int="255"/>
+  <macro name="PFDL_CMD_BLANKCHECK_BYTES" int="8"/>
+  <macro name="PFDL_CMD_ERASE_BLOCK" int="3"/>
+  <macro name="PFDL_CMD_IVERIFY_BYTES" int="6"/>
+  <macro name="PFDL_CMD_READ_BYTES" int="0"/>
+  <macro name="PFDL_CMD_WRITE_BYTES" int="4"/>
+  <macro name="PFDL_ERR_ERASE" int="26"/>
+  <macro name="PFDL_ERR_MARGIN" int="27"/>
+  <macro name="PFDL_ERR_PARAMETER" int="5"/>
+  <macro name="PFDL_ERR_PROTECTION" int="16"/>
+  <macro name="PFDL_ERR_WRITE" int="28"/>
+  <macro name="PFDL_IDLE" int="48"/>
+  <macro name="PFDL_OK" int="0"/>
+  <macro name="RST_vect" int="0"/>
+  <macro name="SHT_COMM_ERR_RETRY_ATTEMPT" int="255"/>
+  <macro name="SHT_SUPPLY_RETRY_ATTEMPT" int="30"/>
+  <macro name="SPI_NO_COMM_INCREMENT" int="64"/>
+  <macro name="STBY_DELTA_INTV_HBYTE_ADDRESS" int="770"/>
+  <macro name="STBY_DELTA_INTV_LBYTE_ADDRESS" int="771"/>
+  <macro name="STBY_REGV_HBYTE_ADDRESS" int="768"/>
+  <macro name="STBY_REGV_LBYTE_ADDRESS" int="769"/>
+  <macro name="THR_DELTA_INTV_BYTE_ADDRESS" int="798"/>
+  <macro name="TIME_FOR_STANDBY_NORMAL_MEASURE" int="1000"/>
+  <macro name="UNUSED" int="255"/>
+  <macro name="_0000_0000b" int="0"/>
+  <macro name="_0000_0001b" int="1"/>
+  <macro name="_0000_0010b" int="2"/>
+  <macro name="_0000_0011b" int="3"/>
+  <macro name="_0000_0100b" int="4"/>
+  <macro name="_0000_0101b" int="5"/>
+  <macro name="_0000_0110b" int="6"/>
+  <macro name="_0000_0111b" int="7"/>
+  <macro name="_0000_1000b" int="8"/>
+  <macro name="_0000_1001b" int="9"/>
+  <macro name="_0000_1010b" int="10"/>
+  <macro name="_0000_1011b" int="11"/>
+  <macro name="_0000_1100b" int="12"/>
+  <macro name="_0000_1101b" int="13"/>
+  <macro name="_0000_1110b" int="14"/>
+  <macro name="_0000_1111b" int="15"/>
+  <macro name="_0001_0000b" int="16"/>
+  <macro name="_0001_0001b" int="17"/>
+  <macro name="_0001_0010b" int="18"/>
+  <macro name="_0001_0011b" int="19"/>
+  <macro name="_0001_0100b" int="20"/>
+  <macro name="_0001_0101b" int="21"/>
+  <macro name="_0001_0110b" int="22"/>
+  <macro name="_0001_0111b" int="23"/>
+  <macro name="_0001_1000b" int="24"/>
+  <macro name="_0001_1001b" int="25"/>
+  <macro name="_0001_1010b" int="26"/>
+  <macro name="_0001_1011b" int="27"/>
+  <macro name="_0001_1100b" int="28"/>
+  <macro name="_0001_1101b" int="29"/>
+  <macro name="_0001_1110b" int="30"/>
+  <macro name="_0001_1111b" int="31"/>
+  <macro name="_0010_0000b" int="32"/>
+  <macro name="_0010_0001b" int="33"/>
+  <macro name="_0010_0010b" int="34"/>
+  <macro name="_0010_0011b" int="35"/>
+  <macro name="_0010_0100b" int="36"/>
+  <macro name="_0010_0101b" int="37"/>
+  <macro name="_0010_0110b" int="38"/>
+  <macro name="_0010_0111b" int="39"/>
+  <macro name="_0010_1000b" int="40"/>
+  <macro name="_0010_1001b" int="41"/>
+  <macro name="_0010_1010b" int="42"/>
+  <macro name="_0010_1011b" int="43"/>
+  <macro name="_0010_1100b" int="44"/>
+  <macro name="_0010_1101b" int="45"/>
+  <macro name="_0010_1110b" int="46"/>
+  <macro name="_0010_1111b" int="47"/>
+  <macro name="_0011_0000b" int="48"/>
+  <macro name="_0011_0001b" int="49"/>
+  <macro name="_0011_0010b" int="50"/>
+  <macro name="_0011_0011b" int="51"/>
+  <macro name="_0011_0100b" int="52"/>
+  <macro name="_0011_0101b" int="53"/>
+  <macro name="_0011_0110b" int="54"/>
+  <macro name="_0011_0111b" int="55"/>
+  <macro name="_0011_1000b" int="56"/>
+  <macro name="_0011_1001b" int="57"/>
+  <macro name="_0011_1010b" int="58"/>
+  <macro name="_0011_1011b" int="59"/>
+  <macro name="_0011_1100b" int="60"/>
+  <macro name="_0011_1101b" int="61"/>
+  <macro name="_0011_1110b" int="62"/>
+  <macro name="_0011_1111b" int="63"/>
+  <macro name="_0100_0000b" int="64"/>
+  <macro name="_0100_0001b" int="65"/>
+  <macro name="_0100_0010b" int="66"/>
+  <macro name="_0100_0011b" int="67"/>
+  <macro name="_0100_0100b" int="68"/>
+  <macro name="_0100_0101b" int="69"/>
+  <macro name="_0100_0110b" int="70"/>
+  <macro name="_0100_0111b" int="71"/>
+  <macro name="_0100_1000b" int="72"/>
+  <macro name="_0100_1001b" int="73"/>
+  <macro name="_0100_1010b" int="74"/>
+  <macro name="_0100_1011b" int="75"/>
+  <macro name="_0100_1100b" int="76"/>
+  <macro name="_0100_1101b" int="77"/>
+  <macro name="_0100_1110b" int="78"/>
+  <macro name="_0100_1111b" int="79"/>
+  <macro name="_0101_0000b" int="80"/>
+  <macro name="_0101_0001b" int="81"/>
+  <macro name="_0101_0010b" int="82"/>
+  <macro name="_0101_0011b" int="83"/>
+  <macro name="_0101_0100b" int="84"/>
+  <macro name="_0101_0101b" int="85"/>
+  <macro name="_0101_0110b" int="86"/>
+  <macro name="_0101_0111b" int="87"/>
+  <macro name="_0101_1000b" int="88"/>
+  <macro name="_0101_1001b" int="89"/>
+  <macro name="_0101_1010b" int="90"/>
+  <macro name="_0101_1011b" int="91"/>
+  <macro name="_0101_1100b" int="92"/>
+  <macro name="_0101_1101b" int="93"/>
+  <macro name="_0101_1110b" int="94"/>
+  <macro name="_0101_1111b" int="95"/>
+  <macro name="_0110_0000b" int="96"/>
+  <macro name="_0110_0001b" int="97"/>
+  <macro name="_0110_0010b" int="98"/>
+  <macro name="_0110_0011b" int="99"/>
+  <macro name="_0110_0100b" int="100"/>
+  <macro name="_0110_0101b" int="101"/>
+  <macro name="_0110_0110b" int="102"/>
+  <macro name="_0110_0111b" int="103"/>
+  <macro name="_0110_1000b" int="104"/>
+  <macro name="_0110_1001b" int="105"/>
+  <macro name="_0110_1010b" int="106"/>
+  <macro name="_0110_1011b" int="107"/>
+  <macro name="_0110_1100b" int="108"/>
+  <macro name="_0110_1101b" int="109"/>
+  <macro name="_0110_1110b" int="110"/>
+  <macro name="_0110_1111b" int="111"/>
+  <macro name="_0111_0000b" int="112"/>
+  <macro name="_0111_0001b" int="113"/>
+  <macro name="_0111_0010b" int="114"/>
+  <macro name="_0111_0011b" int="115"/>
+  <macro name="_0111_0100b" int="116"/>
+  <macro name="_0111_0101b" int="117"/>
+  <macro name="_0111_0110b" int="118"/>
+  <macro name="_0111_0111b" int="119"/>
+  <macro name="_0111_1000b" int="120"/>
+  <macro name="_0111_1001b" int="121"/>
+  <macro name="_0111_1010b" int="122"/>
+  <macro name="_0111_1011b" int="123"/>
+  <macro name="_0111_1100b" int="124"/>
+  <macro name="_0111_1101b" int="125"/>
+  <macro name="_0111_1110b" int="126"/>
+  <macro name="_0111_1111b" int="127"/>
+  <macro name="_1000_0000b" int="128"/>
+  <macro name="_1000_0001b" int="129"/>
+  <macro name="_1000_0010b" int="130"/>
+  <macro name="_1000_0011b" int="131"/>
+  <macro name="_1000_0100b" int="132"/>
+  <macro name="_1000_0101b" int="133"/>
+  <macro name="_1000_0110b" int="134"/>
+  <macro name="_1000_0111b" int="135"/>
+  <macro name="_1000_1000b" int="136"/>
+  <macro name="_1000_1001b" int="137"/>
+  <macro name="_1000_1010b" int="138"/>
+  <macro name="_1000_1011b" int="139"/>
+  <macro name="_1000_1100b" int="140"/>
+  <macro name="_1000_1101b" int="141"/>
+  <macro name="_1000_1110b" int="142"/>
+  <macro name="_1000_1111b" int="143"/>
+  <macro name="_1001_0000b" int="144"/>
+  <macro name="_1001_0001b" int="145"/>
+  <macro name="_1001_0010b" int="146"/>
+  <macro name="_1001_0011b" int="147"/>
+  <macro name="_1001_0100b" int="148"/>
+  <macro name="_1001_0101b" int="149"/>
+  <macro name="_1001_0110b" int="150"/>
+  <macro name="_1001_0111b" int="151"/>
+  <macro name="_1001_1000b" int="152"/>
+  <macro name="_1001_1001b" int="153"/>
+  <macro name="_1001_1010b" int="154"/>
+  <macro name="_1001_1011b" int="155"/>
+  <macro name="_1001_1100b" int="156"/>
+  <macro name="_1001_1101b" int="157"/>
+  <macro name="_1001_1110b" int="158"/>
+  <macro name="_1001_1111b" int="159"/>
+  <macro name="_1010_0000b" int="160"/>
+  <macro name="_1010_0001b" int="161"/>
+  <macro name="_1010_0010b" int="162"/>
+  <macro name="_1010_0011b" int="163"/>
+  <macro name="_1010_0100b" int="164"/>
+  <macro name="_1010_0101b" int="165"/>
+  <macro name="_1010_0110b" int="166"/>
+  <macro name="_1010_0111b" int="167"/>
+  <macro name="_1010_1000b" int="168"/>
+  <macro name="_1010_1001b" int="169"/>
+  <macro name="_1010_1010b" int="170"/>
+  <macro name="_1010_1011b" int="171"/>
+  <macro name="_1010_1100b" int="172"/>
+  <macro name="_1010_1101b" int="173"/>
+  <macro name="_1010_1110b" int="174"/>
+  <macro name="_1010_1111b" int="175"/>
+  <macro name="_1011_0000b" int="176"/>
+  <macro name="_1011_0001b" int="177"/>
+  <macro name="_1011_0010b" int="178"/>
+  <macro name="_1011_0011b" int="179"/>
+  <macro name="_1011_0100b" int="180"/>
+  <macro name="_1011_0101b" int="181"/>
+  <macro name="_1011_0110b" int="182"/>
+  <macro name="_1011_0111b" int="183"/>
+  <macro name="_1011_1000b" int="184"/>
+  <macro name="_1011_1001b" int="185"/>
+  <macro name="_1011_1010b" int="186"/>
+  <macro name="_1011_1011b" int="187"/>
+  <macro name="_1011_1100b" int="188"/>
+  <macro name="_1011_1101b" int="189"/>
+  <macro name="_1011_1110b" int="190"/>
+  <macro name="_1011_1111b" int="191"/>
+  <macro name="_1100_0000b" int="192"/>
+  <macro name="_1100_0001b" int="193"/>
+  <macro name="_1100_0010b" int="194"/>
+  <macro name="_1100_0011b" int="195"/>
+  <macro name="_1100_0100b" int="196"/>
+  <macro name="_1100_0101b" int="197"/>
+  <macro name="_1100_0110b" int="198"/>
+  <macro name="_1100_0111b" int="199"/>
+  <macro name="_1100_1000b" int="200"/>
+  <macro name="_1100_1001b" int="201"/>
+  <macro name="_1100_1010b" int="202"/>
+  <macro name="_1100_1011b" int="203"/>
+  <macro name="_1100_1100b" int="204"/>
+  <macro name="_1100_1101b" int="205"/>
+  <macro name="_1100_1110b" int="206"/>
+  <macro name="_1100_1111b" int="207"/>
+  <macro name="_1101_0000b" int="208"/>
+  <macro name="_1101_0001b" int="209"/>
+  <macro name="_1101_0010b" int="210"/>
+  <macro name="_1101_0011b" int="211"/>
+  <macro name="_1101_0100b" int="212"/>
+  <macro name="_1101_0101b" int="213"/>
+  <macro name="_1101_0110b" int="214"/>
+  <macro name="_1101_0111b" int="215"/>
+  <macro name="_1101_1000b" int="216"/>
+  <macro name="_1101_1001b" int="217"/>
+  <macro name="_1101_1010b" int="218"/>
+  <macro name="_1101_1011b" int="219"/>
+  <macro name="_1101_1100b" int="220"/>
+  <macro name="_1101_1101b" int="221"/>
+  <macro name="_1101_1110b" int="222"/>
+  <macro name="_1101_1111b" int="223"/>
+  <macro name="_1110_0000b" int="224"/>
+  <macro name="_1110_0001b" int="225"/>
+  <macro name="_1110_0010b" int="226"/>
+  <macro name="_1110_0011b" int="227"/>
+  <macro name="_1110_0100b" int="228"/>
+  <macro name="_1110_0101b" int="229"/>
+  <macro name="_1110_0110b" int="230"/>
+  <macro name="_1110_0111b" int="231"/>
+  <macro name="_1110_1000b" int="232"/>
+  <macro name="_1110_1001b" int="233"/>
+  <macro name="_1110_1010b" int="234"/>
+  <macro name="_1110_1011b" int="235"/>
+  <macro name="_1110_1100b" int="236"/>
+  <macro name="_1110_1101b" int="237"/>
+  <macro name="_1110_1110b" int="238"/>
+  <macro name="_1110_1111b" int="239"/>
+  <macro name="_1111_0000b" int="240"/>
+  <macro name="_1111_0001b" int="241"/>
+  <macro name="_1111_0010b" int="242"/>
+  <macro name="_1111_0011b" int="243"/>
+  <macro name="_1111_0100b" int="244"/>
+  <macro name="_1111_0101b" int="245"/>
+  <macro name="_1111_0110b" int="246"/>
+  <macro name="_1111_0111b" int="247"/>
+  <macro name="_1111_1000b" int="248"/>
+  <macro name="_1111_1001b" int="249"/>
+  <macro name="_1111_1010b" int="250"/>
+  <macro name="_1111_1011b" int="251"/>
+  <macro name="_1111_1100b" int="252"/>
+  <macro name="_1111_1101b" int="253"/>
+  <macro name="_1111_1110b" int="254"/>
+  <macro name="_1111_1111b" int="255"/>
+  <macro name="_EMPF_FACTOR_SCAL" int="7"/>
+  <macro name="_EMPF_FACTOR_SCAL_1" int="9"/>
+  <macro name="_OVR_INT_SCAL_OFFS" int="64"/>
+  <macro name="cab_AMB_SECURE_DAY_THRESHOLD_s" int="50"/>
+  <macro name="cab_FW_SECURE_DAY_THRESHOLD_s" int="50"/>
+  <macro name="cab_IR_SECURE_DAY_THRESHOLD_s" int="15"/>
+  <macro name="cb_ADC_ERROR_CNT_THRESHOLD_g" int="5"/>
+  <macro name="cb_AMB_DAY_THRESHOLD_DEF_s" int="187"/>
+  <macro name="cb_AMB_NIGHT_THRESHOLD_DEF_s" int="135"/>
+  <macro name="cb_AREA_AD_g" int="1"/>
+  <macro name="cb_AREA_PD_g" int="0"/>
+  <macro name="cb_AREA_RD_g" int="2"/>
+  <macro name="cb_ASICAnalogTestbus_g" int="3"/>
+  <macro name="cb_ASICDiagnoseConfirmation_g" int="6"/>
+  <macro name="cb_ASICDiagnosisRequest_g" int="5"/>
+  <macro name="cb_ASICReadEEPromRequest_g" int="2"/>
+  <macro name="cb_ASICStandByModeRequest_g" int="1"/>
+  <macro name="cb_ASICWriteConfirmation_g" int="7"/>
+  <macro name="cb_ASICWriteEEPromRequest_g" int="4"/>
+  <macro name="cb_ASIC_ALSx_SHORTDET_THS_g" int="60"/>
+  <macro name="cb_ASIC_INITTIMEOUT_THRSH_g" int="200"/>
+  <macro name="cb_ASIC_RS_OVERVOLTAGE_HIGH_OFF_mg" int="220"/>
+  <macro name="cb_ASIC_RS_OVERVOLTAGE_OFF_mg" int="219"/>
+  <macro name="cb_ASIC_RS_OVERVOLTAGE_ON_mg" int="207"/>
+  <macro name="cb_ASIC_SPI_ERRORCODE_CNT_THRSHD_g" int="100"/>
+  <macro name="cb_CHK_MAX_g" int="2"/>
+  <macro name="cb_CHK_MIN_g" int="1"/>
+  <macro name="cb_CLOCKFREQ_ERROR_CNT_THRESHOLD_g" int="5"/>
+  <macro name="cb_ChangeCluster_AD_mg" int="2"/>
+  <macro name="cb_ChangeCluster_PD_mg" int="1"/>
+  <macro name="cb_ChangeCluster_RD_mg" int="4"/>
+  <macro name="cb_DARKSTART_mg" int="1"/>
+  <macro name="cb_DAY" int="1"/>
+  <macro name="cb_DAY_mg" int="0"/>
+  <macro name="cb_DEFAULT_g" int="0"/>
+  <macro name="cb_DEPRESSED_PARK_DEBOUNCE_s" int="18"/>
+  <macro name="cb_DYN_COMP_CCD_MINUS_10to25_DEF" int="6"/>
+  <macro name="cb_DYN_COMP_CCD_MINUS_25to40_DEF" int="3"/>
+  <macro name="cb_DYN_COMP_CCD_MINUS_above40_DEF" int="0"/>
+  <macro name="cb_DYN_COMP_CCD_MINUS_belowneg5_DEF" int="10"/>
+  <macro name="cb_DYN_COMP_CCD_MINUS_neg5to10_DEF" int="8"/>
+  <macro name="cb_E2STATUS_CLUSTERINIT_g" int="5"/>
+  <macro name="cb_E2STATUS_INITIALIZATION_g" int="1"/>
+  <macro name="cb_E2STATUS_INITIALIZED_g" int="3"/>
+  <macro name="cb_E2STATUS_LIKEAVIRGIN_g" int="2"/>
+  <macro name="cb_E2STATUS_NONDEFAULT_g" int="4"/>
+  <macro name="cb_E2STATUS_NOTLOADED_g" int="0"/>
+  <macro name="cb_EEPROM_0X1525__BYTES_g" int="1"/>
+  <macro name="cb_EEPROM_0X1525__MASK_g" int="96"/>
+  <macro name="cb_EEPROM_0X1525__MAX_g" int="3"/>
+  <macro name="cb_EEPROM_0X1525__POSITION_g" int="5"/>
+  <macro name="cb_EEPROM_0X1526__BYTES_g" int="1"/>
+  <macro name="cb_EEPROM_0X1526__MASK_g" int="31"/>
+  <macro name="cb_EEPROM_0X1526__MAX_g" int="19"/>
+  <macro name="cb_EEPROM_0X1526__POSITION_g" int="0"/>
+  <macro name="cb_EEPROM_0X1527_1_Off__MAX_g" int="10"/>
+  <macro name="cb_EEPROM_0X1527_1_On__MAX_g" int="5"/>
+  <macro name="cb_EEPROM_0X1527_1__MASK_g" int="255"/>
+  <macro name="cb_EEPROM_0X1527_1__POSITION_g" int="0"/>
+  <macro name="cb_EEPROM_0X1527_2__MASK_g" int="31"/>
+  <macro name="cb_EEPROM_0X1527_2__MAX_g" int="19"/>
+  <macro name="cb_EEPROM_0X1527_2__POSITION_g" int="0"/>
+  <macro name="cb_EEPROM_0X1527_3__MASK_g" int="15"/>
+  <macro name="cb_EEPROM_0X1527_3__MAX_g" int="10"/>
+  <macro name="cb_EEPROM_0X1527_3__POSITION_g" int="0"/>
+  <macro name="cb_EEPROM_0X1527__BYTES_g" int="3"/>
+  <macro name="cb_EEPROM_0X1528__BYTES_g" int="1"/>
+  <macro name="cb_EEPROM_0X1528__MASK_g" int="240"/>
+  <macro name="cb_EEPROM_0X1528__MAX_g" int="10"/>
+  <macro name="cb_EEPROM_0X1528__POSITION_g" int="4"/>
+  <macro name="cb_EEPROM_0X1529__BYTES_g" int="1"/>
+  <macro name="cb_EEPROM_0X1529__MASK_g" int="224"/>
+  <macro name="cb_EEPROM_0X1529__MAX_g" int="4"/>
+  <macro name="cb_EEPROM_0X1529__POSITION_g" int="5"/>
+  <macro name="cb_EEPROM_0X152A__BYTES_g" int="1"/>
+  <macro name="cb_EEPROM_0X152A__MASK_g" int="24"/>
+  <macro name="cb_EEPROM_0X152A__MAX_g" int="3"/>
+  <macro name="cb_EEPROM_0X152A__POSITION_g" int="3"/>
+  <macro name="cb_EEPROM_0X152B_1_HighDelay_Max" int="6"/>
+  <macro name="cb_EEPROM_0X152B_1_LOWDelay_Max" int="7"/>
+  <macro name="cb_EEPROM_0X152B_1__MASK_g" int="63"/>
+  <macro name="cb_EEPROM_0X152B_1__POSITION_g" int="0"/>
+  <macro name="cb_EEPROM_0X152B_2_OFFDELAY_Max" int="8"/>
+  <macro name="cb_EEPROM_0X152B_2_THRESH_Max" int="8"/>
+  <macro name="cb_EEPROM_0X152B_2__MASK_g" int="255"/>
+  <macro name="cb_EEPROM_0X152B_2__POSITION_g" int="0"/>
+  <macro name="cb_EEPROM_0X152B__BYTES_g" int="2"/>
+  <macro name="cb_EEPROM_0X152C__BYTES_g" int="1"/>
+  <macro name="cb_EEPROM_0X152C__MASK_g" int="255"/>
+  <macro name="cb_EEPROM_0X152C__MAX_g" int="255"/>
+  <macro name="cb_EEPROM_0X152C__POSITION_g" int="0"/>
+  <macro name="cb_EEPROM_CANTREAD_g" int="4"/>
+  <macro name="cb_EEPROM_CELLEMPTY_g" int="8"/>
+  <macro name="cb_EEPROM_DOUBLEERROR_INVALIDCORRECTION_g" int="2"/>
+  <macro name="cb_EEPROM_NOERROR_g" int="0"/>
+  <macro name="cb_EEPROM_SINGLEERROR_CORRECTED_g" int="1"/>
+  <macro name="cb_FASTTASKCALLS_MAX_mg" int="150"/>
+  <macro name="cb_FASTTASKCALLS_MIN_mg" int="130"/>
+  <macro name="cb_FASTTASKCALL_TOLERANCE_mg" int="10"/>
+  <macro name="cb_FOUR_SECOND_DELAY_mg" int="25"/>
+  <macro name="cb_FW_DAY_THRESHOLD_DEF_s" int="180"/>
+  <macro name="cb_FW_NIGHT_THRESHOLD_DEF_s" int="135"/>
+  <macro name="cb_GOTOSLEEPVOLTAGE_mg" int="52"/>
+  <macro name="cb_HANDLE_ASIC_Frame_01" int="4"/>
+  <macro name="cb_HANDLE_ASIC_Frame_01_g" int="4"/>
+  <macro name="cb_HANDLE_ASIC_Frame_02" int="3"/>
+  <macro name="cb_HANDLE_ASIC_Frame_02_g" int="3"/>
+  <macro name="cb_HANDLE_ASIC_Frame_03" int="2"/>
+  <macro name="cb_HANDLE_ASIC_Frame_03_g" int="2"/>
+  <macro name="cb_HANDLE_ASIC_Frame_04" int="1"/>
+  <macro name="cb_HANDLE_ASIC_Frame_04_g" int="1"/>
+  <macro name="cb_HANDLE_BCM1_LIN1_01_g" int="17"/>
+  <macro name="cb_HANDLE_BCM1_LIN1_02_g" int="16"/>
+  <macro name="cb_HANDLE_BCM1_LIN1_03_g" int="15"/>
+  <macro name="cb_HANDLE_BCM1_LIN1_04_g" int="14"/>
+  <macro name="cb_HANDLE_BCM1_LIN1_05_g" int="13"/>
+  <macro name="cb_HANDLE_CemCem_Lin1Fr01_CEM_LIN1" int="17"/>
+  <macro name="cb_HANDLE_CemCem_Lin1Fr02_CEM_LIN1" int="16"/>
+  <macro name="cb_HANDLE_CemCem_Lin1Fr03_CEM_LIN1" int="15"/>
+  <macro name="cb_HANDLE_CemCem_Lin1Fr04_CEM_LIN1" int="14"/>
+  <macro name="cb_HANDLE_CemCem_Lin1Fr05_CEM_LIN1" int="13"/>
+  <macro name="cb_HANDLE_CemCem_Lin1Fr06_CEM_LIN1" int="12"/>
+  <macro name="cb_HANDLE_LinReqCmd" int="11"/>
+  <macro name="cb_HANDLE_LinReqCmd_g" int="11"/>
+  <macro name="cb_HANDLE_LinRespCmd" int="0"/>
+  <macro name="cb_HANDLE_LinRespCmd_g" int="0"/>
+  <macro name="cb_HANDLE_RLSs_01_g" int="10"/>
+  <macro name="cb_HANDLE_RLSs_02_g" int="7"/>
+  <macro name="cb_HANDLE_RLSs_03_g" int="5"/>
+  <macro name="cb_HANDLE_RLSs_04_g" int="6"/>
+  <macro name="cb_HANDLE_RLSs_05_g" int="9"/>
+  <macro name="cb_HANDLE_RLSs_06_g" int="8"/>
+  <macro name="cb_HANDLE_RlsmCem_Lin1Fr01_CEM_LIN1" int="10"/>
+  <macro name="cb_HANDLE_RlsmCem_Lin1Fr02_CEM_LIN1" int="9"/>
+  <macro name="cb_HANDLE_RlsmCem_Lin1Fr03_CEM_LIN1" int="8"/>
+  <macro name="cb_HANDLE_RlsmCem_Lin1PartNrFr01_CEM_LIN1" int="7"/>
+  <macro name="cb_HANDLE_RlsmCem_Lin1PartNrFr02_CEM_LIN1" int="6"/>
+  <macro name="cb_HANDLE_RlsmCem_SerNrLin1Fr01_CEM_LIN1" int="5"/>
+  <macro name="cb_HANDLE_WWSs_01_g" int="12"/>
+  <macro name="cb_HARDWARESTAND_0_g" int="48"/>
+  <macro name="cb_HARDWARESTAND_1_g" int="49"/>
+  <macro name="cb_HARDWARESTAND_g" int="72"/>
+  <macro name="cb_HEATEROFF_g" int="0"/>
+  <macro name="cb_HEATERON_g" int="1"/>
+  <macro name="cb_HIGH_SPEED" int="32"/>
+  <macro name="cb_HTERR_CHECKSUM_g" int="1"/>
+  <macro name="cb_HTERR_HUMIOUTOFRANGE_g" int="8"/>
+  <macro name="cb_HTERR_NONE_g" int="0"/>
+  <macro name="cb_HTERR_TEMPOUTOFRANGE_g" int="16"/>
+  <macro name="cb_HTERR_TIMEOUT_g" int="4"/>
+  <macro name="cb_HTERR_WRITECMD_g" int="2"/>
+  <macro name="cb_HUMIDITY_SOLAR" int="138"/>
+  <macro name="cb_HUMI_ERROR_g" int="255"/>
+  <macro name="cb_IGNORE_IGNITION_SPEED" int="4"/>
+  <macro name="cb_INITAL_TARGET_ADDRESS_s" int="3"/>
+  <macro name="cb_IR_DAY_THRESHOLD_DEF_s" int="90"/>
+  <macro name="cb_IR_NIGHT_THRESHOLD_DEF_s" int="68"/>
+  <macro name="cb_JumpAfterShtPowerFail" int="65"/>
+  <macro name="cb_LCLOSED_45perCent_THRS_g" int="10"/>
+  <macro name="cb_LIN_BITERROR_g" int="1"/>
+  <macro name="cb_LIN_CHECKSUMERROR_g" int="16"/>
+  <macro name="cb_LIN_FRAMINGERROR_g" int="128"/>
+  <macro name="cb_LIN_IDPARITYERROR_g" int="2"/>
+  <macro name="cb_LIN_INCOMPLETEMSGERROR_g" int="8"/>
+  <macro name="cb_LIN_NOERROR_g" int="0"/>
+  <macro name="cb_LIN_NORESPONSE_g" int="64"/>
+  <macro name="cb_LIN_OVERTFRAMEMAX_g" int="4"/>
+  <macro name="cb_LIN_OVERTHEADERMAX_g" int="32"/>
+  <macro name="cb_LIN_PHYSICALBUSERROR_g" int="129"/>
+  <macro name="cb_LOWER_RAM_BOARDER_s" int="1045258"/>
+  <macro name="cb_MEAN_HIGHWAY_LIGHT_SPEED_DEF_mg" int="140"/>
+  <macro name="cb_MIN_HIGHWAY_SPEED_DEF_mg" int="65"/>
+  <macro name="cb_MS_DELAY_OVERVOLTAGE_s" int="2000"/>
+  <macro name="cb_NIGHT_mg" int="2"/>
+  <macro name="cb_NORMAL_WIPE_MODE" int="1"/>
+  <macro name="cb_NUM_CLUSTER_mg" int="4"/>
+  <macro name="cb_NUM_EEPROM_AREAS_g" int="3"/>
+  <macro name="cb_Night" int="0"/>
+  <macro name="cb_NumberofEEPROMCells_AD_g" int="194"/>
+  <macro name="cb_NumberofEEPROMCells_PD_g" int="107"/>
+  <macro name="cb_NumberofEEPROMCells_RD_g" int="31"/>
+  <macro name="cb_ONLY_HUMIDITY" int="152"/>
+  <macro name="cb_ONLY_RAIN" int="1"/>
+  <macro name="cb_OTHERRSEAN" int="64"/>
+  <macro name="cb_OTHER_TARGET_ADDRESS_s" int="240"/>
+  <macro name="cb_POSITIONDEFAULTSOFTWARE" int="148"/>
+  <macro name="cb_RAIN_LIGHT" int="4"/>
+  <macro name="cb_RAM_GUARD_LENGTH_g" int="256"/>
+  <macro name="cb_RAM_GUARD_START_g" int="1044480"/>
+  <macro name="cb_REQLENGTHSID34_s" int="5"/>
+  <macro name="cb_REQLENGTHSID35_s" int="5"/>
+  <macro name="cb_REQLENGTHSIDB0_s" int="6"/>
+  <macro name="cb_REQLENGTHSIDB1_s" int="6"/>
+  <macro name="cb_REQLENGTHSIDB2_s" int="6"/>
+  <macro name="cb_REQLENGTHSIDB3_s" int="6"/>
+  <macro name="cb_REQUEST_DOWNLOAD_s" int="52"/>
+  <macro name="cb_REQUEST_UPLOAD_s" int="53"/>
+  <macro name="cb_SOFTWARESTAND_0_g" int="48"/>
+  <macro name="cb_SOFTWARESTAND_1_g" int="48"/>
+  <macro name="cb_SOFTWARESTAND_2_g" int="48"/>
+  <macro name="cb_SOFTWARESTAND_3_g" int="49"/>
+  <macro name="cb_START_RS_ASICVOLTAGE_mg" int="99"/>
+  <macro name="cb_SUPPLYVOLTAGE_DEF_g" int="160"/>
+  <macro name="cb_SWSTANDEEPROM_23_g" int="1"/>
+  <macro name="cb_SWSTAND_ADD_ON_NO_RAIN_g" int="100"/>
+  <macro name="cb_SWSTAND_ADD_ON_WITH_RAIN_g" int="68"/>
+  <macro name="cb_SWSTAND_ADD_ON_g" int="68"/>
+  <macro name="cb_TA_DEVELOPEMENT_s" int="160"/>
+  <macro name="cb_TEMPSENSOR_MAX_mg" int="254"/>
+  <macro name="cb_TEMP_ASIC_AD65DEGREES_THRS_g" int="527"/>
+  <macro name="cb_TEMP_ASIC_AD90DEGREES_THRS_g" int="485"/>
+  <macro name="cb_TEMP_ASIC_AD95DEGREES_THRS_g" int="367"/>
+  <macro name="cb_TEMP_uC_AD65DEGREES_THRS_g" int="70"/>
+  <macro name="cb_TEMP_uC_AD90DEGREES_THRS_g" int="63"/>
+  <macro name="cb_TEMP_uC_AD95DEGREES_THRS_g" int="62"/>
+  <macro name="cb_THRES_RSACTION_mg" int="50"/>
+  <macro name="cb_TIMETOREACH_FASTHIGHWAY_MODE_Def_mg" int="208"/>
+  <macro name="cb_TIME_TO_WAIT_FOR_VDD_g" int="3"/>
+  <macro name="cb_TIME_TO_WAIT_LONG_FOR_VDD_g" int="5"/>
+  <macro name="cb_TRANSFER_DATA_REQUEST_s" int="54"/>
+  <macro name="cb_TUNNEL" int="3"/>
+  <macro name="cb_TUNNEL_mg" int="4"/>
+  <macro name="cb_TWILIGHT" int="2"/>
+  <macro name="cb_UNASSIGNED_FRAMEID_g" int="64"/>
+  <macro name="cb_UNDERGROUND" int="16"/>
+  <macro name="cb_UPPER_RAM_BOARDER_s" int="1048095"/>
+  <macro name="cb_VARIANTE_g" int="0"/>
+  <macro name="cb_VERGLSUNG_CLOSE_DELAY_mg" int="100"/>
+  <macro name="cb_VERGLSUNG_OPEN_DELAY_mg" int="100"/>
+  <macro name="cb_VERYLOWVOLTAGE_mg" int="7"/>
+  <macro name="cb_VIREF_ERRCNT_MAX_g" int="50"/>
+  <macro name="cb_WDGCALLCOUNTERCYCLE_mg" int="7"/>
+  <macro name="cb_WDG_STB_10MSTIMEOUT_g" int="7"/>
+  <macro name="cb_WINTER_WIPE_MODE" int="2"/>
+  <macro name="cw_ADREEPROM_END_g" int="1023"/>
+  <macro name="cw_ADREEPROM_START_g" int="256"/>
+  <macro name="cw_ADRPRE_AD_mg" int="512"/>
+  <macro name="cw_ADRPRE_PD_mg" int="256"/>
+  <macro name="cw_ADRPRE_RD_mg" int="768"/>
+  <macro name="cw_ADRSELMASK_mg" int="768"/>
+  <macro name="cw_ALS1_4_SETTING_ADDRESS_g" int="271"/>
+  <macro name="cw_ALS5_6_INREC_SETTING_ADDRESS_g" int="272"/>
+  <macro name="cw_CLEARWIPE_DELAY_s" int="400"/>
+  <macro name="cw_DAY_DELAY_DEF_s" int="6000"/>
+  <macro name="cw_DEWPOINT_MAX_mg" int="1650"/>
+  <macro name="cw_EEPROM_0X1526__ADDRESS_g" int="607"/>
+  <macro name="cw_EEPROM_0X1527_1__ADDRESS_g" int="621"/>
+  <macro name="cw_EEPROM_0X1527_2__ADDRESS_g" int="622"/>
+  <macro name="cw_EEPROM_0X1527_3__ADDRESS_g" int="623"/>
+  <macro name="cw_EEPROM_0X1528__ADDRESS_g" int="623"/>
+  <macro name="cw_EEPROM_0X1529__ADDRESS_g" int="622"/>
+  <macro name="cw_EEPROM_0X152A__ADDRESS_g" int="620"/>
+  <macro name="cw_EEPROM_0X152B_1__ADDRESS_g" int="624"/>
+  <macro name="cw_EEPROM_0X152B_2__ADDRESS_g" int="625"/>
+  <macro name="cw_EEPROM_0X152C__ADDRESS_g" int="608"/>
+  <macro name="cw_EEPROM_CODING_ADDRESS_g" int="268"/>
+  <macro name="cw_FunctionID_g" int="0"/>
+  <macro name="cw_HUMTEMP_ERROR_g" int="65535"/>
+  <macro name="cw_HUMTEMP_INIT_g" int="0"/>
+  <macro name="cw_NIGHT_DELAY_DEF_s" int="6000"/>
+  <macro name="cw_SupplierID_g" int="0"/>
+  <macro name="cw_TEMPSCHEIBE_MAX_mg" int="1004"/>
+  <macro name="cw_TIME_TO_REACH_NORMAL_MODE_DEF_mg" int="2400"/>
+  <macro name="kLinNumberOfConfFlags" int="11"/>
+  <macro name="kLinNumberOfIndFlags" int="7"/>
+  <macro name="kLinNumberOfObjects" int="18"/>
+  <macro name="kLinNumberOfRxObjects" int="7"/>
+  <macro name="kLinNumberOfTxObjects" int="11"/>
+  <macro name="kLinProtocolMainVersion" int="2"/>
+  <macro name="kLinProtocolSubVersion" int="0"/>
+  <macro name="kLinTBusIdle" int="130"/>
+  <macro name="kLinTFrame0" int="4"/>
+  <macro name="kLinTFrame1" int="5"/>
+  <macro name="kLinTFrame2" int="5"/>
+  <macro name="kLinTFrame3" int="6"/>
+  <macro name="kLinTFrame4" int="7"/>
+  <macro name="kLinTFrame5" int="7"/>
+  <macro name="kLinTFrame6" int="8"/>
+  <macro name="kLinTFrame7" int="9"/>
+  <macro name="kLinTFrame8" int="10"/>
+  <macro name="kLinTHeaderMax" int="3"/>
+  <macro name="kLinTWakeup0" int="17"/>
+  <macro name="kLinTWakeup3" int="159"/>
+  <macro name="po_ADC_TEST_g" int="129"/>
+  <macro name="po_ASIC_AnalogOut_g" int="6"/>
+  <macro name="po_ASIC_LOOP_g" int="4"/>
+  <macro name="po_NTC_INPUT_g" int="128"/>
+  <macro name="po_PowerSupply_g" int="2"/>
+  <macro name="po_SHT_Supply_g" int="16"/>
+  <macro name="rb_SI_880nmWavelenght_factor_g" int="255"/>
+  <macro name="rb_b_Correction_Inamb1_g" int="255"/>
+  <macro name="rb_b_Correction_Inamb2_g" int="255"/>
+  <macro name="rb_b_Correction_Inrec_g" int="255"/>
+  <macro name="rbi_LightConfigRecieved" int="1"/>
+  <macro name="rbi_LightSensorInactive_g" int="255"/>
+  <macro name="rbi_ModulatorOff_ForINAMB1_meas_g" int="255"/>
+  <macro name="rw_a_Correction_Inamb1_g" int="255"/>
+  <macro name="rw_a_Correction_Inamb2_g" int="255"/>
+  <macro name="rw_a_Correction_Inrec_g" int="255"/>
+</paramfile>

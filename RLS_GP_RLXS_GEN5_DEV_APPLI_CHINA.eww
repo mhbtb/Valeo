@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\RLS_GP_RLXS_GEN5_DEV_APPLI_CHINA.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>BuildAllRelease</name>
+      <member>
+        <project>RLS_GP_RLXS_GEN5_DEV_APPLI</project>
+        <configuration>Release</configuration>
+      </member>
+      <member>
+        <project>RLS_GP_RLXS_GEN5_DEV_APPLI</project>
+        <configuration>Gen3.5A_AUDI_Release</configuration>
+      </member>
+      <member>
+        <project>RLS_GP_RLXS_GEN5_DEV_APPLI</project>
+        <configuration>GeelyRS_Release</configuration>
+      </member>
+      <member>
+        <project>RLS_GP_RLXS_GEN5_DEV_APPLI</project>
+        <configuration>Ferrari_Release</configuration>
+      </member>
+      <member>
+        <project>RLS_GP_RLXS_GEN5_DEV_APPLI</project>
+        <configuration>AUDI_Release_NoRain</configuration>
+      </member>
+      <member>
+        <project>RLS_GP_RLXS_GEN5_DEV_APPLI</project>
+        <configuration>AUDI_C6_Lin1_3_Release</configuration>
+      </member>
+      <member>
+        <project>RLS_GP_RLXS_GEN5_DEV_APPLI</project>
+        <configuration>Tesla_Release</configuration>
+      </member>
+    </batchDefinition>
+    <batchDefinition>
+      <name>AudiVariants</name>
+      <member>
+        <project>RLS_GP_RLXS_GEN5_DEV_APPLI</project>
+        <configuration>Release</configuration>
+      </member>
+      <member>
+        <project>RLS_GP_RLXS_GEN5_DEV_APPLI</project>
+        <configuration>AUDI_Release_NoRain</configuration>
+      </member>
+      <member>
+        <project>RLS_GP_RLXS_GEN5_DEV_APPLI</project>
+        <configuration>AUDI_C6_Lin1_3_Release</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

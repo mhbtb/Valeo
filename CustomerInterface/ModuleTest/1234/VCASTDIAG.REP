@@ -1,0 +1,224 @@
+
+###################################
+############# MISC ################
+###################################
+Tool version: 6.4t (05/31/17)
+Current directory: C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\CustomerInterface\ModuleTest\1234
+Current directory is writable.
+
+--------------------------------------------------------------------------------
+Environment Overview 
+--------------------------------------------------------------------------------
+  Environment Name:    1234
+  Environment Status:  Normal
+  Environment Version: REVISION_6_4_CLEAN_CONSTRUCTOR_SPACES
+  Environment Build Type: Full
+  Coverage Status:     Statement+MC/DC (disabled)
+  Language:            C
+  Compiler Name:       IAR_RL78_Generic_NEW01
+  White Box:           Yes
+  Search List:         C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\CustomerInterface  (testable)
+                       C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\Device  (testable)
+                       C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\Diagnostics  (testable)
+                       C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\EEPROM  (testable)
+                       C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\LIN  (testable)
+                       C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\Light  (testable)
+                       C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\OS  (testable)
+                       C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\Peripherals  (testable)
+                       C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\Rain  (testable)
+                       C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\SelfProgLibrary  (testable)
+                       C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\X1_Humidity  (testable)
+                       $(VCAST_IAR_INSTALL_DIR)\lib  (library include)
+                       $(VCAST_IAR_INSTALL_DIR)\inc  (library include)
+  Units Under Test:    G5_RLS_LIN_GEELY2DOT0
+  Stub List:           uut_prototype_stubs
+  Don't Stub List:     None
+###################################
+
+###################################
+### COMPILER/PREPROCESSOR/LINKER ##
+###################################
+Found preprocessor C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\rl78\bin\iccrl78.exe
+Found compiler C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\rl78\bin\iccrl78.exe
+###################################
+
+
+
+###################################
+############ ENV. VARS ############
+###################################
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\zhu1\AppData\Roaming
+CANoe_InstallDir=C:\Program Files\Vector CANoe 9.0\Exec64\
+CANoe_InstallDir64=C:\Program Files\Vector CANoe 9.0\Exec64\
+COMPUTERNAME=SHE1-W50061
+ComSpec=C:\WINDOWS\system32\cmd.exe
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+DEFLOGDIR=C:\ProgramData\McAfee\DesktopProtection
+DriverData=C:\Windows\System32\Drivers\DriverData
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+GIT_LFS_PATH=C:\Program Files\Git LFS
+HOMEDRIVE=C:
+HOMEPATH=\Users\zhu1
+IAR7_COMPILER_LIBRARY_PATH=C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\rl78\lib
+IAR7_COMPILER_PATH=C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\rl78\bin
+LM_APP_DISABLE_CACHE_READ=1
+LOCALAPPDATA=C:\Users\zhu1\AppData\Local
+LOGONSERVER=\\WUH2-SVDC10
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+OneDrive=C:\Users\zhu1\OneDrive
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PATH_QAC=C:\PRQA\QAC-7.1
+PATH_T=C:
+PROCESSOR_ARCHITECTURE=x86
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=9e09
+PROMPT=$P$G
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+Path=C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\rl78\bin;C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\rl78\lib;C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\rl78;C:\Program Files (x86)\Serena\Dimensions 12.2\CM\prog64;C:\Program Files (x86)\Serena\Dimensions 12.2\CM\prog;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Gemalto\Access Client\v5\;C:\Program Files (x86)\Gemalto\Access Client\v5\;C:\Program Files\Git LFS;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Serena\Dimensions 12.2\CM\prog64\;C:\Program Files\dotnet\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\WINDOWS\System32\OpenSSH\;C:\Users\zhu1\AppData\Local\Microsoft\WindowsApps;;C:\Users\zhu1\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\zhu1\Downloads\Install_pack\Python27;;C:\MinGW\bin;;C:\MinGW\mingw32\bin
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files (x86)
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+SESSIONNAME=Console
+SNC_LIB=gsskrb5.dll
+SystemDrive=C:
+SystemRoot=C:\WINDOWS
+TEMP=C:\Users\zhu1\AppData\Local\Temp
+TMP=C:\Users\zhu1\AppData\Local\Temp
+USERDNSDOMAIN=VNET.VALEO.COM
+USERDOMAIN=VNET
+USERDOMAIN_ROAMINGPROFILE=VNET
+USERNAME=zhu1
+USERPROFILE=C:\Users\zhu1
+VCAST_IAR_INSTALL_DIR=C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\rl78
+VCAST_PROG_STARTED_FROM_GUI=true
+VECTORCAST_DIR=C:\VCAST
+VECTORCAST_SUB_PROCESS_VERBOSE=TRUE
+VECTOR_LICENSE_FILE=4734@BIE2-FLEXLM1;4734@BIE2-FLEXLM2;4734@BIE2-FLEXLM3
+VS140COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+VSEDEFLOGDIR=C:\ProgramData\McAfee\DesktopProtection
+VSSDK140Install=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\
+windir=C:\WINDOWS
+VCAST_OBJECT_PATH=C:\\Users\\zhu1\\Downloads\\SW_Need_Change_Managemant\\GEEA2.0\\E4-2_SW\\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\\05_SwDev\\01_SrcCode\\Application\\CustomerInterface\\ModuleTest\\1234
+VCAST_OBJECT_FILES=B0000001.r87 B0000002.r87 S0000003.r87 B0000008.r87 B0000004.r87  B0000007.r87  vcast_stdin_data.r87  B1_switch.r87  B4_switch.r87  S3_switch.r87   S0000009.r87
+
+###################################
+
+
+###################################
+######## MISSING BINARIES #########
+###################################
+none
+###################################
+
+
+###################################
+########## CONFIG FILES ###########
+###################################
+CCAST Options read from files in this order:
+( none ) C:\VCAST\CCAST_.CFG (tool dir)
+( none ) C:\Users\zhu1\CCAST_.CFG (user home dir)
+(exists) C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\CustomerInterface\ModuleTest\CCAST_.CFG (current dir)
+Contents of C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\CustomerInterface\ModuleTest\CCAST_.CFG:
+  ASSEMBLER_CMD: arl78
+  COVERAGE_IO_TYPE: VCAST_COVERAGE_IO_BUFFERED
+  C_COMPILER_CFG_SOURCE: CONFIG_FILE_63
+  C_COMPILER_HIERARCHY_STRING: IAR_RL78_Generic_NEW01
+  C_COMPILER_TAG: IAR_RL78
+  C_COMPILER_VERSION_CMD: 
+  C_COMPILE_CMD: iccrl78.exe --core rl78_2 --code_model far --data_model near --near_const_location rom0 --dlib_config "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\rl78\LIB\dlrl78fn2n.h" -e -Ol --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_crosscall --no_scheduling --no_clustering --debug
+  C_COMPILE_CMD_FLAG: 
+  C_COMPILE_EXCLUDE_FLAGS: -o**
+  C_DEBUG_CMD: $(VECTORCAST_DIR)\DATA\iar\RL78_core2_sim\execute.bat
+  C_DEFINE_LIST: __saddr=" " NDEBUG AUDI_B8 RLFS_TO_FS_ENBLED FW_RAINER ICCRL78_SUPPRESS_CORE_CHECK RELEASE CS_OUTPUT_BRIGHTNESS ASIC_TEST CS_SOLAR GEELY2DOT0
+  C_EDG_FLAGS: -w --c --iar --iar_version=78k --define_macro=__CORE__=__RL78_1__
+  C_EXECUTE_CMD: $(VECTORCAST_DIR)\DATA\iar\rl78\settings\vcast_debug.Release.cspy.bat
+  C_LINKER_VERSION_CMD: 
+  C_LINK_CMD: xlink -l vcast.map -xsmn
+  C_LINK_OPTIONS: -I"$(VCAST_IAR_INSTALL_DIR)\LIB" -f lnkr5f10pgj.xcl -Hff -rt -s __program_start -D_NEAR_CONST_LOCATION=0 -D_NEAR_CONST_LOCATION_START=3000 -D_NEAR_CONST_LOCATION_END=AEFF "$(VCAST_IAR_INSTALL_DIR)\LIB\dlrl78fn2n.r87" -e_PrintfSmall=_Printf -e_ScanfSmall=_Scanf -D_CSTACK_SIZE=400 -D_NEAR_HEAP_SIZE=400  -D_HUGE_HEAP_SIZE=200 -D_FAR_HEAP_SIZE=200
+  C_OBJECT_EXT: .r87
+  C_OUTPUT_FLAG: -o^
+  C_PREPROCESS_CMD: iccrl78 --preprocess=nlc . --core rl78_2
+  C_PREPROCESS_FILE: ?.i
+  EXECUTABLE_EXTENSION: .d87
+  MAX_VARY_RANGE: 0
+  SBF_LOC_MEMBER_IN_NSP: DECL_NAMESPACE
+  SBF_LOC_MEMBER_OUTSIDE_NSP: DECL_NAMESPACE
+  SBF_LOC_NONMEMBER_IN_NSP: DECL_NAMESPACE
+  SBF_LOC_NONMEMBER_OUTSIDE_NSP: DECL_NAMESPACE
+  SUBSTITUTE_CODE_FOR_C_FILE: FALSE
+  TI_CC_TCF_FILENAME: 
+  VCAST_ASSEMBLY_FILE_EXTENSIONS: s26
+  VCAST_AUTO_CLEAR_TEST_USER_CODE: FALSE
+  VCAST_COLLAPSE_STD_HEADERS: COLLAPSE_NON_SEARCH_HEADERS
+  VCAST_COMMAND_LINE_DEBUGGER: FALSE
+  VCAST_COMPILER_SUPPORTS_CPP_CASTS: FALSE
+  VCAST_COVERAGE_FOR_AGGREGATE_INIT: TRUE
+  VCAST_COVERAGE_FOR_DECLARATIONS: FALSE
+  VCAST_COVERAGE_POINTS_AS_MACROS: TRUE
+  VCAST_COVER_STATEMENTS_BY_BLOCK: TRUE
+  VCAST_DISABLE_STD_WSTRING_DETECTION: TRUE
+  VCAST_DISPLAY_FUNCTION_COVERAGE: TRUE
+  VCAST_DISPLAY_UNINST_EXPR: FALSE
+  VCAST_ENABLE_FUNCTION_CALL_COVERAGE: TRUE
+  VCAST_ENVIRONMENT_FILES: $(VECTORCAST_DIR)\DATA\iar\RL78\vcast_debug.dep,$(VECTORCAST_DIR)\DATA\iar\RL78\vcast_debug.ewd,$(VECTORCAST_DIR)\DATA\iar\RL78\vcast_debug.ewp,$(VECTORCAST_DIR)\DATA\iar\RL78\vcast_debug.eww,$(VECTORCAST_DIR)\DATA\iar\RL78\lnkr5f10pgj.xcl,$(VECTORCAST_DIR)\DATA\iar\rl78\settings\vcast_debug.dni
+  VCAST_EXECUTE_WITH_STDOUT: TRUE
+  VCAST_FORCE_ELAB_TYPE_SPEC: TRUE
+  VCAST_INST_FILE_MAX_LINES: 0
+  VCAST_MAX_STRING_LENGTH: 64
+  VCAST_MICROSOFT_LONG_LONG: FALSE
+  VCAST_NO_SIGNAL: TRUE
+  VCAST_NO_STDIN: TRUE
+  VCAST_NO_STD_FILES: TRUE
+  VCAST_PRQAC_ANALYSER_BASE: $(PATH_QAC)
+  VCAST_PRQAC_COMPILER_SETTINGS_FILE: $(PATH_QAC)/personalities/start.p_c
+  VCAST_PRQAC_MESSAGE_PERSONALITY_FILE: $(PATH_QAC)\personalities\critical.p_s
+  VCAST_RPTS_DEFAULT_FONT_FACE: Arial(16)
+  VCAST_TEST_ALL_NON_MEMBER_INLINES: FALSE
+  VCAST_TORNADO_CONSTRUCTOR_CALL_FILE: FALSE
+  WHITEBOX: YES
+  TESTABLE_SOURCE_DIR: C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\CustomerInterface\
+  TESTABLE_SOURCE_DIR: C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\Device\
+  TESTABLE_SOURCE_DIR: C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\Diagnostics\
+  TESTABLE_SOURCE_DIR: C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\EEPROM\
+  TESTABLE_SOURCE_DIR: C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\LIN\
+  TESTABLE_SOURCE_DIR: C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\Light\
+  TESTABLE_SOURCE_DIR: C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\OS\
+  TESTABLE_SOURCE_DIR: C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\Peripherals\
+  TESTABLE_SOURCE_DIR: C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\Rain\
+  TESTABLE_SOURCE_DIR: C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\SelfProgLibrary\
+  TESTABLE_SOURCE_DIR: C:\baseline\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0__0006_E3\05_SwDev\01_SrcCode\Application\X1_Humidity\
+  LIBRARY_INCLUDE_DIR: $(VCAST_IAR_INSTALL_DIR)\lib\
+  LIBRARY_INCLUDE_DIR: $(VCAST_IAR_INSTALL_DIR)\inc\
+
+ADACAST Options read from files in this order:
+( none ) C:\VCAST\ADACAST_.CFG (tool dir)
+( none ) C:\Users\zhu1\ADACAST_.CFG (user home dir)
+( none ) C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\CustomerInterface\ModuleTest\ADACAST_.CFG (current dir)
+
+###################################
+
+
+###################################
+######## ENV. VAR. CONFIG #########
+###################################
+These config options are being set by environment vars:
+none
+
+These env. vars contain VCAST and could be affecting behavior:
+VCAST_IAR_INSTALL_DIR=C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\rl78
+VCAST_PROG_STARTED_FROM_GUI=true
+VECTORCAST_DIR=C:\VCAST
+VCAST_OBJECT_PATH=C:\\Users\\zhu1\\Downloads\\SW_Need_Change_Managemant\\GEEA2.0\\E4-2_SW\\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\\05_SwDev\\01_SrcCode\\Application\\CustomerInterface\\ModuleTest\\1234
+VCAST_OBJECT_FILES=B0000001.r87 B0000002.r87 S0000003.r87 B0000008.r87 B0000004.r87  B0000007.r87  vcast_stdin_data.r87  B1_switch.r87  B4_switch.r87  S3_switch.r87   S0000009.r87
+
+###################################
+

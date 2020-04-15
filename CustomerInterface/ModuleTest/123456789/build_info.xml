@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build_info xml_build_info_version=" 1">
+  <directory type="TESTABLE_SOURCE_DIR">C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\CustomerInterface</directory>
+  <directory type="TESTABLE_SOURCE_DIR">C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\Device</directory>
+  <directory type="TESTABLE_SOURCE_DIR">C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\Diagnostics</directory>
+  <directory type="TESTABLE_SOURCE_DIR">C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\EEPROM</directory>
+  <directory type="TESTABLE_SOURCE_DIR">C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\LIN</directory>
+  <directory type="TESTABLE_SOURCE_DIR">C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\Light</directory>
+  <directory type="TESTABLE_SOURCE_DIR">C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\OS</directory>
+  <directory type="TESTABLE_SOURCE_DIR">C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\Peripherals</directory>
+  <directory type="TESTABLE_SOURCE_DIR">C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\Rain</directory>
+  <directory type="TESTABLE_SOURCE_DIR">C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\SelfProgLibrary</directory>
+  <directory type="TESTABLE_SOURCE_DIR">C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\X1_Humidity</directory>
+  <directory type="LIBRARY_INCLUDE_DIR">$(VCAST_IAR_INSTALL_DIR)\lib</directory>
+  <directory type="LIBRARY_INCLUDE_DIR">$(VCAST_IAR_INSTALL_DIR)\inc</directory>
+</build_info>

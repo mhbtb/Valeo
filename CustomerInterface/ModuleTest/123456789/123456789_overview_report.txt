@@ -1,0 +1,27 @@
+--------------------------------------------------------------------------------
+Environment Overview 
+--------------------------------------------------------------------------------
+  Environment Name:    123456789
+  Environment Status:  Normal
+  Environment Version: REVISION_6_4_CLEAN_CONSTRUCTOR_SPACES
+  Environment Build Type: Full
+  Coverage Status:     Statement+MC/DC (disabled)
+  Language:            C
+  Compiler Name:       IAR_RL78_Generic_NEW01
+  White Box:           Yes
+  Search List:         C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\CustomerInterface  (testable)
+                       C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\Device  (testable)
+                       C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\Diagnostics  (testable)
+                       C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\EEPROM  (testable)
+                       C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\LIN  (testable)
+                       C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\Light  (testable)
+                       C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\OS  (testable)
+                       C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\Peripherals  (testable)
+                       C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\Rain  (testable)
+                       C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\SelfProgLibrary  (testable)
+                       C:\Users\zhu1\Downloads\SW_Need_Change_Managemant\GEEA2.0\E4-2_SW\RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03\05_SwDev\01_SrcCode\Application\X1_Humidity  (testable)
+                       $(VCAST_IAR_INSTALL_DIR)\lib  (library include)
+                       $(VCAST_IAR_INSTALL_DIR)\inc  (library include)
+  Units Under Test:    G5_RLS_LIN_GEELY2DOT0
+  Stub List:           uut_prototype_stubs
+  Don't Stub List:     None
