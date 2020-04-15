@@ -1,9 +1,0 @@
-
-typedef int VECTORCAST_MARKER__UNIT_PREFIX_START;
-
-typedef int VECTORCAST_MARKER__UNIT_PREFIX_END;
-#include "C:/Users/zhu1/Downloads/SW_Need_Change_Managemant/GEEA2.0/E4-2_SW/RLS_SYS_RLS_GP_RLXS_GEN5_DEV_APL_GEELY2.0_RLFS_FOR_E4_03/05_SwDev/01_SrcCode/Application/CustomerInterface/ModuleTest/123/S0000008.c"
-
-typedef int VECTORCAST_MARKER__UNIT_APPENDIX_START;
-
-typedef int VECTORCAST_MARKER__UNIT_APPENDIX_END;
